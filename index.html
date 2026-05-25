@@ -10,6 +10,8 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <script src="notlar/tarih-1-not.js"></script>
+    
     <script src="sorular/tarih-1.js"></script>
     
     <script src="data.js"></script>
@@ -24,6 +26,7 @@
         function App() {
             const [selectedDers, setSelectedDers] = React.useState(null);
             const [selectedKonu, setSelectedKonu] = React.useState(null);
+            const [viewMode, setViewMode] = React.useState("secim"); // "secim", "notlar", "test"
             const [currentQuestionIndex, setCurrentQuestionIndex] = React.useState(0);
             const [selectedAnswerIndex, setSelectedAnswerIndex] = React.useState(null);
             const [isAnswered, setIsAnswered] = React.useState(false);
@@ -35,6 +38,16 @@
                 if (ders === "Coğrafya") return "bg-emerald-600 hover:bg-emerald-700 shadow-emerald-100";
                 if (ders === "Vatandaşlık") return "bg-blue-600 hover:bg-blue-700 shadow-blue-100";
                 return "bg-slate-600 hover:bg-slate-700";
+            };
+
+            const handleKonuSecim = (konu) => {
+                setSelectedKonu(konu);
+                setViewMode("secim"); 
+                setCurrentQuestionIndex(0);
+                setSelectedAnswerIndex(null);
+                setIsAnswered(false);
+                setScore(0);
+                setQuizFinished(false);
             };
 
             // EKRAN 1: DERS SEÇİMİ
@@ -69,30 +82,120 @@
                             <h1 className="text-3xl font-bold text-slate-800 mt-2">{selectedDers} Konuları</h1>
                         </div>
                         <div className="space-y-3">
-                            {Object.keys(kpssData[selectedDers]).map(konu => (
-                                <button 
-                                    key={konu}
-                                    onClick={() => setSelectedKonu(konu)}
-                                    className="w-full text-left p-4 bg-white hover:bg-slate-100 text-slate-700 font-semibold rounded-xl border border-slate-200 shadow-sm transition-all flex justify-between items-center"
-                                >
-                                    <span>{konu}</span>
-                                    <span className="text-xs bg-slate-100 px-2 py-1 rounded text-slate-400">{kpssData[selectedDers][konu].length} Soru</span>
-                                </button>
-                            ))}
+                            {Object.keys(kpssData[selectedDers]).map(konu => {
+                                const konuData = kpssData[selectedDers][konu];
+                                const sorularArray = konuData.sorular || [];
+                                const soruSayisi = sorularArray.length;
+                                return (
+                                    <button 
+                                        key={konu}
+                                        onClick={() => handleKonuSecim(konu)}
+                                        className="w-full text-left p-4 bg-white hover:bg-slate-100 text-slate-700 font-semibold rounded-xl border border-slate-200 shadow-sm transition-all flex justify-between items-center"
+                                    >
+                                        <span>{konu}</span>
+                                        <span className="text-xs bg-slate-100 px-2 py-1 rounded text-slate-400">{soruSayisi} Soru</span>
+                                    </button>
+                                );
+                            })}
                         </div>
                     </div>
                 );
             }
 
-            const sorular = kpssData[selectedDers][selectedKonu] || [];
+            const konuData = kpssData[selectedDers][selectedKonu] || {};
+            const notlar = konuData.notlar || [];
+            const sorular = konuData.sorular || [];
 
-            if (sorular.length === 0) {
+            // EKRAN 3: SEÇİM EKRANI (NOTLAR MI / TEST Mİ?)
+            if (viewMode === "secim") {
+                return (
+                    <div className="max-w-md mx-auto px-4 py-12">
+                        <div className="mb-8">
+                            <button onClick={() => setSelectedKonu(null)} className="text-sm font-semibold text-slate-500 hover:text-slate-800 transition-colors">← Konu Listesine Dön</button>
+                            <h2 className="text-2xl font-bold text-slate-800 mt-2">{selectedKonu}</h2>
+                            <p className="text-slate-500 text-sm mt-1">Lütfen yapmak istediğiniz aktiviteyi seçin.</p>
+                        </div>
+                        
+                        <div className="grid grid-cols-1 gap-4">
+                            <button 
+                                onClick={() => setViewMode("notlar")}
+                                className="w-full text-left p-6 bg-amber-50 hover:bg-amber-100/80 border border-amber-200 rounded-2xl shadow-sm transition-all group"
+                            >
+                                <div className="text-3xl mb-2">📖</div>
+                                <h3 className="text-lg font-bold text-amber-900 group-hover:text-amber-950">Konu Özetini Oku</h3>
+                                <p className="text-sm text-amber-700 mt-1">Sınav öncesi hap notlara tamamen bağımsız bir sayfada göz atın.</p>
+                            </button>
+
+                            <button 
+                                onClick={() => {
+                                    if (sorular.length === 0) alert("Bu konuya ait henüz soru yüklenmedi!");
+                                    else setViewMode("test");
+                                }}
+                                className="w-full text-left p-6 bg-indigo-50 hover:bg-indigo-100/80 border border-indigo-200 rounded-2xl shadow-sm transition-all group"
+                            >
+                                <div className="text-3xl mb-2">📝</div>
+                                <h3 className="text-lg font-bold text-indigo-900 group-hover:text-indigo-950">Doğrudan Testi Çöz</h3>
+                                <p className="text-sm text-indigo-700 mt-1">{sorular.length} soru ile doğrudan teste başlayın.</p>
+                            </button>
+                        </div>
+                    </div>
+                );
+            }
+
+            // EKRAN 4: TAMAMEN BAĞIMSIZ DERS NOTLARI SAYFASI
+            if (viewMode === "notlar") {
+                return (
+                    <div className="max-w-2xl mx-auto px-4 py-8">
+                        <div className="mb-6">
+                            <button onClick={() => setViewMode("secim")} className="text-sm font-semibold text-slate-500 hover:text-slate-800 transition-colors">← Geri Dön</button>
+                            <h2 className="text-2xl font-bold text-slate-800 mt-1">{selectedKonu} - Özet Notlar</h2>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-4 mb-6">
+                            {notlar.length > 0 ? (
+                                notlar.map((not, i) => (
+                                    <div key={i} className="p-4 bg-slate-50 rounded-xl border-l-4 border-amber-500 text-slate-700 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: not }} />
+                                ))
+                            ) : (
+                                <p className="text-slate-400 text-sm text-center py-8">Bu konu için henüz eklenmiş bir ders notu bulunmuyor.</p>
+                            )}
+                        </div>
+
+                        {sorular.length > 0 && (
+                            <button 
+                                onClick={() => setViewMode("test")}
+                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-xl font-bold transition-all shadow-md flex justify-center items-center gap-2"
+                            >
+                                🚀 Notları Okudum, Teste Geç!
+                            </button>
+                        )}
+                    </div>
+                );
+            }
+
+            const resetQuiz = () => {
+                setCurrentQuestionIndex(0);
+                setSelectedAnswerIndex(null);
+                setIsAnswered(false);
+                setScore(0);
+                setQuizFinished(false);
+                setViewMode("secim");
+            };
+
+            // EKRAN 5: TEST SONUÇ EKRANI
+            if (quizFinished) {
+                const basariOrani = Math.round((score / sorular.length) * 100);
                 return (
                     <div className="max-w-md mx-auto px-4 py-12 text-center">
-                        <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
-                            <h2 className="text-2xl font-bold text-slate-800 mb-2">Henüz Soru Yok</h2>
-                            <p className="text-slate-500 mb-6">Bu konuya ait soruları henüz sisteme yüklemediniz.</p>
-                            <button onClick={() => setSelectedKonu(null)} className="bg-slate-800 text-white px-6 py-2 rounded-xl font-semibold hover:bg-slate-700 transition-colors">Geri Dön</button>
+                        <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-md">
+                            <h2 className="text-3xl font-bold text-slate-800 mb-6">Test Tamamlandı! 🎉</h2>
+                            <div className="space-y-3 text-lg font-medium text-slate-600 mb-8">
+                                <p>Soru Sayısı: <span className="font-bold text-slate-800">{sorular.length}</span></p>
+                                <p className="text-emerald-600">Doğru Sayısı: <span className="font-bold">{score}</span></p>
+                                <p className="text-rose-500">Yanlış Sayısı: <span className="font-bold">{sorular.length - score}</span></p>
+                                <p className="text-xl pt-4 border-t border-slate-100 font-bold text-slate-800">Başarı Oranı: %{basariOrani}</p>
+                            </div>
+                            <button onClick={resetQuiz} className="w-full bg-indigo-600 text-white p-4 rounded-xl font-bold hover:bg-indigo-700 transition-colors shadow-lg">Seçim Menüsüne Dön</button>
                         </div>
                     </div>
                 );
@@ -117,41 +220,14 @@
                 }
             };
 
-            const resetQuiz = () => {
-                setCurrentQuestionIndex(0);
-                setSelectedAnswerIndex(null);
-                setIsAnswered(false);
-                setScore(0);
-                setQuizFinished(false);
-                setSelectedKonu(null);
-            };
-
-            // EKRAN 3: SONUÇ EKRANI
-            if (quizFinished) {
-                const basariOrani = Math.round((score / sorular.length) * 100);
-                return (
-                    <div className="max-w-md mx-auto px-4 py-12 text-center">
-                        <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-md">
-                            <h2 className="text-3xl font-bold text-slate-800 mb-6">Test Tamamlandı! 🎉</h2>
-                            <div className="space-y-3 text-lg font-medium text-slate-600 mb-8">
-                                <p>Soru Sayısı: <span className="font-bold text-slate-800">{sorular.length}</span></p>
-                                <p className="text-emerald-600">Doğru Sayısı: <span className="font-bold">{score}</span></p>
-                                <p className="text-rose-500">Yanlış Sayısı: <span className="font-bold">{sorular.length - score}</span></p>
-                                <p className="text-xl pt-4 border-t border-slate-100 font-bold text-slate-800">Başarı Oranı: %{basariOrani}</p>
-                            </div>
-                            <button onClick={resetQuiz} className="w-full bg-indigo-600 text-white p-4 rounded-xl font-bold hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-100">Konulara Geri Dön</button>
-                        </div>
-                    </div>
-                );
-            }
-
-            // EKRAN 4: TEST ALANI
+            // EKRAN 6: SAF, NOTLARDAN TAMAMEN ARINMIŞ TEST EKRANI
             return (
-                <div className="max-w-xl mx-auto px-4 py-8">
-                    <div className="mb-6 flex justify-between items-center text-sm font-semibold text-slate-500">
+                <div className="max-w-xl mx-auto px-4 py-6">
+                    <div className="mb-4 flex justify-between items-center text-sm font-semibold text-slate-500">
                         <button onClick={() => { if(confirm("Testten çıkmak istediğinize emin misiniz?")) resetQuiz() }} className="hover:text-slate-800">✕ Testi Bitir</button>
                         <span>Soru: {currentQuestionIndex + 1} / {sorular.length}</span>
                     </div>
+                    
                     <div className="w-full bg-slate-200 h-2 rounded-full mb-6 overflow-hidden">
                         <div className="bg-indigo-600 h-2 transition-all duration-300" style={{ width: `${((currentQuestionIndex + 1) / sorular.length) * 100}%` }}></div>
                     </div>

@@ -1,13 +1,10 @@
 // data.js
 window.kpssData = {
     "Tarih": {
-        "İslamiyet Öncesi Türk Tarihi": window.tarih_1_sorulari || [],
-        "Türk-İslam Tarihi": window.tarih_2_sorulari || [] 
-    },
-    "Coğrafya": {
-        "Türkiye'nin Coğrafi Konumu": window.cografya_1_sorulari || []
-    },
-    "Vatandaşlık": {
-        "Hukukun Temel Kavramları": window.vatandaslik_1_sorulari || []
+        "İslamiyet Öncesi Türk Tarihi": {
+            notlar: window.tarih_1_notlari || [],  // tamamen tarih-1-not.js dosyasından besleniyor
+            sorular: window.tarih_1_sorulari || [] // tamamen sorular/tarih-1.js dosyasından besleniyor
+        }
+        // İleride tarih-2.js ve tarih-2-not.js açarsan sadece buraya alt alta ekleyeceksin
     }
 };

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPSS Dinamik Soru Bankası</title>
+    
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script src="sorular/tarih-1.js"></script>
+    
+    <script src="data.js"></script>
+</head>
+<body class="bg-slate-50 font-sans min-h-screen">
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const kpssData = window.kpssData;
+
+        function App() {
+            const [selectedDers, setSelectedDers] = React.useState(null);
+            const [selectedKonu, setSelectedKonu] = React.useState(null);
+            const [currentQuestionIndex, setCurrentQuestionIndex] = React.useState(0);
+            const [selectedAnswerIndex, setSelectedAnswerIndex] = React.useState(null);
+            const [isAnswered, setIsAnswered] = React.useState(false);
+            const [score, setScore] = React.useState(0);
+            const [quizFinished, setQuizFinished] = React.useState(false);
+
+            const getDersColor = (ders) => {
+                if (ders === "Tarih") return "bg-violet-600 hover:bg-violet-700 shadow-violet-100";
+                if (ders === "Coğrafya") return "bg-emerald-600 hover:bg-emerald-700 shadow-emerald-100";
+                if (ders === "Vatandaşlık") return "bg-blue-600 hover:bg-blue-700 shadow-blue-100";
+                return "bg-slate-600 hover:bg-slate-700";
+            };
+
+            // EKRAN 1: DERS SEÇİMİ
+            if (!selectedDers) {
+                return (
+                    <div className="max-w-md mx-auto px-4 py-12">
+                        <div className="text-center mb-10">
+                            <h1 className="text-3xl font-bold text-slate-800 tracking-tight">KPSS Soru Bankası</h1>
+                            <p className="text-slate-500 mt-2">Çalışmak istediğiniz dersi seçerek başlayın.</p>
+                        </div>
+                        <div className="space-y-4">
+                            {Object.keys(kpssData).map(ders => (
+                                <button 
+                                    key={ders}
+                                    onClick={() => setSelectedDers(ders)}
+                                    className={`w-full text-left p-6 rounded-2xl text-white font-bold text-xl transition-all transform hover:-translate-y-1 shadow-lg ${getDersColor(ders)}`}
+                                >
+                                    {ders}
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                );
+            }
+
+            // EKRAN 2: KONU SEÇİMİ
+            if (selectedDers && !selectedKonu) {
+                return (
+                    <div className="max-w-md mx-auto px-4 py-12">
+                        <div className="mb-8">
+                            <button onClick={() => setSelectedDers(null)} className="text-sm font-semibold text-slate-500 hover:text-slate-800 transition-colors">← Ders Seçimine Dön</button>
+                            <h1 className="text-3xl font-bold text-slate-800 mt-2">{selectedDers} Konuları</h1>
+                        </div>
+                        <div className="space-y-3">
+                            {Object.keys(kpssData[selectedDers]).map(konu => (
+                                <button 
+                                    key={konu}
+                                    onClick={() => setSelectedKonu(konu)}
+                                    className="w-full text-left p-4 bg-white hover:bg-slate-100 text-slate-700 font-semibold rounded-xl border border-slate-200 shadow-sm transition-all flex justify-between items-center"
+                                >
+                                    <span>{konu}</span>
+                                    <span className="text-xs bg-slate-100 px-2 py-1 rounded text-slate-400">{kpssData[selectedDers][konu].length} Soru</span>
+                                </button>
+                            ))}
+                        </div>
+                    </div>
+                );
+            }
+
+            const sorular = kpssData[selectedDers][selectedKonu] || [];
+
+            if (sorular.length === 0) {
+                return (
+                    <div className="max-w-md mx-auto px-4 py-12 text-center">
+                        <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                            <h2 className="text-2xl font-bold text-slate-800 mb-2">Henüz Soru Yok</h2>
+                            <p className="text-slate-500 mb-6">Bu konuya ait soruları henüz sisteme yüklemediniz.</p>
+                            <button onClick={() => setSelectedKonu(null)} className="bg-slate-800 text-white px-6 py-2 rounded-xl font-semibold hover:bg-slate-700 transition-colors">Geri Dön</button>
+                        </div>
+                    </div>
+                );
+            }
+
+            const mevcutSoru = sorular[currentQuestionIndex];
+
+            const handleAnswer = (index) => {
+                if (isAnswered) return;
+                setSelectedAnswerIndex(index);
+                setIsAnswered(true);
+                if (index === mevcutSoru.correctAnswerIndex) setScore(score + 1);
+            };
+
+            const nextQuestion = () => {
+                if (currentQuestionIndex + 1 < sorular.length) {
+                    setCurrentQuestionIndex(currentQuestionIndex + 1);
+                    setSelectedAnswerIndex(null);
+                    setIsAnswered(false);
+                } else {
+                    setQuizFinished(true);
+                }
+            };
+
+            const resetQuiz = () => {
+                setCurrentQuestionIndex(0);
+                setSelectedAnswerIndex(null);
+                setIsAnswered(false);
+                setScore(0);
+                setQuizFinished(false);
+                setSelectedKonu(null);
+            };
+
+            // EKRAN 3: SONUÇ EKRANI
+            if (quizFinished) {
+                const basariOrani = Math.round((score / sorular.length) * 100);
+                return (
+                    <div className="max-w-md mx-auto px-4 py-12 text-center">
+                        <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-md">
+                            <h2 className="text-3xl font-bold text-slate-800 mb-6">Test Tamamlandı! 🎉</h2>
+                            <div className="space-y-3 text-lg font-medium text-slate-600 mb-8">
+                                <p>Soru Sayısı: <span className="font-bold text-slate-800">{sorular.length}</span></p>
+                                <p className="text-emerald-600">Doğru Sayısı: <span className="font-bold">{score}</span></p>
+                                <p className="text-rose-500">Yanlış Sayısı: <span className="font-bold">{sorular.length - score}</span></p>
+                                <p className="text-xl pt-4 border-t border-slate-100 font-bold text-slate-800">Başarı Oranı: %{basariOrani}</p>
+                            </div>
+                            <button onClick={resetQuiz} className="w-full bg-indigo-600 text-white p-4 rounded-xl font-bold hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-100">Konulara Geri Dön</button>
+                        </div>
+                    </div>
+                );
+            }
+
+            // EKRAN 4: TEST ALANI
+            return (
+                <div className="max-w-xl mx-auto px-4 py-8">
+                    <div className="mb-6 flex justify-between items-center text-sm font-semibold text-slate-500">
+                        <button onClick={() => { if(confirm("Testten çıkmak istediğinize emin misiniz?")) resetQuiz() }} className="hover:text-slate-800">✕ Testi Bitir</button>
+                        <span>Soru: {currentQuestionIndex + 1} / {sorular.length}</span>
+                    </div>
+                    <div className="w-full bg-slate-200 h-2 rounded-full mb-6 overflow-hidden">
+                        <div className="bg-indigo-600 h-2 transition-all duration-300" style={{ width: `${((currentQuestionIndex + 1) / sorular.length) * 100}%` }}></div>
+                    </div>
+
+                    <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm mb-4">
+                        <h3 className="text-lg font-semibold text-slate-800 leading-relaxed whitespace-pre-line">{mevcutSoru.question}</h3>
+                    </div>
+
+                    <div className="space-y-3">
+                        {mevcutSoru.options.map((option, index) => {
+                            let buttonStyle = "w-full text-left p-4 bg-white rounded-xl border border-slate-200 font-medium text-slate-700 transition-all shadow-sm";
+                            
+                            if (isAnswered) {
+                                if (index === mevcutSoru.correctAnswerIndex) {
+                                    buttonStyle = "w-full text-left p-4 bg-emerald-500 text-white font-semibold rounded-xl shadow-md transition-all";
+                                } else if (index === selectedAnswerIndex) {
+                                    buttonStyle = "w-full text-left p-4 bg-rose-500 text-white font-semibold rounded-xl shadow-md transition-all";
+                                } else {
+                                    buttonStyle = "w-full text-left p-4 bg-white opacity-40 rounded-xl border border-slate-200 text-slate-400";
+                                }
+                            } else {
+                                buttonStyle += " hover:bg-slate-50 hover:border-slate-300 active:scale-[0.99]";
+                            }
+
+                            return (
+                                <button key={index} onClick={() => handleAnswer(index)} disabled={isAnswered} className={buttonStyle}>
+                                    {option}
+                                </button>
+                            );
+                        })}
+                    </div>
+
+                    {isAnswered && (
+                        <div className="mt-6 space-y-4">
+                            <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-xl">
+                                <h4 className="font-bold text-blue-800 text-sm mb-1">Çözüm Notu:</h4>
+                                <p className="text-blue-950 text-sm leading-relaxed">{mevcutSoru.explanation}</p>
+                            </div>
+                            <button onClick={nextQuestion} className="w-full bg-slate-800 text-white p-4 rounded-xl font-bold hover:bg-slate-700 transition-colors flex justify-center items-center gap-2 shadow-lg">
+                                {currentQuestionIndex + 1 === sorular.length ? "Sonuçları Gör" : "Sonraki Soru →"}
+                            </button>
+                        </div>
+                    )}
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>

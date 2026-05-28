@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KPSS Dinamik Soru Bankası</title>
-    
+
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <script src="notlar/tarih-1-not.js"></script>
-    
+    <script src="notlar/cografya-1-not.js"></script>
     <script src="sorular/tarih-1.js"></script>
-    
+    <script src="sorular/cografya-1.js"></script>
     <script src="data.js"></script>
+
 </head>
+
 <body class="bg-slate-50 font-sans min-h-screen">
 
     <div id="root"></div>
@@ -42,7 +45,7 @@
 
             const handleKonuSecim = (konu) => {
                 setSelectedKonu(konu);
-                setViewMode("secim"); 
+                setViewMode("secim");
                 setCurrentQuestionIndex(0);
                 setSelectedAnswerIndex(null);
                 setIsAnswered(false);
@@ -60,7 +63,7 @@
                         </div>
                         <div className="space-y-4">
                             {Object.keys(kpssData).map(ders => (
-                                <button 
+                                <button
                                     key={ders}
                                     onClick={() => setSelectedDers(ders)}
                                     className={`w-full text-left p-6 rounded-2xl text-white font-bold text-xl transition-all transform hover:-translate-y-1 shadow-lg ${getDersColor(ders)}`}
@@ -87,7 +90,7 @@
                                 const sorularArray = konuData.sorular || [];
                                 const soruSayisi = sorularArray.length;
                                 return (
-                                    <button 
+                                    <button
                                         key={konu}
                                         onClick={() => handleKonuSecim(konu)}
                                         className="w-full text-left p-4 bg-white hover:bg-slate-100 text-slate-700 font-semibold rounded-xl border border-slate-200 shadow-sm transition-all flex justify-between items-center"
@@ -115,9 +118,9 @@
                             <h2 className="text-2xl font-bold text-slate-800 mt-2">{selectedKonu}</h2>
                             <p className="text-slate-500 text-sm mt-1">Lütfen yapmak istediğiniz aktiviteyi seçin.</p>
                         </div>
-                        
+
                         <div className="grid grid-cols-1 gap-4">
-                            <button 
+                            <button
                                 onClick={() => setViewMode("notlar")}
                                 className="w-full text-left p-6 bg-amber-50 hover:bg-amber-100/80 border border-amber-200 rounded-2xl shadow-sm transition-all group"
                             >
@@ -126,7 +129,7 @@
                                 <p className="text-sm text-amber-700 mt-1">Sınav öncesi hap notlara tamamen bağımsız bir sayfada göz atın.</p>
                             </button>
 
-                            <button 
+                            <button
                                 onClick={() => {
                                     if (sorular.length === 0) alert("Bu konuya ait henüz soru yüklenmedi!");
                                     else setViewMode("test");
@@ -162,7 +165,7 @@
                         </div>
 
                         {sorular.length > 0 && (
-                            <button 
+                            <button
                                 onClick={() => setViewMode("test")}
                                 className="w-full bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-xl font-bold transition-all shadow-md flex justify-center items-center gap-2"
                             >
@@ -224,10 +227,10 @@
             return (
                 <div className="max-w-xl mx-auto px-4 py-6">
                     <div className="mb-4 flex justify-between items-center text-sm font-semibold text-slate-500">
-                        <button onClick={() => { if(confirm("Testten çıkmak istediğinize emin misiniz?")) resetQuiz() }} className="hover:text-slate-800">✕ Testi Bitir</button>
+                        <button onClick={() => { if (confirm("Testten çıkmak istediğinize emin misiniz?")) resetQuiz() }} className="hover:text-slate-800">✕ Testi Bitir</button>
                         <span>Soru: {currentQuestionIndex + 1} / {sorular.length}</span>
                     </div>
-                    
+
                     <div className="w-full bg-slate-200 h-2 rounded-full mb-6 overflow-hidden">
                         <div className="bg-indigo-600 h-2 transition-all duration-300" style={{ width: `${((currentQuestionIndex + 1) / sorular.length) * 100}%` }}></div>
                     </div>
@@ -239,7 +242,7 @@
                     <div className="space-y-3">
                         {mevcutSoru.options.map((option, index) => {
                             let buttonStyle = "w-full text-left p-4 bg-white rounded-xl border border-slate-200 font-medium text-slate-700 transition-all shadow-sm";
-                            
+
                             if (isAnswered) {
                                 if (index === mevcutSoru.correctAnswerIndex) {
                                     buttonStyle = "w-full text-left p-4 bg-emerald-500 text-white font-semibold rounded-xl shadow-md transition-all";
@@ -279,4 +282,5 @@
         root.render(<App />);
     </script>
 </body>
+
 </html>

@@ -2,9 +2,14 @@
 window.kpssData = {
     "Tarih": {
         "İslamiyet Öncesi Türk Tarihi": {
-            notlar: window.tarih_1_notlari || [],  // tamamen tarih-1-not.js dosyasından besleniyor
-            sorular: window.tarih_1_sorulari || [] // tamamen sorular/tarih-1.js dosyasından besleniyor
+            notlar: window.tarih_1_notlari || [],
+            sorular: window.tarih_1_sorulari || []
         }
-        // İleride tarih-2.js ve tarih-2-not.js açarsan sadece buraya alt alta ekleyeceksin
+    },
+    "Coğrafya": {
+        "Türkiye'nin Coğrafi Konumu": { // <--- YENİ ÜNİTE BAĞLANDI
+            notlar: window.cografya_1_notlari || [],
+            sorular: window.cografya_1_sorulari || []
+        }
     }
 };

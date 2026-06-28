@@ -16,6 +16,22 @@ window.getKpssData = function() {
             "Türkiye'nin Coğrafi Konumu": {
                 notlar: window.cografya_1_notlari || [],
                 sorular: window.cografya_1_sorulari || []
+            },
+            "İç Kuvvetler": {
+                notlar: window.cografya_2_notlari || [],
+                sorular: window.cografya_2_sorulari || []
+            },
+            "Dış Kuvvetler":{
+                notlar:window.cografya_3_notlari || [],
+                sorular:window.cografya_3_sorulari || []
+            },
+            "Türkiyenin Platoları":{
+                notlar:window.cografya_4_notlari || [],
+                sorular:window.cografya_4_sorulari || []
+            },
+            "Türkiyenin Ovaları":{
+                notlar:window.cografya_5_notlari  || [],
+                sorular:window.cografya_5_sorulari || []
             }
         }
     };

@@ -10,6 +10,10 @@ window.getKpssData = function() {
             "İlk Türk-İslam Devletleri": {
                 notlar: window.tarih_2_notlari || [],
                 sorular: window.tarih_2_sorulari || []
+            },
+            "Anadolu Selçuklu Devleti":{
+                notlar:window.tarih_3_notlari || [],
+                sorular:window.tarih_3_sorulari || []
             }
         },
         "Coğrafya": {

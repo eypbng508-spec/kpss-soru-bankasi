@@ -1,0 +1,7 @@
+// notlar/cografya-8-not.js
+window.cografya_8_notlari = [
+    "❄️ <b>TÜRKİYE'DE BUZUL ŞEKİLLERİ (Genel Özellikler):</b> Türkiye, Orta Kuşak'ta (Matematik konum) yer aldığı için deniz seviyesinde buzul şekillerine rastlanmaz. Ancak ortalama yükseltisi fazla olduğu için (Özel konum) yüksek dağların zirvelerinde buzullaşma ve buzul şekilleri görülür.",
+    "🏔️ <b>TÜRKİYE'DE BUZULLAŞAN DAĞLAR (Bölgelere Göre Dağılımı):</b><br>• <b>Karadeniz:</b> Kaçkarlar<br>• <b>Akdeniz:</b> Bolkarlar, Aladağlar, Beydağları<br>• <b>Marmara:</b> Uludağ (Güncel buzul yoktur ancak geçmiş döneme ait buzul izleri/şekilleri vardır)<br>• <b>İç Anadolu:</b> Erciyes, Hasan Dağı<br>• <b>Doğu Anadolu Geneli:</b> Ağrı Dağı, Cilo Dağı, Buzul Dağı, Sat Dağları ve Mercan Dağları",
+    "❌ <b>KRİTİK NOT (Buzul ve Buzul İzinin Bulunmadığı Yerler):</b> Türkiye'de yükseltisi az olan veya enlemin etkisinden dolayı sıcak olan; <b>Trakya</b>, <b>Batı Karadeniz</b>, <b>Kıyı ve İç Ege</b> ile <b>Güneydoğu Anadolu</b> bölgelerindeki dağlarda buzul şekillerine rastlanmaz.",
+    "📐 <b>BUZUL AŞINDIRMA VE BİRİKTİRME ŞEKİLLERİ:</b><br>• <b>Aşındırma Şekli - Sirk (Buzul Çanağı):</b> Dağ yamaçlarında buzulların aşındırmasıyla oluşan yarım daire şeklindeki büyük çukurluklardır. Bu çukurların sularla dolmasıyla sirk gölleri oluşur.<br>• <b>Biriktirme Şekli - Moren (Buzul Taş):</b> Buzulların hareket ederken önlerine katıp taşıdıkları ve erime bölgesinde üst üste yığarak oluşturdukları buzul kökenli çakıl, kum ve toprak birikintileridir."
+];

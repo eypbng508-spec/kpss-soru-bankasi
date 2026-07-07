@@ -1858,6 +1858,148 @@ window.tarih_4_sorulari = [
   ],
   "correctAnswerIndex": 4,
   "explanation": "Mareşal Üniformalı Mustafa Kemal Atatürk tablosu Mihri Müşfik Hanım'a aittir; Osman Hamdi Bey'e ait değildir."
+},
+{
+  "id": "144",
+  "question": "II. Mahmut zamanında kurulan; batı tarzı müzik icra eden kurum aşağıdakilerden hangisidir?",
+  "options": [
+    "A) Mehterhane",
+    "B) Mızıka-i Hümayun",
+    "C) Darülelhan",
+    "D) Enderun Musiki Bölümü",
+    "E) Sahn-ı Seman"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "II. Mahmut tarafından kurulan Mızıka-i Hümayun, Osmanlı Devleti'nin Batı tarzı müzik icra eden ilk resmi kurumudur."
+},
+{
+  "id": "145",
+  "question": "Suz-i Dilara makamını bulan ve kendisi de neyzen olan padişah aşağıdakilerden hangisidir?",
+  "options": [
+    "A) II. Mahmut",
+    "B) III. Selim",
+    "C) Fatih Sultan Mehmet",
+    "D) Kanuni Sultan Süleyman",
+    "E) II. Abdülhamit"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "III. Selim önemli bir bestekâr olup Suz-i Dilara makamını geliştirmiş ve ney üflemiştir."
+},
+{
+  "id": "146",
+  "question": "Aşağıdaki sanat dalı–açıklama eşleştirmelerinden hangisi YANLIŞTIR?",
+  "options": [
+    "A) Kalem işi – duvar süsleme sanatı",
+    "B) Telkari – gümüş işleme sanatı",
+    "C) Vitray – cam süsleme sanatı",
+    "D) Tombak – eşyaların altınla kaplanması",
+    "E) Ebru – ahşap işleme sanatı"
+  ],
+  "correctAnswerIndex": 4,
+  "explanation": "Ebru, su üzerine yapılan desenlerin kâğıda aktarılması sanatıdır. Ahşap işleme sanatı değildir."
+},
+{
+  "id": "147",
+  "question": "Heykelini yaptıran tek Osmanlı padişahı ile opera sanatının başladığı dönemin padişahı aşağıdakilerden hangisinde sırasıyla doğru verilmiştir?",
+  "options": [
+    "A) II. Mahmut – III. Selim",
+    "B) Sultan Abdülaziz – III. Selim",
+    "C) III. Selim – Sultan Abdülaziz",
+    "D) II. Abdülhamit – II. Mahmut",
+    "E) Sultan Abdülaziz – II. Mahmut"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Heykelini yaptıran tek Osmanlı padişahı Sultan Abdülaziz'dir. Opera sanatı ise III. Selim döneminde başlamıştır."
+},
+{
+  "id": "148",
+  "question": "Aşağıdaki isimlerden hangisi Divan Edebiyatı temsilcileri arasında YER ALMAZ?",
+  "options": [
+    "A) Baki",
+    "B) Fuzuli",
+    "C) Nefi",
+    "D) Karacaoğlan",
+    "E) Nabi"
+  ],
+  "correctAnswerIndex": 3,
+  "explanation": "Karacaoğlan Halk Edebiyatının önemli temsilcilerindendir. Diğerleri Divan Edebiyatı şairleridir."
+},
+{
+  "id": "149",
+  "question": "Aşağıdaki isimlerden hangisi Tasavvuf edebiyatı temsilcileri arasında YER ALMAZ?",
+  "options": [
+    "A) Pir Sultan Abdal",
+    "B) Hacı Bayram Veli",
+    "C) Akşemseddin",
+    "D) Ruhi",
+    "E) Kaygusuz Abdal"
+  ],
+  "correctAnswerIndex": 3,
+  "explanation": "Ruhi, Divan Edebiyatı şairidir. Diğer isimler Tasavvuf Edebiyatı temsilcileridir."
+},
+{
+  "id": "150",
+  "question": "Aşağıdaki isimlerden hangisi Halk Edebiyatı temsilcileri arasında YER ALMAZ?",
+  "options": [
+    "A) Köroğlu",
+    "B) Dadaloğlu",
+    "C) Karacaoğlan",
+    "D) Naili",
+    "E) Aşık Ömer"
+  ],
+  "correctAnswerIndex": 3,
+  "explanation": "Naili, Divan Edebiyatının önemli şairlerindendir."
+},
+{
+  "id": "151",
+  "question": "Osmanlı'da ilk güreş tekkelerinin açıldığı dönem ile Kırkpınar yağlı güreşlerinin başladığı dönem aşağıdakilerden hangisinde sırasıyla doğru verilmiştir?",
+  "options": [
+    "A) Orhan Bey – I. Murat",
+    "B) I. Murat – Orhan Bey",
+    "C) Osman Bey – I. Murat",
+    "D) Orhan Bey – Yıldırım Bayezid",
+    "E) I. Murat – Yıldırım Bayezid"
+  ],
+  "correctAnswerIndex": 0,
+  "explanation": "İlk güreş tekkeleri Orhan Bey döneminde açılmış, Kırkpınar Güreşleri ise I. Murat döneminde başlamıştır."
+},
+{
+  "id": "152",
+  "question": "Okçulukla uğraşanlara ve hünerli at binicilerine verilen adlar aşağıdakilerden hangisinde sırasıyla doğru verilmiştir?",
+  "options": [
+    "A) Cündi – Kemankeş",
+    "B) Kemankeş – Cündi",
+    "C) Kemankeş – Levent",
+    "D) Cündi – Levent",
+    "E) Levent – Kemankeş"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Kemankeş okçulara, Cündi ise maharetli at binicilerine verilen addır."
+},
+{
+  "id": "153",
+  "question": "Osmanlı ders müfredatına ilk kez giren spor dalı ile ilk beden eğitimi öğretmeni aşağıdakilerden hangisinde sırasıyla doğru verilmiştir?",
+  "options": [
+    "A) Güreş – Adalı Halil",
+    "B) Jimnastik – Mehmet Faik Üstünidman",
+    "C) Yüzme – Koca Yusuf",
+    "D) Jimnastik – Selim Sırrı Tarcan",
+    "E) Güreş – Selim Sırrı Tarcan"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Osmanlı eğitim programına ilk giren spor dalı jimnastiktir. İlk beden eğitimi öğretmeni Mehmet Faik Üstünidman'dır."
+},
+{
+  "id": "154",
+  "question": "Milli Olimpiyat Komitesi'ni kuran kişi aşağıdakilerden hangisidir?",
+  "options": [
+    "A) Mehmet Faik Üstünidman",
+    "B) Selim Sırrı Tarcan",
+    "C) Adalı Halil",
+    "D) Koca Yusuf",
+    "E) V. Murat"
+  ],
+  "correctAnswerIndex": 1,
+  "explanation": "Osmanlı Milli Olimpiyat Komitesi'nin kurucusu Selim Sırrı Tarcan'dır."
 }
-  
 ];

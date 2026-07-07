@@ -14,6 +14,10 @@ window.getKpssData = function() {
             "Anadolu Selçuklu Devleti": {
                 notlar: window.tarih_3_notlari || [],
                 sorular: window.tarih_3_sorulari || []
+            },
+            "Osmanlı Kültür ve Medeniyeti":{
+                notlar:window.tarih_4_notlari||[],
+                sorular:window.tarih_4_sorulari || []
             }
         },
         "Coğrafya": {

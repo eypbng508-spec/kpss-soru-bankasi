@@ -65,6 +65,10 @@ window.getKpssData = function() {
             "Harita Bilgisi ve Engebe": {
                 notlar: window.cografya_11_notlari || [],
                 sorular: window.cografya_11_sorulari || []
+            },
+            "Türkiyenin İklimi":{
+                notlar: window.cografya_12_notlari || [],
+                sorular: window.cografya_12_sorulari || []
             }
         }
     };

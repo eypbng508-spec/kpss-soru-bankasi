@@ -1,6 +1,6 @@
 // data.js dosyasının yeni ve sorunsuz içeriği:
 
-window.getKpssData = function() {
+window.getKpssData = function () {
     return {
         "Tarih": {
             "İslamiyet Öncesi Türk Tarihi": {
@@ -15,9 +15,13 @@ window.getKpssData = function() {
                 notlar: window.tarih_3_notlari || [],
                 sorular: window.tarih_3_sorulari || []
             },
-            "Osmanlı Kültür ve Medeniyeti":{
-                notlar:window.tarih_4_notlari||[],
-                sorular:window.tarih_4_sorulari || []
+            "Osmanlı Kültür ve Medeniyeti": {
+                notlar: window.tarih_4_notlari || [],
+                sorular: window.tarih_4_sorulari || []
+            },
+            "Osmanlı Devleti Kuruluş Dönemi": {
+                notlar: window.tarih_5_notlari || [],
+                sorular: window.tarih_5_sorulari || []
             }
         },
         "Coğrafya": {
@@ -66,7 +70,7 @@ window.getKpssData = function() {
                 notlar: window.cografya_11_notlari || [],
                 sorular: window.cografya_11_sorulari || []
             },
-            "Türkiyenin İklimi":{
+            "Türkiyenin İklimi": {
                 notlar: window.cografya_12_notlari || [],
                 sorular: window.cografya_12_sorulari || []
             }
@@ -76,7 +80,7 @@ window.getKpssData = function() {
 
 // Eski kodların kırılmaması için geriye uyumluluk desteği:
 Object.defineProperty(window, 'kpssData', {
-    get: function() {
+    get: function () {
         return window.getKpssData();
     },
     configurable: true

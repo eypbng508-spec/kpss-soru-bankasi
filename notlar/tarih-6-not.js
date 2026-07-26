@@ -1,0 +1,46 @@
+// notlar/tarih-6-not.js
+window.tarih_6_notlari = [
+    "👑 <b>OSMANLI DEVLETİ YÜKSELME DÖNEMİ:</b> İstanbul'un fethiyle (1453) başlayıp Sokullu Mehmet Paşa'nın ölümüne (1579) kadar süren; Osmanlı'nın en geniş sınırlara ulaştığı, kurumların oturduğu ve merkezi otoritenin en güçlü olduğu dönemdir.",
+
+    "🏆 <b>1. FATİH SULTAN MEHMET:</b> 7 dil bilmektedir. 'Avni' mahlasıyla şiirler yazmıştır. Kanun Hükümdarı unvanını almış, yer adlarını Arapçaya çevirmiştir. Zihniyetiyle 'bir ayağı Şark'ta, bir ayağı Garp'ta' olan büyük hükümdar olarak anılmıştır.",
+
+    "🕌 <b>A. İSTANBUL'UN FETHİ NEDENLERİ:</b><br>• Anadolu ve Rumeli arasında toprak bütünlüğünü sağlamak<br>• Boğazlara ve İpek Yolu'na hakim olmak<br>• Bizans'ın Anadolu beylikleriyle iş birliği içinde olması<br>• Bizans'ın Haçlı seferlerine neden olması ve şehzadeleri kışkırtması<br>• İstanbul'un bir bilim ve kültür merkezi olması<br>• Hz. Muhammed'in hadisi",
+
+    "⚙️ <b>B. FETİH İÇİN OSMANLI'NIN HAZIRLIKLARI:</b><br>• Venedik ve Eflak prensiyle saldırmazlık antlaşması imzalandı<br>• 'Şahi' adı verilen büyük toplar döküldü<br>• Mancınık ve hareketli kuleler (şehir alan) inşa edildi<br>• Anadolu beyleri ve Avrupa devletleriyle saldırmazlık antlaşmaları yapıldı<br>• Boğazkesen (Rumeli Hisarı) yapıldı",
+
+    "🛡️ <b>C. BİZANS'IN ALDIĞI ÖNLEMLER:</b><br>• Grejova (Rum ateşi) çoğaltıldı<br>• Halk silahlandırıldı<br>• Haliç'e zincir çekildi<br>• Avrupa'dan yardım istendi<br>• İstanbul surları güçlendirildi<br>• Katolik ve Ortodoks kiliseleri birleştirildi<br>NOT: Grandük Notaras: 'İstanbul'da kardinal külahı görmektense Osmanlı'nın sarığını görmeyi tercih ederim.'",
+
+    "📜 <b>D. İSTANBUL'UN FETHİNİN SONUÇLARI:</b><br>• Gennadios Rum Patriği, Ovakim Ermeni Patriği oldu<br>• II. Mehmet'e 'Kayser-i Rum' (Roma hükümdarı) ve 'Fatih' unvanları verildi<br>• İstanbul başkent oldu; kuruluş bitti, yükselme dönemi başladı<br>• Anadolu-Rumeli toprak bütünlüğü sağlandı; Boğazlar ve İpek Yolu ele geçti<br>• Orta Çağ kapandı, Yeni Çağ başladı (topların surları yıkması → feodalitenin çökmesi)<br>• İstanbul'dan kaçan bilim insanları İtalya'da Rönesans'ın başlamasında etkili oldu<br>NOT: İslam dünyası bu fethe 'Feth-i Mübin' (Parlak Zafer) demiştir. Fatih 17 ülke fethetmiştir.",
+
+    "🗺️ <b>FATİH DÖNEMİ FETİH HAREKETLERİ – ANADOLU:</b><br>• Candaroğulları'ndan Sinop ve Samsun<br>• Karamanoğulları'ndan Konya ve Karaman<br>• Cenevizlilerden Amasra<br>• Trabzon Rum İmparatorluğu'na son verildi (Bizans'ın dirilme umudu bitti)<br>• Doğu Anadolu alındı",
+
+    "🗺️ <b>FATİH DÖNEMİ FETİH HAREKETLERİ – BALKANLAR VE DENİZLER:</b><br>Balkanlar: Sırbistan (Belgrad hariç), Bosna-Hersek, Arnavutluk, Mora, Eflak (Romanya), Boğdan (Moldova)<br>Denizler: Ege Adaları, Yunan Adaları, Bozcaada, Gökçeada; Rodos kuşatıldı ama alınamadı; Otranto fethedildi; Kırım alındı → Karadeniz Türk gölü oldu<br>NOT: Fatih'e 'Sultan'ul Bahreyn ve Hakan'ul Berreyn' (İki denizin ve iki karanın sultanı) unvanı verilmiştir.",
+
+    "⚔️ <b>FATİH DÖNEMİ GERGİNLİKLER VE OTLUKBELİ:</b><br>Hicaz su yolları sorunu yüzünden Karamanoğulları, Dulkadiroğulları ve Memlüklerle ilişkiler gerildi (Osmanlı-Memlük savaşına yol açmadı).<br>1473'te Akkoyunlularla Erzincan'da Otlukbeli Savaşı yapılıp kazanılmış, Doğu Anadolu Osmanlı egemenliğine geçmiştir.",
+
+    "🏛️ <b>F. FATİH DÖNEMİ DİĞER GELİŞMELER:</b><br>• Topkapı Sarayı (yeni saray) yapıldı; Ayasofya camiye çevrildi<br>• İlk altın para (Sikke-i Hasane/Sultani) basıldı<br>• İlk defa iltizam ve müsadere sistemi uygulandı; cülus bahşişi yasalaştı<br>• Divana Nişancı (örfi hukukun temsilcisi) atandı; sadrazamlar divana başkanlık etmeye başladı<br>• Örfi hukuk yazılı hâle getirildi (Kanunname-i Ali Osman)<br>• Sahn-ı Seman ve Tetimme medreseleri açıldı<br>NOT: İlk kapitülasyon 1352'de Cenevizlilere verilmiş; Venediklilere ise I. Mehmet, II. Murat ve II. Mehmet dönemlerinde verilmiştir. Osmanlı'da ilk elçiliği Venedik açmış, İstanbul'daki Venedik elçisine 'Balyos/Baylos' denmiştir.",
+
+    "👑 <b>2. II. BEYAZIT:</b> Cem Sultan olayı bu döneme damga vurmuş; Osmanlı'da ilk kez bir iç sorun uluslararası sorun hâline gelmiştir. Karamanoğullarına tamamen son verilmiştir. 1511'de Antalya'da Şah Kulu İsyanı çıkmıştır. Kemal Reis, İspanya'daki zulüm gören Müslüman ve Yahudileri İstanbul'a taşımıştır. Hicaz su yolları sorunuyla bozulan Memlüklerle 6 yıl savaşılmıştır. Bu dönemde ilk kez avarız vergisi alınmıştır. Yaşanan sorunlar nedeniyle yükselme içinde bir 'duraklama dönemi' olarak anılır.",
+
+    "⚔️ <b>3. YAVUZ SULTAN SELİM:</b> '8 yıla 80 yıllık iş sığdırmış padişah' olarak nitelendirilir. Bu dönemde ilk kez Bozoklu Celal isyanı çıkmıştır. Yavuz'un Doğu siyasetini, 'Heşt Behişt' (Sekiz Cennet) kitabının yazarı İdris-i Bitlisi belirlemiştir (25 bölgeyi Osmanlı'ya bağlamıştır).",
+
+    "🗡️ <b>YAVUZ'UN SAVAŞLARI:</b><br>• 1514 Çaldıran Savaşı – İran'a karşı kazanıldı<br>• 1515 Turnadağ Savaşı – Dulkadiroğulları'na karşı kazanıldı, Anadolu Türk siyasi birliği tamamlandı<br>• Mercidabık Savaşı – Memlüklere karşı yapıldı<br>• Ridaniye Savaşı – Memlüklere karşı kazanıldı",
+
+    "🏺 <b>RİDANİYE SAVAŞI'NIN SONUÇLARI:</b><br>• Memlük Devleti yıkıldı (Suriye-Filistin-Irak-Hicaz-Mısır alındı)<br>• Halife Osmanlı'nın eline geçti → teokratik devlet anlayışı güçlendi<br>• Baharat Yolu Osmanlı'nın eline geçti<br>• Kutsal emanetler İstanbul'a getirildi; Mısır hazineleri taşındı<br>• Venedik'in Kıbrıs için ödediği vergiyi artık Osmanlı'ya ödemesi kararlaştırıldı<br>NOT: Ridaniye Savaşı sürerken Avrupa'da 'Reform' yaşanmıştır. Yavuz'a 'Hadimü'l-Harameyni'ş-Şerifeyn' (Mekke-Medine'nin hizmetkârı) unvanı verilmiştir. Yavuz: 'Kim ki torunlarımdan daha fazla doldurursa, onun mührü kapılara vurulsun.'",
+
+    "👑 <b>4. KANUNİ SULTAN SÜLEYMAN:</b> Osmanlı tarihinin en uzun tahtta kalan padişahıdır. 'Kanuni' sıfatı ile anılır; 'Muhibbi' mahlasıyla şiirler yazmıştır. Tahtının ilk yıllarında Mısır'daki (Canbardi, Gazali, Ahmet Paşa) isyanlar ile Baba Zünnun ve Kalender Çelebi isyanlarıyla uğraşmıştır.",
+
+    "⚔️ <b>KANUNİ'NİN FETİH VE SEFERLERİ:</b><br>• Belgrad, Rodos fethedildi<br>• Mohaç Meydan Muharebesi – Macarlar 2 saatte mağlup edildi (en kısa süren ova savaşı)<br>• Viyana Kuşatması – ağır toplar götürülmemesi ve hava koşulları yüzünden başarısız oldu<br>• Alman Seferi – Şarlken Osmanlı karşısına çıkamadı<br>• İstanbul Antlaşması – Avusturya Kralı Ferdinand, Osmanlı sadrazamına denk sayıldı; Orta Avrupa'da siyasi üstünlük Osmanlı'ya geçti (1606 Zitvatorok Antlaşması'na kadar sürdü)",
+
+    "🌊 <b>KANUNİ DÖNEMİ DENİZ SEFERLERİ:</b><br>• Preveze Deniz Savaşı (Barbaros Hayrettin Paşa – Andrea Doria) → Akdeniz Türk gölü oldu<br>• Hint Deniz Seferleri – yeterince kazançlı olunamadı (okyanusa dayalı gemi eksikliği, denizcilerin bölgeyi bilmemesi, seferlere gereken önemin verilmemesi)<br>• Macaristan ve Trablusgarp alındı; Turgut Reis Trablusgarp Beylerbeyi oldu<br>• Cerbe Deniz Savaşı – Kuzey Afrika egemenliği pekiştirildi<br>• Turgut Reis, Malta Kuşatması'nda şehit oldu<br>• Kanuni'nin son seferi Zigetvar'dır<br>NOT: Kanuni'nin seferlerini minyatürcü Matrakçı Nasuh 'Süleymanname' ve 'Beyan-ı Menazil-i Sefer-i Irakeyn' eserlerinde anlatmıştır.",
+
+    "🤝 <b>KAPİTÜLASYONLAR (KANUNİ – FRANSA):</b> Venedik'e verilenden daha geniş şartlarla Fransa'ya kapitülasyon verilmiştir. Amaçlar: vergi alıp hazineye gelir sağlamak, kendi emniyet ve çıkarını korumak, Batılı devletlere imtiyaz vererek müttefik edinmek, Haçlı ittifakını parçalamak, ticari faaliyetleri geliştirmek.",
+
+    "🧭 <b>5. SOKULLU MEHMET PAŞA:</b> Kanuni, II. Selim ve III. Murat dönemlerinde sadrazamlık yapmış, devlet işlerindeki etkinliğinden dolayı bu döneme adını vermiştir.",
+
+    "⚓ <b>II. SELİM DÖNEMİ:</b> 1571'de Kıbrıs, Venedik'ten alındı. Buna tepki gösteren Haçlılar İnebahtı'da Osmanlı donanmasını yaktı (Osmanlı donanması tarihte 4 kez yakılmıştır: İnebahtı, Çeşme, Navarin, Sinop). Sokullu: 'Biz Kıbrıs'ı alarak kolunuzu kestik, siz İnebahtı'da saçımızı kestiniz. Kesilen kolun yerine yenisi gelmez, fakat kesilen sakal daha gür çıkar.'<br>NOT: II. Selim, ordunun başında sefere çıkma geleneğini ilk terk eden padişahtır; İstanbul'da doğmuş, İstanbul'da ölmüştür.",
+
+    "🗺️ <b>III. MURAT DÖNEMİ:</b> 1576'da Fas Osmanlı egemenliğine girdi. İran ile Meşaleler Savaşı yapıldı; sonucunda 1590 Ferhat Paşa Antlaşması imzalandı ve Osmanlı Devleti Doğu'da en geniş sınırlarına ulaştı.",
+
+    "🛠️ <b>SOKULLU MEHMET PAŞA'NIN PROJELERİ:</b><br>1) <b>Don-Volga Irmakları Birleştirme Projesi:</b> Amaçlar – Kırım'ı Ruslara karşı korumak, Orta Asya Türkleriyle bağlantı kurmak, İran'ı kuzeyden kontrol etmek, İpek Yolu'nu canlandırmak. (Mimar Sinan'a verildi; Sinan'ın vefatı, Kırım Hanlarının isteksizliği ve Rus saldırıları yüzünden gerçekleştirilemedi.)<br>2) <b>Süveyş Kanalı Projesi:</b> Kızıldeniz ile Akdeniz'i birleştirmek, Hindistan'a kısa yoldan ulaşmak, Baharat Yolu'nu canlandırmak. (Sonradan İngiltere ve Fransa tarafından açılmıştır.)<br>3) <b>Marmara-Karadeniz Projesi:</b> Akdeniz ile Karadeniz'i birleştirip Karadeniz'e ikinci bir çıkış açmak ve tersanelerin kereste ihtiyacını karşılamak."
+];

@@ -22,7 +22,11 @@ window.getKpssData = function () {
             "Osmanlı Devleti Kuruluş Dönemi": {
                 notlar: window.tarih_5_notlari || [],
                 sorular: window.tarih_5_sorulari || []
-            }
+            },
+            "Osmanlı Devleti Yükselme Dönemi":{
+                notlar:window.tarih_6_notlari ||[],
+                sorular:window.tarih_6_sorulari || []
+            },
         },
         "Coğrafya": {
             "Türkiye'nin Coğrafi Konumu": {

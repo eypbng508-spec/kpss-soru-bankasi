@@ -27,6 +27,10 @@ window.getKpssData = function () {
                 notlar:window.tarih_6_notlari ||[],
                 sorular:window.tarih_6_sorulari || []
             },
+            "Osmanlı Devleti Duraksama Dönemi":{
+                notlar:window.tarih_7_notlari || [],
+                sorular:window.tarih_7_sorulari || []
+            }
         },
         "Coğrafya": {
             "Türkiye'nin Coğrafi Konumu": {

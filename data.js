@@ -30,6 +30,10 @@ window.getKpssData = function () {
             "Osmanlı Devleti Duraksama Dönemi":{
                 notlar:window.tarih_7_notlari || [],
                 sorular:window.tarih_7_sorulari || []
+            },
+            "Osmanlı Devleti Gerileme Dönemi":{
+                notlar:window.tarih_8_notlari || [],
+                sorular:window.tarih_8_sorulari
             }
         },
         "Coğrafya": {
@@ -81,6 +85,10 @@ window.getKpssData = function () {
             "Türkiyenin İklimi": {
                 notlar: window.cografya_12_notlari || [],
                 sorular: window.cografya_12_sorulari || []
+            },
+            "Türkiyenin su, toprak ve bitki Varlığı":{
+                notlar:window.cografya_13_notlari || [],
+                sorular:window.cografya_13_sorulari
             }
         }
     };

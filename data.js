@@ -33,7 +33,11 @@ window.getKpssData = function () {
             },
             "Osmanlı Devleti Gerileme Dönemi":{
                 notlar:window.tarih_8_notlari || [],
-                sorular:window.tarih_8_sorulari
+                sorular:window.tarih_8_sorulari || []
+            },
+            "19.YY OSMANLI DAĞILMA DÖNEMİ":{
+                notlar:window.tarih_9_notlari || [],
+                sorular:window.tarih_9_sorulari || []
             }
         },
         "Coğrafya": {

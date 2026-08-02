@@ -10,9 +10,6 @@
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <!-- KRİTİK: Babel'e "classic" JSX runtime kullanan bir preset tanıt.
-         Bu olmazsa Babel koda gizli 'import' satırı ekler ve
-         "Cannot use import statement outside a module" hatasıyla ekran beyaz kalır. -->
     <script>
         Babel.registerPreset("react-classic", {
             presets: [[Babel.availablePresets["react"], { runtime: "classic" }]]
@@ -21,8 +18,6 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- VERİLER: Senin klasör yapın. Yeni ders/konu/soru eklemek için bu dosyaları düzenle.
-         DÜZ script olduğu için hem çift tıkla (file://) hem Live Server'da sorunsuz yüklenir. -->
     <script src="notlar/tarih-1-not.js"></script>
     <script src="notlar/tarih-2-not.js"></script>
     <script src="notlar/tarih-3-not.js"></script>
@@ -68,44 +63,203 @@
     <script src="sorular/cografya-12.js"></script>
     <script src="sorular/cografya-13.js"></script>
 
-    
-
-
     <script src="data.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        
+        body { font-family: 'Inter', sans-serif; }
+        
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .dark .glass {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+        
+        .option-btn {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        .option-btn::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(135deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.6s;
+        }
+        .option-btn:hover::before {
+            transform: translateX(100%);
+        }
+        
+        .progress-ring {
+            transition: stroke-dashoffset 0.5s ease-in-out;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .slide-in {
+            animation: slideIn 0.4s ease-out;
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .pulse-glow {
+            animation: pulseGlow 2s infinite;
+        }
+        @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.3); }
+            50% { box-shadow: 0 0 40px rgba(99, 102, 241, 0.6); }
+        }
+        
+        .confetti {
+            position: fixed;
+            width: 10px; height: 10px;
+            animation: confetti-fall 3s ease-out forwards;
+        }
+        @keyframes confetti-fall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6, #d946ef);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .dark .gradient-text {
+            background: linear-gradient(135deg, #818cf8, #a78bfa, #e879f9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .dark body { background-color: #0f172a; color: #e2e8f0; }
+        .dark .bg-slate-100 { background-color: #0f172a !important; }
+        .dark .bg-white { background-color: #1e293b !important; }
+        .dark .bg-slate-50 { background-color: #1e293b !important; }
+        .dark .bg-slate-200 { background-color: #334155 !important; }
+        .dark .text-slate-800 { color: #f1f5f9 !important; }
+        .dark .text-slate-700 { color: #e2e8f0 !important; }
+        .dark .text-slate-600 { color: #cbd5e1 !important; }
+        .dark .text-slate-500 { color: #94a3b8 !important; }
+        .dark .text-slate-400 { color: #64748b !important; }
+        .dark .text-slate-900 { color: #f8fafc !important; }
+        .dark .border-slate-200 { border-color: #334155 !important; }
+        .dark .border-slate-300 { border-color: #475569 !important; }
+        .dark .bg-amber-50 { background-color: #451a03 !important; }
+        .dark .bg-indigo-50 { background-color: #1e1b4b !important; }
+        .dark .bg-emerald-50 { background-color: #022c22 !important; }
+        .dark .bg-rose-50 { background-color: #4c0519 !important; }
+        .dark .bg-blue-50 { background-color: #172554 !important; }
+        .dark .text-amber-900 { color: #fde68a !important; }
+        .dark .text-amber-700 { color: #fcd34d !important; }
+        .dark .text-indigo-900 { color: #c7d2fe !important; }
+        .dark .text-indigo-700 { color: #a5b4fc !important; }
+        .dark .text-blue-800 { color: #93c5fd !important; }
+        .dark .text-blue-950 { color: #dbeafe !important; }
+        .dark .border-amber-200 { border-color: #78350f !important; }
+        .dark .border-indigo-200 { border-color: #312e81 !important; }
+        .dark .border-blue-200 { border-color: #1e3a8a !important; }
+        .dark .border-l-blue-500 { border-left-color: #3b82f6 !important; }
+    </style>
 </head>
 
-<body class="min-h-screen bg-slate-100 text-slate-800 antialiased">
+<body class="min-h-screen bg-slate-100 text-slate-800 antialiased transition-colors duration-300">
     <div id="root"></div>
 
-    <!-- UYGULAMA: classic runtime preset ile derlenir (import üretmez) -->
     <script type="text/babel" data-presets="react-classic">
-        const { useState } = React;
+        const { useState, useEffect } = React;
 
-        // kpssData global olarak data.js'ten gelir
         const DERS_THEME = {
-            "Tarih": { grad: "from-violet-500 to-violet-700", text: "text-violet-700", soft: "bg-violet-50", icon: "🏛️" },
-            "Coğrafya": { grad: "from-emerald-500 to-emerald-700", text: "text-emerald-700", soft: "bg-emerald-50", icon: "🗺️" },
-            "Vatandaşlık": { grad: "from-sky-500 to-sky-700", text: "text-sky-700", soft: "bg-sky-50", icon: "⚖️" },
+            "Tarih": { grad: "from-violet-500 to-fuchsia-600", text: "text-violet-700", soft: "bg-violet-50", icon: "🏛️", darkText: "text-violet-400", darkSoft: "bg-violet-950" },
+            "Coğrafya": { grad: "from-emerald-400 to-cyan-500", text: "text-emerald-700", soft: "bg-emerald-50", icon: "🗺️", darkText: "text-emerald-400", darkSoft: "bg-emerald-950" },
+            "Vatandaşlık": { grad: "from-sky-400 to-blue-600", text: "text-sky-700", soft: "bg-sky-50", icon: "⚖️", darkText: "text-sky-400", darkSoft: "bg-sky-950" },
         };
-        function themeFor(ders) {
-            return DERS_THEME[ders] || { grad: "from-slate-500 to-slate-700", text: "text-slate-700", soft: "bg-slate-50", icon: "📚" };
+        
+        function themeFor(ders, isDark) {
+            const t = DERS_THEME[ders] || { grad: "from-slate-500 to-slate-700", text: "text-slate-700", soft: "bg-slate-50", icon: "📚", darkText: "text-slate-400", darkSoft: "bg-slate-950" };
+            return isDark ? { ...t, text: t.darkText, soft: t.darkSoft } : t;
         }
 
         function Shell(props) {
             const wide = props.wide;
             return (
-                <div className={"mx-auto px-4 py-8 sm:py-12 " + (wide ? "max-w-2xl" : "max-w-xl")}>
+                <div className={"mx-auto px-4 py-6 sm:py-10 " + (wide ? "max-w-3xl" : "max-w-2xl")}>
                     {props.children}
                 </div>
             );
         }
 
+        function Confetti() {
+            const [pieces, setPieces] = useState([]);
+            useEffect(() => {
+                const colors = ['#6366f1', '#8b5cf6', '#d946ef', '#f59e0b', '#10b981', '#3b82f6', '#ef4444'];
+                const newPieces = Array.from({length: 50}, (_, i) => ({
+                    id: i,
+                    left: Math.random() * 100 + '%',
+                    delay: Math.random() * 2 + 's',
+                    duration: (Math.random() * 2 + 2) + 's',
+                    color: colors[Math.floor(Math.random() * colors.length)],
+                    size: (Math.random() * 8 + 6) + 'px'
+                }));
+                setPieces(newPieces);
+            }, []);
+            return (
+                <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
+                    {pieces.map(p => (
+                        <div key={p.id} className="confetti" style={{
+                            left: p.left,
+                            animationDelay: p.delay,
+                            animationDuration: p.duration,
+                            width: p.size,
+                            height: p.size,
+                            backgroundColor: p.color,
+                            borderRadius: Math.random() > 0.5 ? '50%' : '2px'
+                        }} />
+                    ))}
+                </div>
+            );
+        }
+
         function App() {
+            const [isDark, setIsDark] = useState(false);
             const kpssData = (typeof window !== "undefined" && window.kpssData) ? window.kpssData : {};
 
             const [selectedDers, setSelectedDers] = useState(null);
             const [selectedKonu, setSelectedKonu] = useState(null);
-            const [viewMode, setViewMode] = useState("secim"); // secim | notlar | test
+            const [viewMode, setViewMode] = useState("secim");
+            
+            // Yeni Eklenen: Not Slider State'i
+            const [currentNoteIndex, setCurrentNoteIndex] = useState(0);
+
             const [qIndex, setQIndex] = useState(0);
             const [picked, setPicked] = useState(null);
             const [answered, setAnswered] = useState(false);
@@ -113,65 +267,98 @@
             const [wrongList, setWrongList] = useState([]);
             const [finished, setFinished] = useState(false);
 
+            useEffect(() => {
+                if (isDark) {
+                    document.documentElement.classList.add('dark');
+                } else {
+                    document.documentElement.classList.remove('dark');
+                }
+            }, [isDark]);
+
             function resetTestState() {
                 setQIndex(0); setPicked(null); setAnswered(false);
                 setScore(0); setWrongList([]); setFinished(false);
+                setCurrentNoteIndex(0); // Test sıfırlanırken notlar da baştan başlasın
             }
             function goKonu(konu) { setSelectedKonu(konu); setViewMode("secim"); resetTestState(); }
             function backToSecim() { setViewMode("secim"); resetTestState(); }
 
             if (!kpssData || Object.keys(kpssData).length === 0) {
                 return (
-                    <div className="flex flex-col items-center justify-center min-h-screen text-slate-500 gap-3">
-                        <div className="h-10 w-10 rounded-full border-4 border-slate-300 border-t-indigo-500 animate-spin"></div>
-                        <p className="font-medium">Veriler yüklenemedi. Sayfayı yenileyin.</p>
+                    <div className="flex flex-col items-center justify-center min-h-screen text-slate-500 gap-4">
+                        <div className="h-12 w-12 rounded-full border-4 border-slate-300 border-t-indigo-500 animate-spin"></div>
+                        <p className="font-medium text-lg">Veriler yüklenemedi. Sayfayı yenileyin.</p>
                     </div>
                 );
             }
 
             function Crumb() {
                 return (
-                    <div className="flex items-center gap-2 text-sm text-slate-500 flex-wrap">
-                        <button onClick={function () { setSelectedDers(null); setSelectedKonu(null); }} className="hover:text-slate-900 transition">Ana Sayfa</button>
+                    <nav className="flex items-center gap-2 text-sm text-slate-500 flex-wrap mb-4 fade-in">
+                        <button onClick={function () { setSelectedDers(null); setSelectedKonu(null); }} 
+                            className="hover:text-indigo-600 transition font-medium flex items-center gap-1">
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" /></svg>
+                            Ana Sayfa
+                        </button>
                         {selectedDers ? (
                             <React.Fragment>
-                                <span className="text-slate-300">/</span>
-                                <button onClick={function () { setSelectedKonu(null); }} className="hover:text-slate-900 transition">{selectedDers}</button>
+                                <svg className="w-4 h-4 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                                <button onClick={function () { setSelectedKonu(null); }} className="hover:text-indigo-600 transition font-medium">{selectedDers}</button>
                             </React.Fragment>
                         ) : null}
                         {selectedKonu ? (
                             <React.Fragment>
-                                <span className="text-slate-300">/</span>
-                                <span className="text-slate-700 font-medium">{selectedKonu}</span>
+                                <svg className="w-4 h-4 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                                <span className="text-slate-700 dark:text-slate-200 font-semibold">{selectedKonu}</span>
                             </React.Fragment>
                         ) : null}
-                    </div>
+                    </nav>
                 );
-            }
+            }            
 
             // EKRAN 1: DERS SEÇİMİ
             if (!selectedDers) {
                 return (
                     <Shell>
-                        <header className="text-center mb-10">
-                            <div className="inline-flex items-center justify-center h-16 w-16 rounded-2xl bg-gradient-to-br from-indigo-500 to-indigo-700 text-white text-3xl shadow-lg shadow-indigo-200 mb-4">🎯</div>
-                            <h1 className="text-3xl font-extrabold tracking-tight text-slate-900">KPSS Soru Bankası</h1>
-                            <p className="text-slate-500 mt-2">Çalışmak istediğiniz dersi seçerek başlayın.</p>
+                        <div className="flex justify-end mb-6">
+                            <button onClick={() => setIsDark(!isDark)} 
+                                className="p-3 rounded-2xl bg-white dark:bg-slate-800 shadow-lg border border-slate-200 dark:border-slate-700 hover:scale-110 transition-all">
+                                {isDark ? (
+                                    <svg className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" /></svg>
+                                ) : (
+                                    <svg className="w-5 h-5 text-slate-600" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" /></svg>
+                                )}
+                            </button>
+                        </div>
+                        <header className="text-center mb-12 fade-in">
+                            <div className="inline-flex items-center justify-center h-20 w-20 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-4xl shadow-2xl shadow-indigo-300 dark:shadow-indigo-900/50 mb-6 pulse-glow">
+                                🎯
+                            </div>
+                            <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-3">
+                                KPSS <span className="gradient-text">Soru Bankası</span>
+                            </h1>
+                            <p className="text-slate-500 dark:text-slate-400 text-lg max-w-md mx-auto">Çalışmak istediğiniz dersi seçerek başlayın. Her konuda notlar ve testler sizi bekliyor.</p>
                         </header>
-                        <div className="grid sm:grid-cols-2 gap-4">
-                            {Object.keys(kpssData).map(function (ders) {
-                                const t = themeFor(ders);
+                        <div className="grid sm:grid-cols-2 gap-5 fade-in">
+                            {Object.keys(kpssData).map(function (ders, idx) {
+                                const t = themeFor(ders, isDark);
                                 const konuSayisi = Object.keys(kpssData[ders] || {}).length;
                                 const soruSayisi = Object.keys(kpssData[ders] || {}).reduce(function (a, k) {
                                     return a + (((kpssData[ders][k] || {}).sorular || []).length);
                                 }, 0);
                                 return (
                                     <button key={ders} onClick={function () { setSelectedDers(ders); }}
-                                        className={"group relative overflow-hidden text-left p-6 rounded-3xl text-white bg-gradient-to-br " + t.grad + " shadow-xl ring-1 ring-inset ring-white/10 transition-all hover:-translate-y-1 hover:shadow-2xl"}>
-                                        <div className="text-4xl mb-6 drop-shadow">{t.icon}</div>
-                                        <h2 className="text-2xl font-bold">{ders}</h2>
-                                        <p className="text-white/80 text-sm mt-1">{konuSayisi} konu · {soruSayisi} soru</p>
-                                        <span className="absolute -right-6 -bottom-6 text-8xl opacity-10 group-hover:opacity-20 transition">{t.icon}</span>
+                                        className={"group relative overflow-hidden text-left p-7 rounded-3xl text-white bg-gradient-to-br " + t.grad + " shadow-2xl ring-1 ring-white/20 transition-all card-hover"}>
+                                        <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                                        <div className="relative z-10">
+                                            <div className="text-5xl mb-5 drop-shadow-lg">{t.icon}</div>
+                                            <h2 className="text-2xl font-bold mb-1">{ders}</h2>
+                                            <p className="text-white/80 text-sm font-medium">{konuSayisi} konu · {soruSayisi} soru</p>
+                                        </div>
+                                        <span className="absolute -right-8 -bottom-8 text-9xl opacity-10 group-hover:opacity-20 group-hover:scale-110 transition-all duration-700">{t.icon}</span>
+                                        <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0 translate-x-4">
+                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+                                        </div>
                                     </button>
                                 );
                             })}
@@ -182,24 +369,50 @@
 
             // EKRAN 2: KONU SEÇİMİ
             if (selectedDers && !selectedKonu) {
-                const t = themeFor(selectedDers);
+                const t = themeFor(selectedDers, isDark);
                 return (
                     <Shell>
+                        <div className="flex justify-end mb-4">
+                            <button onClick={() => setIsDark(!isDark)} 
+                                className="p-2.5 rounded-xl bg-white dark:bg-slate-800 shadow-md border border-slate-200 dark:border-slate-700 hover:scale-110 transition-all">
+                                {isDark ? (
+                                    <svg className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" /></svg>
+                                ) : (
+                                    <svg className="w-5 h-5 text-slate-600" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" /></svg>
+                                )}
+                            </button>
+                        </div>
                         <Crumb />
-                        <h1 className="text-2xl font-bold text-slate-900 mt-3 mb-6">{t.icon} {selectedDers} Konuları</h1>
-                        <div className="space-y-3">
-                            {Object.keys(kpssData[selectedDers] || {}).map(function (konu) {
+                        <div className="flex items-center gap-4 mt-2 mb-8 slide-in">
+                            <div className={"h-14 w-14 rounded-2xl bg-gradient-to-br " + t.grad + " flex items-center justify-center text-white text-2xl shadow-lg"}>
+                                {t.icon}
+                            </div>
+                            <div>
+                                <h1 className="text-3xl font-black text-slate-900 dark:text-white">{selectedDers} Konuları</h1>
+                                <p className="text-slate-500 dark:text-slate-400 text-sm">Çalışmak istediğiniz konuyu seçin</p>
+                            </div>
+                        </div>
+                        <div className="space-y-3 fade-in">
+                            {Object.keys(kpssData[selectedDers] || {}).map(function (konu, idx) {
                                 const kd = kpssData[selectedDers][konu] || {};
                                 const soruSayisi = (kd.sorular || []).length;
                                 const notSayisi = (kd.notlar || []).length;
                                 return (
                                     <button key={konu} onClick={function () { goKonu(konu); }}
-                                        className="w-full text-left p-5 bg-white hover:bg-slate-50 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all flex justify-between items-center group">
-                                        <div>
-                                            <span className="font-semibold text-slate-800 group-hover:text-slate-900">{konu}</span>
-                                            <p className="text-xs text-slate-400 mt-0.5">{notSayisi} not · {soruSayisi} soru</p>
+                                        className="w-full text-left p-5 bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-700/50 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl transition-all flex justify-between items-center group card-hover">
+                                        <div className="flex items-center gap-4">
+                                            <div className={"h-10 w-10 rounded-xl bg-gradient-to-br " + t.grad + " flex items-center justify-center text-white font-bold text-sm shadow-md"}>
+                                                {idx + 1}
+                                            </div>
+                                            <div>
+                                                <span className="font-bold text-slate-800 dark:text-slate-100 text-lg group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition">{konu}</span>
+                                                <p className="text-xs text-slate-400 mt-1 font-medium">{notSayisi} not · {soruSayisi} soru</p>
+                                            </div>
                                         </div>
-                                        <span className={"text-xs font-medium px-3 py-1.5 rounded-full " + t.soft + " " + t.text}>Başla →</span>
+                                        <div className={"flex items-center gap-2 text-xs font-bold px-4 py-2 rounded-full " + t.soft + " " + t.text + " group-hover:scale-105 transition-transform"}>
+                                            Başla 
+                                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                                        </div>
                                     </button>
                                 );
                             })}
@@ -211,111 +424,223 @@
             const konuData = (kpssData[selectedDers] && kpssData[selectedDers][selectedKonu]) || {};
             const notlar = konuData.notlar || [];
             const sorular = konuData.sorular || [];
-            const t = themeFor(selectedDers);
 
             // EKRAN 3: AKTİVİTE SEÇİMİ
             if (viewMode === "secim") {
                 return (
                     <Shell>
+                        <div className="flex justify-end mb-4">
+                            <button onClick={() => setIsDark(!isDark)} 
+                                className="p-2.5 rounded-xl bg-white dark:bg-slate-800 shadow-md border border-slate-200 dark:border-slate-700 hover:scale-110 transition-all">
+                                {isDark ? (
+                                    <svg className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" /></svg>
+                                ) : (
+                                    <svg className="w-5 h-5 text-slate-600" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" /></svg>
+                                )}
+                            </button>
+                        </div>
                         <Crumb />
-                        <h2 className="text-2xl font-bold text-slate-900 mt-3 mb-1">{selectedKonu}</h2>
-                        <p className="text-slate-500 text-sm mb-6">Ne yapmak istersiniz?</p>
-                        <div className="grid sm:grid-cols-2 gap-4">
-                            <button onClick={function () { setViewMode("notlar"); }}
-                                className="text-left p-6 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-3xl shadow-sm hover:shadow-md transition-all">
-                                <div className="text-3xl mb-3">📖</div>
-                                <h3 className="text-lg font-bold text-amber-900">Konu Özetini Oku</h3>
-                                <p className="text-sm text-amber-700 mt-1">{notlar.length} hap not ile hızlı tekrar yapın.</p>
+                        <div className="mt-4 mb-8 slide-in">
+                            <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-2">{selectedKonu}</h2>
+                            <p className="text-slate-500 dark:text-slate-400">Ne yapmak istersiniz?</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 gap-5 fade-in">
+                            <button onClick={function () { setViewMode("notlar"); setCurrentNoteIndex(0); }}
+                                className="group text-left p-7 bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/50 dark:to-orange-950/30 border border-amber-200 dark:border-amber-800/50 rounded-3xl shadow-lg hover:shadow-2xl transition-all card-hover relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/10 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-700"></div>
+                                <div className="relative z-10">
+                                    <div className="h-14 w-14 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-white text-2xl shadow-lg mb-4">📖</div>
+                                    <h3 className="text-xl font-bold text-amber-900 dark:text-amber-100 mb-2">Konu Özetini Oku</h3>
+                                    <p className="text-sm text-amber-700 dark:text-amber-300/80 font-medium">{notlar.length} hap not ile hızlı tekrar yapın.</p>
+                                </div>
                             </button>
                             <button onClick={function () { if (sorular.length === 0) { alert("Bu konuya ait henüz soru yüklenmedi!"); } else { resetTestState(); setViewMode("test"); } }}
-                                className="text-left p-6 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 rounded-3xl shadow-sm hover:shadow-md transition-all">
-                                <div className="text-3xl mb-3">📝</div>
-                                <h3 className="text-lg font-bold text-indigo-900">Testi Çöz</h3>
-                                <p className="text-sm text-indigo-700 mt-1">{sorular.length} soruluk testi çözmeye başlayın.</p>
+                                className="group text-left p-7 bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-950/50 dark:to-purple-950/30 border border-indigo-200 dark:border-indigo-800/50 rounded-3xl shadow-lg hover:shadow-2xl transition-all card-hover relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-400/10 rounded-full -mr-10 -mt-10 group-hover:scale-150 transition-transform duration-700"></div>
+                                <div className="relative z-10">
+                                    <div className="h-14 w-14 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white text-2xl shadow-lg mb-4">📝</div>
+                                    <h3 className="text-xl font-bold text-indigo-900 dark:text-indigo-100 mb-2">Testi Çöz</h3>
+                                    <p className="text-sm text-indigo-700 dark:text-indigo-300/80 font-medium">{sorular.length} soruluk testi çözmeye başlayın.</p>
+                                </div>
                             </button>
                         </div>
                     </Shell>
                 );
             }
 
-            // EKRAN 4: NOTLAR
+            // EKRAN 4: NOTLAR (SLIDER EKRANI)
             if (viewMode === "notlar") {
                 return (
                     <Shell wide={true}>
-                        <Crumb />
-                        <div className="flex items-center justify-between mt-3 mb-5 gap-3 flex-wrap">
-                            <h2 className="text-2xl font-bold text-slate-900">{selectedKonu} · Özet Notlar</h2>
-                            <button onClick={backToSecim} className="text-sm font-medium text-slate-500 hover:text-slate-900 transition">← Geri</button>
+                        <div className="flex justify-end mb-4">
+                            <button onClick={() => setIsDark(!isDark)} 
+                                className="p-2.5 rounded-xl bg-white dark:bg-slate-800 shadow-md border border-slate-200 dark:border-slate-700 hover:scale-110 transition-all">
+                                {isDark ? (
+                                    <svg className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" /></svg>
+                                ) : (
+                                    <svg className="w-5 h-5 text-slate-600" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" /></svg>
+                                )}
+                            </button>
                         </div>
-                        <div className="space-y-3">
-                            {notlar.length > 0 ? notlar.map(function (not, i) {
-                                return (
-                                    <div key={i}
-                                        className="p-5 bg-white rounded-2xl border border-slate-200 border-l-4 border-l-amber-400 shadow-sm text-slate-700 text-[15px] leading-relaxed"
-                                        dangerouslySetInnerHTML={{ __html: not }} />
-                                );
-                            }) : (
-                                <p className="text-slate-400 text-center py-12">Bu konu için not bulunmuyor.</p>
+                        <Crumb />
+                        <div className="flex items-center justify-between mt-4 mb-6 gap-3 flex-wrap slide-in">
+                            <div className="flex items-center gap-3">
+                                <div className="h-10 w-10 rounded-xl bg-amber-500 flex items-center justify-center text-white text-lg shadow-md">📖</div>
+                                <h2 className="text-2xl font-black text-slate-900 dark:text-white">{selectedKonu} · Özet Notlar</h2>
+                            </div>
+                            <button onClick={backToSecim} className="text-sm font-bold text-slate-500 hover:text-indigo-600 dark:hover:text-indigo-400 transition flex items-center gap-1 bg-white dark:bg-slate-800 px-4 py-2 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                                Geri
+                            </button>
+                        </div>
+                        
+                        <div className="fade-in">
+                            {notlar.length > 0 ? (
+                                <div className="relative bg-white dark:bg-slate-800 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-xl flex flex-col p-6 sm:p-10 min-h-[400px]">
+                                    <div className="flex justify-center mb-6">
+                                        <div className="h-12 w-12 bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-2xl flex items-center justify-center font-black text-xl border border-indigo-100 dark:border-indigo-800/50 shadow-sm">
+                                            {currentNoteIndex + 1}
+                                        </div>
+                                    </div>
+                                    
+                                    {/* Not İçeriği (Anahtar değiştirilerek animasyon tetiklenir) */}
+                                    <div key={currentNoteIndex} className="flex-1 flex items-center justify-center fade-in text-center mb-20">
+                                        <div className="text-slate-700 dark:text-slate-300 text-[17px] sm:text-lg leading-relaxed max-w-2xl w-full" 
+                                            dangerouslySetInnerHTML={{ __html: notlar[currentNoteIndex] }} />
+                                    </div>
+
+                                    {/* Slider Kontrolleri */}
+                                    <div className="absolute bottom-6 left-0 right-0 px-6 sm:px-10 flex justify-between items-center w-full">
+                                        <button
+                                            onClick={function() { setCurrentNoteIndex(Math.max(0, currentNoteIndex - 1)); }}
+                                            disabled={currentNoteIndex === 0}
+                                            className={"p-3 sm:px-5 sm:py-3 rounded-xl font-bold flex items-center gap-2 transition-all " + (currentNoteIndex === 0 ? "opacity-30 cursor-not-allowed bg-slate-100 text-slate-400 dark:bg-slate-700" : "bg-indigo-50 text-indigo-600 hover:bg-indigo-100 dark:bg-indigo-900/30 dark:text-indigo-400 dark:hover:bg-indigo-900/50 active:scale-95")}
+                                        >
+                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15 19l-7-7 7-7" /></svg>
+                                            <span className="hidden sm:block">Önceki</span>
+                                        </button>
+                                        
+                                        {/* İlerleme Noktaları */}
+                                        <div className="flex gap-1.5 flex-wrap justify-center px-4">
+                                            {notlar.map(function(_, i) {
+                                                if (notlar.length > 20 && Math.abs(i - currentNoteIndex) > 3 && i !== 0 && i !== notlar.length -1) return null; // Çok fazla not varsa noktaları sınırla
+                                                return (
+                                                    <div key={i} className={"h-2 rounded-full transition-all duration-300 " + (i === currentNoteIndex ? "w-6 bg-indigo-500" : "w-2 bg-slate-300 dark:bg-slate-600")} />
+                                                )
+                                            })}
+                                        </div>
+
+                                        <button
+                                            onClick={function() { setCurrentNoteIndex(Math.min(notlar.length - 1, currentNoteIndex + 1)); }}
+                                            disabled={currentNoteIndex === notlar.length - 1}
+                                            className={"p-3 sm:px-5 sm:py-3 rounded-xl font-bold flex items-center gap-2 transition-all " + (currentNoteIndex === notlar.length - 1 ? "opacity-30 cursor-not-allowed bg-slate-100 text-slate-400 dark:bg-slate-700" : "bg-indigo-50 text-indigo-600 hover:bg-indigo-100 dark:bg-indigo-900/30 dark:text-indigo-400 dark:hover:bg-indigo-900/50 active:scale-95")}
+                                        >
+                                            <span className="hidden sm:block">Sonraki</span>
+                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" /></svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="text-center py-16 bg-white dark:bg-slate-800 rounded-3xl border border-dashed border-slate-300 dark:border-slate-700">
+                                    <div className="text-6xl mb-4">📝</div>
+                                    <p className="text-slate-500 dark:text-slate-400 text-lg font-medium">Bu konu için henüz bir not bulunmuyor.</p>
+                                </div>
                             )}
                         </div>
+
                         {sorular.length > 0 ? (
                             <button onClick={function () { resetTestState(); setViewMode("test"); }}
-                                className="mt-6 w-full bg-indigo-600 hover:bg-indigo-700 text-white p-4 rounded-2xl font-bold shadow-lg shadow-indigo-200 transition">
-                                🚀 Notları okudum, teste geç!
+                                className="mt-8 w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white p-5 rounded-2xl font-bold shadow-xl shadow-indigo-200 dark:shadow-indigo-900/30 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-3 text-lg">
+                                <span>🚀</span> Notları bitirdim, teste geç!
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
                             </button>
                         ) : null}
                     </Shell>
                 );
-            }
+            }            
 
             // EKRAN 5: SONUÇ
             if (finished) {
                 const oran = sorular.length > 0 ? Math.round((score / sorular.length) * 100) : 0;
                 const yorum = oran >= 85 ? "Mükemmel! 🏆" : oran >= 60 ? "İyi gidiyorsun 👍" : oran >= 40 ? "Fena değil, tekrar şart 📚" : "Notlara tekrar göz at 💪";
+                const renk = oran >= 85 ? "#10b981" : oran >= 60 ? "#6366f1" : oran >= 40 ? "#f59e0b" : "#ef4444";
+                
                 return (
                     <Shell>
-                        <div className="bg-white p-8 rounded-3xl border border-slate-200 shadow-xl text-center">
-                            <div className="text-5xl mb-3">🎉</div>
-                            <h2 className="text-2xl font-bold text-slate-900 mb-1">Test Tamamlandı</h2>
-                            <p className="text-slate-500 mb-6">{yorum}</p>
+                        {oran >= 80 && <Confetti />}
+                        <div className="bg-white dark:bg-slate-800 p-8 sm:p-10 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-2xl text-center fade-in relative overflow-hidden">
+                            <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 pointer-events-none"></div>
+                            <div className="relative z-10">
+                                <div className="text-6xl mb-4">{oran >= 85 ? "🎉" : oran >= 60 ? "👏" : "📚"}</div>
+                                <h2 className="text-3xl font-black text-slate-900 dark:text-white mb-2">Test Tamamlandı</h2>
+                                <p className="text-slate-500 dark:text-slate-400 mb-8 text-lg">{yorum}</p>
 
-                            <div className="relative mx-auto w-36 h-36 mb-6">
-                                <svg viewBox="0 0 36 36" className="w-full h-full -rotate-90">
-                                    <path d="M18 2a16 16 0 1 1 0 32 16 16 0 0 1 0-32" fill="none" stroke="#e2e8f0" strokeWidth="3" />
-                                    <path d="M18 2a16 16 0 1 1 0 32 16 16 0 0 1 0-32" fill="none" stroke="#4f46e5" strokeWidth="3"
-                                        strokeDasharray={oran + ", 100"} strokeLinecap="round" />
-                                </svg>
-                                <div className="absolute inset-0 flex flex-col items-center justify-center">
-                                    <span className="text-3xl font-extrabold text-slate-900">%{oran}</span>
-                                    <span className="text-xs text-slate-400">başarı</span>
-                                </div>
-                            </div>
-
-                            <div className="grid grid-cols-3 gap-3 mb-6 text-sm">
-                                <div className="p-3 rounded-2xl bg-slate-50"><div className="font-bold text-slate-800 text-lg">{sorular.length}</div><div className="text-slate-400">Soru</div></div>
-                                <div className="p-3 rounded-2xl bg-emerald-50"><div className="font-bold text-emerald-600 text-lg">{score}</div><div className="text-emerald-500">Doğru</div></div>
-                                <div className="p-3 rounded-2xl bg-rose-50"><div className="font-bold text-rose-500 text-lg">{sorular.length - score}</div><div className="text-rose-400">Yanlış</div></div>
-                            </div>
-
-                            {wrongList.length > 0 ? (
-                                <details className="text-left mb-6">
-                                    <summary className="cursor-pointer text-sm font-medium text-slate-500 hover:text-slate-800 select-none">Yanlış yaptığın {wrongList.length} soruyu gör</summary>
-                                    <div className="mt-3 space-y-2">
-                                        {wrongList.map(function (w, i) {
-                                            return (
-                                                <div key={i} className="p-3 rounded-xl bg-slate-50 border border-slate-200 text-left">
-                                                    <p className="text-sm font-medium text-slate-700 whitespace-pre-line">{w.question}</p>
-                                                    <p className="text-xs mt-1 text-emerald-600">Doğru: {w.dogru}</p>
-                                                </div>
-                                            );
-                                        })}
+                                <div className="relative mx-auto w-40 h-40 mb-8">
+                                    <svg viewBox="0 0 36 36" className="w-full h-full">
+                                        <path d="M18 2a16 16 0 1 1 0 32 16 16 0 0 1 0-32" fill="none" stroke={isDark ? "#334155" : "#e2e8f0"} strokeWidth="3" />
+                                        <path d="M18 2a16 16 0 1 1 0 32 16 16 0 0 1 0-32" fill="none" stroke={renk} strokeWidth="3"
+                                            strokeDasharray={oran + ", 100"} strokeLinecap="round" className="progress-ring" />
+                                    </svg>
+                                    <div className="absolute inset-0 flex flex-col items-center justify-center">
+                                        <span className="text-4xl font-black text-slate-900 dark:text-white">%{oran}</span>
+                                        <span className="text-xs text-slate-400 font-medium mt-1">başarı</span>
                                     </div>
-                                </details>
-                            ) : null}
+                                </div>
 
-                            <div className="flex gap-3">
-                                <button onClick={function () { resetTestState(); setViewMode("test"); }} className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white p-3.5 rounded-2xl font-bold shadow-lg shadow-indigo-200 transition">Tekrar Çöz</button>
-                                <button onClick={backToSecim} className="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 p-3.5 rounded-2xl font-bold transition">Menü</button>
+                                <div className="grid grid-cols-3 gap-4 mb-8">
+                                    <div className="p-4 rounded-2xl bg-slate-50 dark:bg-slate-700/50 border border-slate-100 dark:border-slate-600">
+                                        <div className="font-black text-slate-800 dark:text-white text-2xl">{sorular.length}</div>
+                                        <div className="text-slate-400 text-xs font-bold mt-1">Soru</div>
+                                    </div>
+                                    <div className="p-4 rounded-2xl bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-100 dark:border-emerald-800/30">
+                                        <div className="font-black text-emerald-600 dark:text-emerald-400 text-2xl">{score}</div>
+                                        <div className="text-emerald-500 dark:text-emerald-400/70 text-xs font-bold mt-1">Doğru</div>
+                                    </div>
+                                    <div className="p-4 rounded-2xl bg-rose-50 dark:bg-rose-900/20 border border-rose-100 dark:border-rose-800/30">
+                                        <div className="font-black text-rose-500 dark:text-rose-400 text-2xl">{sorular.length - score}</div>
+                                        <div className="text-rose-400 dark:text-rose-400/70 text-xs font-bold mt-1">Yanlış</div>
+                                    </div>
+                                </div>
+
+                                {wrongList.length > 0 ? (
+                                    <details className="text-left mb-8 group">
+                                        <summary className="cursor-pointer text-sm font-bold text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 select-none flex items-center justify-between p-4 bg-slate-50 dark:bg-slate-700/50 rounded-xl border border-slate-200 dark:border-slate-600">
+                                            <span>Yanlış yaptığın {wrongList.length} soruyu gör</span>
+                                            <svg className="w-5 h-5 transform group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                                        </summary>
+                                        <div className="mt-3 space-y-3">
+                                            {wrongList.map(function (w, i) {
+                                                return (
+                                                    <div key={i} className="p-4 rounded-xl bg-slate-50 dark:bg-slate-700/30 border border-slate-200 dark:border-slate-600 text-left">
+                                                        <div className="flex items-start gap-3">
+                                                            <span className="flex-shrink-0 h-6 w-6 rounded-full bg-rose-100 dark:bg-rose-900/30 text-rose-500 text-xs font-bold flex items-center justify-center">{i+1}</span>
+                                                            <div>
+                                                                <p className="text-sm font-semibold text-slate-700 dark:text-slate-200 whitespace-pre-line leading-relaxed">{w.question}</p>
+                                                                <p className="text-xs mt-2 text-emerald-600 dark:text-emerald-400 font-bold flex items-center gap-1">
+                                                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                                                                    Doğru: {w.dogru}
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    </details>
+                                ) : null}
+
+                                <div className="flex gap-3">
+                                    <button onClick={function () { resetTestState(); setViewMode("test"); }} 
+                                        className="flex-1 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white p-4 rounded-2xl font-bold shadow-xl shadow-indigo-200 dark:shadow-indigo-900/30 transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2">
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg>
+                                        Tekrar Çöz
+                                    </button>
+                                    <button onClick={backToSecim} 
+                                        className="flex-1 bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-700 dark:text-slate-200 p-4 rounded-2xl font-bold transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2">
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
+                                        Menü
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </Shell>
@@ -342,45 +667,85 @@
 
             return (
                 <Shell>
-                    <div className="flex justify-between items-center text-sm font-medium text-slate-500 mb-3">
-                        <button onClick={function () { if (confirm("Testten çıkmak istediğinize emin misiniz?")) backToSecim(); }} className="hover:text-slate-900 transition">✕ Bitir</button>
-                        <span>Soru <b className="text-slate-700">{qIndex + 1}</b> / {sorular.length} · Doğru: <b className="text-emerald-600">{score}</b></span>
+                    <div className="flex justify-end mb-4">
+                        <button onClick={() => setIsDark(!isDark)} 
+                            className="p-2.5 rounded-xl bg-white dark:bg-slate-800 shadow-md border border-slate-200 dark:border-slate-700 hover:scale-110 transition-all">
+                            {isDark ? (
+                                <svg className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clipRule="evenodd" /></svg>
+                            ) : (
+                                <svg className="w-5 h-5 text-slate-600" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" /></svg>
+                            )}
+                        </button>
+                    </div>
+                    <div className="flex justify-between items-center text-sm font-bold text-slate-500 dark:text-slate-400 mb-4 fade-in">
+                        <button onClick={function () { if (confirm("Testten çıkmak istediğinize emin misiniz?")) backToSecim(); }} 
+                            className="hover:text-rose-500 transition flex items-center gap-1 bg-white dark:bg-slate-800 px-3 py-2 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+                            Bitir
+                        </button>
+                        <span className="bg-white dark:bg-slate-800 px-4 py-2 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+                            Soru <b className="text-indigo-600 dark:text-indigo-400">{qIndex + 1}</b> / {sorular.length} · Doğru: <b className="text-emerald-600 dark:text-emerald-400">{score}</b>
+                        </span>
                     </div>
 
-                    <div className="w-full bg-slate-200 h-2 rounded-full mb-6 overflow-hidden">
-                        <div className="bg-indigo-600 h-2 rounded-full transition-all duration-300" style={{ width: progress + "%" }}></div>
+                    <div className="w-full bg-slate-200 dark:bg-slate-700 h-2.5 rounded-full mb-6 overflow-hidden shadow-inner">
+                        <div className="bg-gradient-to-r from-indigo-500 to-purple-500 h-2.5 rounded-full transition-all duration-500 ease-out shadow-lg" style={{ width: progress + "%" }}></div>
                     </div>
 
-                    <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm mb-4">
-                        <h3 className="text-[17px] font-semibold text-slate-800 leading-relaxed whitespace-pre-line">{soru.question}</h3>
+                    <div className="bg-white dark:bg-slate-800 p-6 sm:p-8 rounded-3xl border border-slate-200 dark:border-slate-700 shadow-lg mb-6 fade-in relative overflow-hidden">
+                        <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-indigo-500 to-purple-500"></div>
+                        <h3 className="text-lg sm:text-xl font-bold text-slate-800 dark:text-slate-100 leading-relaxed whitespace-pre-line">{soru.question}</h3>
                     </div>
 
-                    <div className="space-y-3">
+                    <div className="space-y-3 fade-in">
                         {(soru.options || []).map(function (opt, i) {
-                            let cls = "w-full text-left p-4 rounded-2xl border font-medium transition-all flex items-center gap-3 ";
+                            let cls = "w-full text-left p-5 rounded-2xl border-2 font-semibold transition-all flex items-center gap-4 option-btn ";
+                            let icon = null;
                             if (answered) {
-                                if (i === soru.correctAnswerIndex) cls += "bg-emerald-500 border-emerald-500 text-white shadow-md";
-                                else if (i === picked) cls += "bg-rose-500 border-rose-500 text-white shadow-md";
-                                else cls += "bg-white border-slate-200 text-slate-400 opacity-50";
+                                if (i === soru.correctAnswerIndex) {
+                                    cls += "bg-emerald-500 border-emerald-500 text-white shadow-lg shadow-emerald-200 dark:shadow-emerald-900/30";
+                                    icon = <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>;
+                                }
+                                else if (i === picked) {
+                                    cls += "bg-rose-500 border-rose-500 text-white shadow-lg shadow-rose-200 dark:shadow-rose-900/30";
+                                    icon = <svg className="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>;
+                                }
+                                else cls += "bg-slate-50 dark:bg-slate-800/50 border-slate-200 dark:border-slate-700 text-slate-400 dark:text-slate-500 opacity-60";
                             } else {
-                                cls += "bg-white border-slate-200 text-slate-700 hover:border-indigo-300 hover:bg-indigo-50 active:scale-[0.99]";
+                                cls += "bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:border-indigo-400 dark:hover:border-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:shadow-md active:scale-[0.99]";
+                                icon = <span className="flex-shrink-0 h-8 w-8 rounded-full bg-slate-100 dark:bg-slate-700 flex items-center justify-center text-xs font-bold text-slate-500 dark:text-slate-400">{String.fromCharCode(65 + i)}</span>;
                             }
                             return (
                                 <button key={i} onClick={function () { handleAnswer(i); }} disabled={answered} className={cls}>
-                                    <span>{opt}</span>
+                                    {icon}
+                                    <span className="text-[15px]">{opt}</span>
                                 </button>
                             );
                         })}
                     </div>
 
                     {answered ? (
-                        <div className="mt-6 space-y-4">
-                            <div className="bg-blue-50 border border-blue-200 border-l-4 border-l-blue-500 p-4 rounded-2xl">
-                                <h4 className="font-bold text-blue-800 text-sm mb-1">💡 Çözüm Notu</h4>
-                                <p className="text-blue-950 text-sm leading-relaxed">{soru.explanation}</p>
+                        <div className="mt-8 space-y-4 fade-in">
+                            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-950/30 dark:to-indigo-950/30 border border-blue-200 dark:border-blue-800/50 border-l-4 border-l-blue-500 p-6 rounded-2xl shadow-sm">
+                                <h4 className="font-bold text-blue-800 dark:text-blue-300 text-sm mb-2 flex items-center gap-2">
+                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                                    Çözüm Notu
+                                </h4>
+                                <p className="text-slate-700 dark:text-slate-300 text-sm leading-relaxed">{soru.explanation}</p>
                             </div>
-                            <button onClick={next} className="w-full bg-slate-900 hover:bg-slate-800 text-white p-4 rounded-2xl font-bold shadow-lg transition">
-                                {qIndex + 1 === sorular.length ? "Sonuçları Gör →" : "Sonraki Soru →"}
+                            <button onClick={next} 
+                                className="w-full bg-gradient-to-r from-slate-800 to-slate-900 dark:from-indigo-600 dark:to-purple-600 hover:from-slate-900 hover:to-black dark:hover:from-indigo-700 dark:hover:to-purple-700 text-white p-5 rounded-2xl font-bold shadow-xl transition-all hover:scale-[1.02] active:scale-[0.98] flex items-center justify-center gap-2 text-lg">
+                                {qIndex + 1 === sorular.length ? (
+                                    <React.Fragment>
+                                        Sonuçları Gör
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                                    </React.Fragment>
+                                ) : (
+                                    <React.Fragment>
+                                        Sonraki Soru
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+                                    </React.Fragment>
+                                )}
                             </button>
                         </div>
                     ) : null}

@@ -1,20 +1,453 @@
 window.tarih_2_notlari = [
-    "<strong>TALAS SAVAŞI (751)</strong><br>• Diğer adı <b>Atlık Savaşı</b>'dır. Karlukların yardımıyla Abbasiler Çinlileri mağlup etmiştir.<br>• <b>Sonuçları:</b> Türkler (özellikle Karluklar) kitleler halinde İslamiyeti benimsemeye başladı. Esir Çinlilerden kağıt, matbaa, mürekkep, pusula ve barut yapımı öğrenildi. Tarım havzası Uygurların eline geçti, Uygur sanat eserleri batıya taşındı.<br>• <b>Not:</b> Kağıt ilk defa <b>Semerkant</b>'ta üretildi.<br>• <b>Kritik Ünvanlar:</b><br>- Semerkant: <i>'Şehirlerin Şahı'</i><br>- Kaşgar: <i>'Kaşi (Işıldayan İnci)'</i><br>- Buhara: <i>'İslam'ın Roma'sı'</i><br>• Emeviler'in Arap olmayan Müslümanları ikinci sınıf görme politikasına <b>Mevali</b> denir.",
-    "<strong>TÜRKLERİN İSLAMİYETİ KABULÜNÜN ETKİLERİ</strong><br>• Müslümanları Bizans baskısına karşı korumuşlardır.<br>• İslamiyeti dünyanın dört bir yanına yaymışlardır.<br>• Haçlı Seferlerine karşı kahramanca savaşmışlardır.<br>• Önemli bilim insanları yetiştirmişler; fethedilen bölgelere Türkçe ve Arapça isimler vererek din ve dilin yayılmasını sağlamışlardır.",
-    "<strong>ORTA ASYA TÜRK-İSLAM DEVLETLERİ</strong><br>• <b>Karahanlılar (Afrasiyaboğulları):</b> Orta Asya'da kurulan ilk Müslüman Türk devletidir. Merkezi Balasagun, kurucusu Bilge Kül Kadir Han'dır. Yönetici ve halkı tamamen Türk'tür (Karluk, Yağma, Çiğil, Tuğsi). Satuk Buğra Han döneminde İslam'ı kabul ettiler. Tamgaç Buğra Han döneminde Semerkant Medresesi'ni açıp dünya tarihinin <b>ilk burslu öğrencilik</b> sistemini başlattılar. İlk yazılı edebi eserleri verdiler. <b>Gulam sistemi</b> ve <b>Ribat</b> (kervansaray) ilk defa onlarda başladı.<br>• <b>Gazneliler:</b> Kurulduğu yerin adını almıştır, kurucusu Alp Tigin'dir. En parlak dönemi <b>Gazneli Mahmut</b>'tur. Dünya tarihinde <b>Sultan</b> ünvanını kullanan ilk hükümdardır. Hindistan'a 17 sefer düzenleyerek İslam'ı yaymış (Pakistan ve Bangladeş'in temeli), putları kırdığı için 'Put Kırıcı' ünvanını almıştır. Selçuklularla Dandanakan Savaşı'nı yapıp zayıflamışlar, Gurlular tarafından yıkılmışlardır.",
-    "<strong>BÜYÜK SELÇUKLU DEVLETİ (BSD)</strong><br>• 1040 Dandanakan Savaşı ile İran'da kuruldu. Resmi kurucusu Tuğrul Bey'dir. İran'da kurulduğu için resmi dili <b>Farsça</b>'dır. Boyu <b>Kınık boyu</b>'dur.<br>• Tuğrul Bey 1058'de Bağdat Seferi ile halifeyi kurtarınca <b>'Doğu'nun ve Batı'nın Hükümdarı'</b> ünvanını aldı.<br>• Sultan Alparslan 1064'te Ani Kalesi'ni fethedince halife ona <b>'Ebu'l-Feth'</b> (Fetihlerin Babası) ünvanını verdi.<br>• <b>1071 Malazgirt Savaşı ('Yurt Açan'):</b> Anadolu'nun kapısı Türklere açıldı. İlk Türk-İslam beylikleri kuruldu. Bizans İmparatoru Romen Diyojen esir düştü. Alparslan'a 'İslam Ülkelerinin Sultanı' ünvanı verildi. Savaşta Peçenek, Uz ve Kumanlar taraf değiştirerek zaferi sağladı.<br>• En parlak dönem <b>Sultan Melikşah</b> dönemidir. Ünlü veziri <b>Nizamülmülk</b>'tür. <br>• <b>Yıkılış Nedenleri:</b> Hasan Sabbah'ın <b>Batınilik</b> faaliyetleri, Abbasilerin gizli oyunları, Oğuzların küsmesi, taht kavgaları ve 1141 <b>Katvan Savaşı</b>'nın kaybedilmesi.",
-    "<strong>MISIR'DA KURULAN TÜRK-İSLAM DEVLETLERİ</strong><br>• <b>Tolunoğulları:</b> Mısır'da kurulan ilk Türk-İslam devletidir. Kurucusu Tolunoğlu Ahmet'tir. <b>Maristan</b> adı verilen hastaneler kurmuşlardır. Tevâif-i Mülk devletidir.<br>• <b>İhşidiler (Akşitler):</b> Mısır'da kurulan ikinci devlettir. Kurucusu Muhammed bin Toğaç'tır. <b>Hicaz bölgesine egemen olan ilk Türk devletidir</b>. Bu yüzden kurucusuna 'Akşit' (Beyaz Güneş) ünvanı verilmiştir.<br>• <b>Eyyubiler:</b> Kurucusu Selahattin Eyyubi'dir. 1187 <b>Hıttin Savaşı</b> ile Haçlıları yenerek Kudüs'ü geri almıştır. Selahattin Eyyubi'ye 'Hadimü'l-Harameyn' (Mekke ve Medine'nin Hizmetkarı) ve 'Şark'ın En Sevgili Sultanı' denir.<br>• <b>Memlükler (Devlet-i Aliyye-i Türkiyye):</b> Kelime anlamı 'köle/kölemen'dir. Veraset sistemi farklıdır (Her başarılı komutan tahta geçebilir). Ayn Calûd ve Elbistan savaşlarında <b>Moğolları dünyada ilk kez mağlup eden</b> devlettir. Yavuz Sultan Selim'in Mercidabık ve Ridaniye savaşlarıyla yıkılmışlardır.",
-    "<strong>ANADOLU'DA KURULAN İLK TÜRK BEYLİKLERİ</strong><br>• <b>Danişmentliler:</b> Sivas, Tokat, Malatya civarında kuruldu. Tokat Niksar'daki <b>Yağıbasan Medresesi</b> Anadolu'da kurulan ilk medresedir.<br>• <b>Saltuklular:</b> Erzurum ve çevresinde kuruldu. <b>Anadolu'da kurulan ilk Türk-İslam devletidir.</b> Kale Cami, Üç Kümbetler, Mama Hatun Türbesi onlara aittir.<br>• <b>Mengücekliler:</b> Divriği ve Erzincan'da kuruldu. <b>Divriği Ulu Cami</b> UNESCO korumasındadır. Ünlü fizik alimi Muvaffakidün Abdüllatif bu sarayda destek görmüştür.<br>• <b>Artuklular:</b> Hasankeyf, Harput ve Mardin'de kuruldu. <b>Malabadi Köprüsü</b> en önemli eseridir. Robotik ve sibernetik biliminin kurucusu <b>El-Cezeri</b> bu beylikte çalışmıştır. Marco Polo anılarında onlardan bahseder.<br>• <b>Çaka Devleti:</b> İzmir'de kuruldu. Kurucusu <b>Çaka Bey ilk Türk denizcisidir</b>. Kuruluş yılı olan <b>1081</b>, Deniz Kuvvetleri Komutanlığı'nın kuruluş yılı kabul edilir.",
-    "<strong>DİĞER TÜRK DEVLETLERİ</strong><br>• <b>Akkoyunlular:</b> En önemli lideri Uzun Hasan'dır. Kur'an'ı Türkçe'ye çevirdiler, Dede Korkut hikayelerini yazıya döktüler. 1473 Otlukbeli Savaşı'nda Fatih'e yenildiler. Ali Kuşçu bu devlette de yetişmiştir.<br>• <b>Karakoyunlular:</b> Azerbaycan'ın Türkleşmesinde etkili oldular.<br>• <b>Safeviler:</b> İran'da kurulan Şii karakterli devlettir. 1514 Çaldıran Savaşı'nda Yavuz Sultan Selim'e yenildiler.<br>• <b>Babürler:</b> Hindistan'da kuruldu. Şah Cihan, eşi Mümtaz Mahal için dünyaca ünlü <b>Tac Mahal</b>'i yaptırdı. Babür Şah'ın 'Babürname' adlı otobiyografisi vardır.<br>• <b>Harzemşahlar:</b> Kendilerini BSD'nin devamı saydılar. Moğollara <b>Otrar Faciası</b>'nı yaşattılar. 1230 Yassıçemen Savaşı'nda Anadolu Selçuklu'ya yenilip yıkılma sürecine girdiler.<br>• <b>Timur Devleti:</b> Kurucusu Türk, halkı Moğol'dur. Türk tarihine iki büyük zarar verdi: Ankara Savaşı ile Osmanlı'yı Fetret'e soktu; Altınorda'yı yıkarak Rusların güçlenmesine yol açtı. Uluğ Bey, Ali Şir Nevai bu dönemdedir.<br>• <b>Cengiz (Moğol) İmparatorluğu:</b> 'Yasname-i Büzürg' (Büyük Yasa) töresini uyguladı. Parçalanmasıyla Altınorda (Karadeniz), Çağatay (Doğu Türkistan), İlhanlı (Abbasileri yıkan, Köse Dağ Savaşını yapan) ve Kubilay Hanlığı (Çin'de kurulan, Budist olan, Marco Polo'nun gittiği yer) kuruldu.",
-    "<strong>KÜLTÜR VE MEDENİYET: DEVLET YÖNETİMİ & SARAY</strong><br>• <b>Semboller:</b> Hutbe okutmak, Hilat (Halifenin gönderdiği giysi), Çetr (Ayetli şemsiye), Tiraz, Otağ, Nevbet (Davul), Örgün (Taht), Kılıç, Yay.<br>• <b>Kritik Dönüşüm:</b> Kut anlayışı 'Allah'ın takdirine', Cihan Hakimiyeti ise 'Cihat ve İlay-ı Kelimetullah'a (Allah'ın adını yüceltmek) dönüşmüştür.<br>• <b>Saray Görevlileri:</b><br>- Haris Emri: Cellat / Candar: Padişahın muhafızı<br>- Alemdar: Bayrakdar / Silahdar: Silah sorumlusu<br>- Camedar: Kıyafet sorumlusu / Serhenk: Tören ve yol düzeni<br>- Çaşnigir: Çeşnicibaşı (Yiyecekler) / Hansalar: Aşçıbaşı<br>- Taşdar (Abdar): Puhur, temizlik ve su işleri<br>- <b>Hacip:</b> Sultan ile halk/devlet arasındaki aracıdır, elçileri kabul eder, en önemlisine Hâcibü'l-Hüccâb denir.",
-    "<strong>DİVAN-I SALTANAT (BAKANLAR KURULU)</strong><br>• Karahanlılar bu meclise <b>Meclis-i Ali</b> derdi.<br>• <b>Alt Divanlar:</b><br>- <b>Divan-ı İstifa:</b> Maliye işleri (Başında <i>Müstevfi</i> bulunur)<br>- <b>Divan-ı Arz:</b> Askerlik/Ordu işleri (Başında <i>Emir-i Arz</i> bulunur)<br>- <b>Divan-ı İşraf:</b> İdari ve mali denetim (Başında <i>Müşrif</i> bulunur)<br>- <b>Divan-ı İnşa (Tuğra):</b> Yazışmalar (Başında <i>Tuğrai</i> bulunur)<br>- <b>Divan-ı Berid:</b> Posta ve istihbarat<br>• <b>Niyabet-i Saltanat:</b> Sultan evde yokken toplanır, başında <i>Naip</i> vardır.<br>• <b>Divan-ı Mezalim:</b> Sultanın başkanlık ettiği büyük mahkemedir. Kadı kararlarına itirazlar, devlet memurları hakkındaki şikayetler, vakıf denetimleri ve muhtesibin çözemediği büyük davalar burada karara bağlanır.<br>• <b>Taşra Görevlileri:</b> Amid (Sivil yönetici), Amil (Vergi memuru), Şihne (Askeri vali), Muhtesip (Belediye/Zabıta/Çarşı denetçisi), Atabey (Melik eğiteci). Yuğruş (Karahanlı'da vezir), Hace (Gazneli'de vezir).",
-    "<strong>HUKUK SİSTEMİ</strong><br>• <b>Örfi Hukuk:</b> Gelenek ve törelere dayanır. İdari, askeri ve mali işlere bakar. Başındaki kişi <b>Emir-i Dad</b>'dır.<br>• <b>Şer'i Hukuk:</b> Kur'an, Sünnet, İcma ve Kıyas'a dayanır. Evlenme, boşanma, miras işlerine bakar. Başındaki kişi <b>Kadı'l-Kudat</b>'tır.<br>• Askeri davalara ise <b>Kadıleşker</b> (Kazasker) bakar.",
-    "<strong>TOPRAK YÖNETİMİ & İKTA SİSTEMİ</strong><br>• <b>Miri Toprak (Devletin):</b> Has (Geliri sultana gider), Vakıf (Hayır işleri, satılamaz), İkta.<br>• <b>Mülk Toprak (Şahsın):</b> Öşri (Müslüman toprağı), Haraci (Gayrimüslim toprağı).<br>• <b>İKTA SİSTEMİ:</b> Nizamülmülk'ün <i>Siyasetname</i>'sinde övdüğü sistemdir. Toprak mülkiyeti devlette kalır, vergisi sivil/askeri memurlara maaş karşılığı verilir.<br>• <b>Faydaları:</b> Üretimde süreklilik sağlanır, hazineden para çıkmadan devasa bir ordu kurulur, taşrada güvenlik sağlanır, vergiler düzenli toplanır.<br>• İkta askerine barışta <b>Sipahi</b>, savaşta <b>Cebelü</b> denir.",
-    "<strong>SOSYAL HAYAT TERİMLERİ (ÖSYM BAYILIR)</strong><br>• İmarethane: Aşevi<br>• Kapan: Tek bir cins malın (un, ipek vb.) toptan satıldığı yer<br>• Bedesten: Lüks, kapalı çarşı<br>• Kümbet: Siyasi lider/komutan anıt mezarı (Çadır şekilli)<br>• Türbe: Dini şahsiyetlerin mezarı<br>• Külliye: Caminin etrafındaki yapılar topluluğu<br>• Arasta: Üstü açık/kapalı dükkanlar dizisi, çarşı<br>• Bargah: Saray / Darüşşifa: Hastane / Sebil: Çeşme",
-    "<strong>ORDU YAPISI & GULAM SİSTEMİ</strong><br>• BSD Ordusu: İkta askerleri, Gulamlar (Hassa ve Saray ordusu), Bağlı devlet askerleri ve Türkmenler.<br>• <b>GULAM SİSTEMİ:</b> Savaş esiri veya satın alınan çocukların Gulamhane'de yetiştirilmesidir. <b>İlk kez Karahanlılar uygulamıştır.</b> İslamiyet öncesine göre orduya getirilen en büyük yeniliktir. Gulaman-ı Saray doğrudan sultana bağlıdır ve 3 ayda bir maaş (Bistegani) alırlar. Osmanlı'daki karşılığı <i>Pençik/Devşirme ve Kapıkulu</i> sistemidir.",
-    "<strong>MEDRESE VE EĞİTİM</strong><br>• Semerkand Medresesi: İlk Türk-İslam medresesi (Karahanlılar)<br>• Yağıbasan Medresesi: Anadolu'daki ilk medrese (Danişmentliler)<br>• Nişabur Medresesi: BSD'nin ilk medresesi (Tuğrul Bey)<br>• <b>Nizamiye Medreseleri:</b> BSD'nin en ünlü medresesidir. Alparslan ve Melikşah dönemlerinde kurulmuştur. <br>• <b>Açılma Nedenleri:</b> Batınilik tehlikesine karşı fikirle savaşmak, devlet memuru yetiştirmek, yoksul çocukları okutmak ve İslam inancını pekiştirmek.<br>• <b>Kavramlar:</b> Öğrenciye <i>Suhte/Safta/Danişmend</i>, öğretmene <i>Müderris</i>, diplomaya <i>İcazetname</i> denir. <br>• Hadisçi: Muhaddis, Tefsirci: Müfessir, Fıkıhçı (İslam Hukuku): Fakih.",
-    "<strong>MİMARİ VE SANAT</strong><br>• <b>Dini Mimari:</b> Medrese, kümbet, türbe, cami, tekke, zaviye.<br>• <b>Sivil Mimari:</b> Ribat (Karahanlı kervansarayı - savunma amaçlı da kullanılır), han, hamam, sebil.<br>• <b>Askeri Mimari:</b> Kale, burç, kışla, tersane.<br>• <b>Sanat Dalları:</b><br>- <b>Hat:</b> Güzel yazı yazma sanatı (Uğraşana Hattat denir. İlk büyük Türk hattat <i>Amasyalı Yakut</i>'tur).<br>- <b>Minyatür:</b> Perspektifsiz, statüye göre çizilen derinliksiz resim (Uğraşana Nakkaş/Musavvir denir).<br>- <b>Tezhip:</b> Kitap süsleme, altınlama sanatı (Uğraşana Müzehhip denir).<br>- Diğerleri: Telkari (Gümüş), Malakari (Duvar alçı kabartma), Vitray (Cam süsleme), Ebru.",
-    "<strong>TÜRK-İSLAM BİLİM İNSANLARI - I</strong><br>• <b>Farabi (Muallim-i Sani / El-Farabus):</b> İslam dünyasında pozitif bilimleri başlattı. <i>Kitabü'l-Musiki</i> (İlk modern müzik kitabı) ve <i>El-Medinetü'l-Fazıla</i> (Erdemli Şehir - ilk siyaset felsefesi) eserlerini yazdı. Logaritmayı buldu, BM fikrini ilk o attı.<br>• <b>Gazali (Hüccetü'l-İslam):</b> Büyük felsefeci ve müderristir. Batıniliğe karşı fikirler üretti. En ünlü eseri <i>İhyaü'l-Ulumiddin</i> (Dini ilimlerin ihyası) ve Kimyayı Saadet'tir.<br>• <b>Biruni (El-Üstad / Alberoni):</b> Gazneli Mahmut'un 'Sarayımın en kıymetli hazinesi' dediği kişidir. Newton'dan önce yerçekimini söyledi. Eserleri: <i>Asarü'l-Bakiye</i> ve <i>Tahkiku Mali'l-Hind</i>.<br>• <b>İbn-i Sina (Avicenna):</b> Tıbbın hükümdarıdır. Mikrobu tarif etti ('İnsanın içinde bir kurt vardır...'). İlk kez mide ameliyatı yaptı, şekeri buldu. Dünyaca ünlü tıp kitabı <b>El-Kanun fi't-Tıp</b> ve felsefi eseri Kitabü'ş-Şifa'dır. Astronomi için Azimut Halkası'nı buldu.<br>• <b>Razi:</b> Çiçek ve kızamık hastalıklarının farkını bulan tıpçıdır.",
-    "<strong>TÜRK-İSLAM BİLİM İNSANLARI - II</strong><br>• <b>Cabir bin Hayyam (Geber):</b> Modern kimyanın kurucusudur. İlk kez hassas terazi kullandı, atomun parçalanabileceğini söyledi, birçok asidi keşfetti. <i>Kitabü'l-Kimya</i> eseridir.<br>• <b>Harezmi:</b> Matematikçi ve astronomdur. <b>Cebirin kurucusudur</b>. 'Sıfır' (0) rakamını ve ondalık sistemi matematiğe kazandırdı. eseri: <i>Hisabü'l-Cebr ve'l-Mukabele</i>.<br>• <b>İbn-i Rüşd (Averroes / Zamanın Voltaire'i):</b> Endülüslü felsefecidir. Akılcılığı savundu, Aristo'yu Avrupa'ya tanıttı. Güneş lekelerini gözlemledi.<br>• <b>İbn-ül Heysem:</b> Optik biliminin kurucusudur, <b>fotoğraf makinesinin mucididir</b> (Karanlık oda). Eseri: <i>Kitabü'l-Menazir</i>.<br>• <b>Ömer Hayyam:</b> Matematikçi ve astronomdur. 2. ve 3. derece denklemleri çözdü. Melikşah'a sunulan <b>Celali Takvimi</b> heyetine başkanlık etti. Rubaileri ile ünlüdür.<br>• <b>İdrisi:</b> Batı Avrupa'yı aslına uygun çizen dünyaca ünlü coğrafyacıdır.",
-    "<strong>İLK TÜRK-İSLAM YAZILI ESERLERİ</strong><br>• <b>Yusuf Has Hacip - Kutadgu Bilig (Mutluluk Veren Bilgi):</b> İlk Türk-İslam yazılı eseridir. Siyasetname türündedir. Alegoriktir (Adalet, devlet, akıl ve kanaati temsil eden 4 karakter vardır). <b>Tamgaç Buğra Han</b>'a sunulmuştur.<br>• <b>Kaşgarlı Mahmut - Divanü Lügat-it Türk:</b> İlk Türkçe ansiklopedik sözlüktür. Araplara Türkçe öğretmek ve Türkçenin zenginliğini kanıtlamak için Arapça yazılmıştır. İçinde Türk dünyası haritası vardır. Halife <b>El-Muktedibillah</b>'a sunulmuştur.<br>• <b>Edip Ahmet Yükneki - Atabetü'l-Hakayık (Hakikatlerin Eşiği):</b> Nasihatname, ahlak ve tasavvuf kitabıdır. Kutadgu Bilig'in devamı niteliğindedir.<br>• <b>Ahmet Yesevi - Divan-ı Hikmet:</b> İlk Türk tasavvuf eseridir. Kendisi 'Piri Türkistan' olarak bilinir ve ilk Türk mutasavvıftır. Mezarını yüzyıllar sonra Timur yaptırmıştır.<br>• <b>Firdevsi - Şehname:</b> Gazneli Mahmut'un sunulan biyografik şaheserdir. İran-Turan (Alp Er Tunga - Afrasiyab) mücadelelerini anlatır.<br>• <b>Ali Şir Nevai - Mühakemetü'l-Lügateyn:</b> Türkçenin Farsçadan üstün olduğunu kanıtlamak için yazılmıştır. Çağatay Türkçesi ile kaleme alınmıştır.<br>• <b>Utbi - Tarih-i Yemin:</b> Gaznelileri anlatan tarih eseridir."
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-rose-100 dark:bg-rose-900/50 text-rose-700 dark:text-rose-300 font-black text-sm uppercase tracking-wider">
+            ⚔️ TALAS SAVAŞI (751)
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-lg mx-auto text-sm sm:text-base">
+        <div class="bg-rose-50 dark:bg-rose-900/20 p-3 rounded-xl border border-rose-100 dark:border-rose-800/30">
+            Diğer adı <b class="text-rose-600 dark:text-rose-400">Atlık Savaşı</b>'dır. Karlukların yardımıyla Abbasiler Çinlileri mağlup etmiştir. Emeviler'in Arap olmayan Müslümanları ikinci sınıf görme politikasına <b>Mevali</b> denir.
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl">
+            <h4 class="font-bold border-b pb-1 mb-2">Sonuçları</h4>
+            <ul class="list-disc list-inside space-y-1 text-sm">
+                <li>Türkler (özellikle Karluklar) kitleler halinde İslamiyeti benimsedi.</li>
+                <li>Kağıt, matbaa, mürekkep, pusula ve barut yapımı öğrenildi. <i>(Kağıt <b class="text-rose-500">ilk defa</b> Semerkant'ta üretildi.)</i></li>
+                <li>Tarım havzası Uygurların eline geçti, Uygur eserleri batıya taşındı.</li>
+            </ul>
+        </div>
+        <div class="grid grid-cols-3 gap-2 text-center text-xs">
+            <div class="bg-white dark:bg-slate-800 p-2 rounded shadow-sm"><b>Semerkant</b><br><i class="text-slate-500">Şehirlerin Şahı</i></div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded shadow-sm"><b>Kaşgar</b><br><i class="text-slate-500">Işıldayan İnci</i></div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded shadow-sm"><b>Buhara</b><br><i class="text-slate-500">İslam'ın Roma'sı</i></div>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300 font-black text-sm uppercase tracking-wider">
+            🌍 İSLAMİYETİ KABULÜN ETKİLERİ
+        </span>
+    </div>
+    <ul class="space-y-3 text-left w-full max-w-md mx-auto">
+        <li class="flex items-start gap-3 bg-emerald-50 dark:bg-emerald-900/20 p-3 rounded-xl border border-emerald-100 dark:border-emerald-800/30">
+            <span class="text-xl">🛡️</span> 
+            <span>Müslümanları <b>Bizans baskısına</b> karşı korumuşlardır.</span>
+        </li>
+        <li class="flex items-start gap-3 bg-emerald-50 dark:bg-emerald-900/20 p-3 rounded-xl border border-emerald-100 dark:border-emerald-800/30">
+            <span class="text-xl">🌐</span> 
+            <span>İslamiyeti <b>dünyanın dört bir yanına</b> yaymışlardır.</span>
+        </li>
+        <li class="flex items-start gap-3 bg-emerald-50 dark:bg-emerald-900/20 p-3 rounded-xl border border-emerald-100 dark:border-emerald-800/30">
+            <span class="text-xl">⚔️</span> 
+            <span><b>Haçlı Seferlerine</b> karşı kahramanca savaşmışlardır.</span>
+        </li>
+        <li class="flex items-start gap-3 bg-emerald-50 dark:bg-emerald-900/20 p-3 rounded-xl border border-emerald-100 dark:border-emerald-800/30">
+            <span class="text-xl">🧠</span> 
+            <span>Önemli bilim insanları yetiştirmişler; fethedilen bölgelere Türkçe/Arapça isimler vererek <b>din ve dilin yayılmasını</b> sağlamışlardır.</span>
+        </li>
+    </ul>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-black text-sm uppercase tracking-wider">
+            🏛️ ORTA ASYA TÜRK-İSLAM DEVLETLERİ
+        </span>
+    </div>
+    <div class="flex flex-col gap-4 text-left max-w-xl mx-auto">
+        <div class="bg-indigo-50 dark:bg-indigo-900/20 p-4 rounded-2xl border-l-4 border-indigo-500">
+            <h4 class="font-black text-indigo-700 dark:text-indigo-400 mb-1">Karahanlılar (Afrasiyaboğulları)</h4>
+            <p class="text-sm mb-1">Orta Asya'da kurulan <b class="text-rose-500">ilk</b> Müslüman Türk devleti. Kurucu: Bilge Kül Kadir Han (Merkez: Balasagun). Yönetici ve halkı tamamen Türk'tür. Satuk Buğra Han döneminde İslam kabul edildi.</p>
+            <p class="text-xs bg-white dark:bg-slate-800 p-2 rounded mt-2">Tamgaç Buğra Han Semerkant Medresesi'ni açıp <b class="text-indigo-600">ilk burslu öğrencilik</b> sistemini başlattı. <b>Gulam sistemi</b> ve <b>Ribat</b> (kervansaray) ilk onlarda başladı. İlk yazılı edebi eserleri verdiler.</p>
+        </div>
+        <div class="bg-cyan-50 dark:bg-cyan-900/20 p-4 rounded-2xl border-l-4 border-cyan-500">
+            <h4 class="font-black text-cyan-700 dark:text-cyan-400 mb-1">Gazneliler</h4>
+            <p class="text-sm">Kurucu Alp Tigin. En parlak dönem: <b>Gazneli Mahmut</b> (Sultan ünvanını kullanan <b class="text-rose-500">ilk</b> hükümdar). Hindistan'a 17 sefer yapıp İslam'ı yaydı ('Put Kırıcı'). Selçuklularla <b>Dandanakan</b>'ı yapıp zayıfladılar, Gurlular yıktı.</p>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-black text-sm uppercase tracking-wider">
+            🦅 BÜYÜK SELÇUKLU DEVLETİ (BSD)
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-xl mx-auto text-sm">
+        <div class="bg-slate-50 dark:bg-slate-700/30 p-3 rounded-xl border border-slate-200 dark:border-slate-600 flex justify-between items-center">
+            <span>1040 Dandanakan ile İran'da kuruldu (Kınık boyu).</span>
+            <span class="font-bold">Kurucu: Tuğrul Bey</span>
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+            <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg text-xs"><b>Tuğrul Bey (1058 Bağdat):</b><br>Doğu'nun ve Batı'nın Hükümdarı</div>
+            <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded-lg text-xs"><b>Alparslan (1064 Ani):</b><br>Ebu'l-Feth (Fetihlerin Babası)</div>
+        </div>
+        <div class="bg-rose-50 dark:bg-rose-900/20 p-3 rounded-xl border-l-4 border-rose-500 mt-2">
+            <b class="text-rose-700 dark:text-rose-400">1071 Malazgirt Savaşı (Yurt Açan):</b> Anadolu'nun kapısı açıldı. İlk beylikler kuruldu. Romen Diyojen esir düştü. Alparslan: <i>'İslam Ülkelerinin Sultanı'</i>. Peçenek, Uz ve Kumanlar taraf değiştirdi.
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700/30 p-3 rounded-xl text-xs">
+            En parlak dönem <b>Sultan Melikşah</b> (Vezir: Nizamülmülk). <br><b class="text-red-500">Yıkılış Nedenleri:</b> Batınilik (Hasan Sabbah), Abbasi oyunları, Oğuz isyanı, taht kavgaları ve <b>1141 Katvan Savaşı</b> yenilgisi.
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
+            🐪 MISIR'DA KURULAN TÜRK-İSLAM DEVLETLERİ
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-xl mx-auto">
+        <div class="bg-white dark:bg-slate-700/50 p-3 rounded-xl shadow-sm border border-amber-100 dark:border-slate-600">
+            <h4 class="font-bold text-amber-600 dark:text-amber-400">Tolunoğulları</h4>
+            <p class="text-xs">Mısır'da kurulan <b class="text-rose-500">ilk</b> Türk-İslam devleti. <b>Maristan</b> (hastane) kurdular. Tevâif-i Mülk'tür.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-700/50 p-3 rounded-xl shadow-sm border border-amber-100 dark:border-slate-600">
+            <h4 class="font-bold text-amber-600 dark:text-amber-400">İhşidiler (Akşitler)</h4>
+            <p class="text-xs">Hicaz'a egemen olan <b class="text-rose-500">ilk</b> devlettir. Kurucu Muhammed bin Toğaç'a <i>Akşit (Beyaz Güneş)</i> dendi.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-700/50 p-3 rounded-xl shadow-sm border border-amber-100 dark:border-slate-600">
+            <h4 class="font-bold text-amber-600 dark:text-amber-400">Eyyubiler</h4>
+            <p class="text-xs"><b>1187 Hıttin Savaşı</b> ile Kudüs'ü geri aldılar. Selahattin Eyyubi: <i>'Hadimü'l-Harameyn'</i>.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-700/50 p-3 rounded-xl shadow-sm border border-amber-100 dark:border-slate-600">
+            <h4 class="font-bold text-amber-600 dark:text-amber-400">Memlükler</h4>
+            <p class="text-xs">Moğolları dünyada <b class="text-rose-500">ilk kez</b> mağlup eden devlettir (Ayn Calûd, Elbistan). Veraset farklıdır (komutan tahta geçer). Yavuz yıktı.</p>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-teal-100 dark:bg-teal-900/50 text-teal-700 dark:text-teal-300 font-black text-sm uppercase tracking-wider">
+            ⛰️ ANADOLU'DA KURULAN İLK TÜRK BEYLİKLERİ
+        </span>
+    </div>
+    <ul class="space-y-3 text-left max-w-xl mx-auto text-sm">
+        <li class="bg-teal-50 dark:bg-teal-900/20 p-3 rounded-xl border-l-4 border-teal-500">
+            <b>Danişmentliler (Sivas, Tokat, Malatya):</b> Tokat Niksar'daki <b>Yağıbasan Medresesi</b> Anadolu'da kurulan <b class="text-rose-500">ilk</b> medresedir.
+        </li>
+        <li class="bg-teal-50 dark:bg-teal-900/20 p-3 rounded-xl border-l-4 border-teal-500">
+            <b>Saltuklular (Erzurum):</b> Anadolu'da kurulan <b class="text-rose-500">ilk</b> Türk-İslam devletidir. Kale Cami, Üç Kümbetler, Mama Hatun.
+        </li>
+        <li class="bg-teal-50 dark:bg-teal-900/20 p-3 rounded-xl border-l-4 border-teal-500">
+            <b>Mengücekliler (Divriği, Erzincan):</b> <b>Divriği Ulu Cami</b> (UNESCO). Fizikçi Muvaffakidün Abdüllatif burada yaşadı.
+        </li>
+        <li class="bg-teal-50 dark:bg-teal-900/20 p-3 rounded-xl border-l-4 border-teal-500">
+            <b>Artuklular (Hasankeyf, Harput, Mardin):</b> <b>Malabadi Köprüsü</b>. Sibernetik kurucusu <b>El-Cezeri</b> burada çalıştı. Marco Polo bahseder.
+        </li>
+        <li class="bg-cyan-50 dark:bg-cyan-900/20 p-3 rounded-xl border-l-4 border-cyan-500">
+            <b>Çaka Devleti (İzmir):</b> <b>Çaka Bey ilk Türk denizcisidir.</b> 1081, Deniz Kuvvetleri'nin kuruluşudur.
+        </li>
+    </ul>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-fuchsia-100 dark:bg-fuchsia-900/50 text-fuchsia-700 dark:text-fuchsia-300 font-black text-sm uppercase tracking-wider">
+            🛡️ DİĞER TÜRK DEVLETLERİ
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto">
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+            <h4 class="font-bold text-fuchsia-600 dark:text-fuchsia-400 mb-1">Akkoyunlular & Karakoyunlular</h4>
+            <p class="text-xs"><b>Akkoyunlular:</b> Kur'an'ı çevirdi, Dede Korkut'u yazdı. (Uzun Hasan). Otlukbeli'nde Fatih'e yenildi.<br><b>Karakoyunlular:</b> Azerbaycan'ın Türkleşmesi.</p>
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+            <h4 class="font-bold text-fuchsia-600 dark:text-fuchsia-400 mb-1">Safeviler & Babürler</h4>
+            <p class="text-xs"><b>Safevi:</b> İran/Şii. Çaldıran'da Yavuz'a yenildi.<br><b>Babür:</b> Hindistan. Şah Cihan eşi için <b>Tac Mahal</b>'i yaptırdı. (Babürname).</p>
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+            <h4 class="font-bold text-fuchsia-600 dark:text-fuchsia-400 mb-1">Harzemşahlar & Timur</h4>
+            <p class="text-xs"><b>Harzemşah:</b> BSD devamı. Otrar Faciası. 1230 Yassıçemen ile yıkılış.<br><b>Timur:</b> Osmanlı'yı Fetret'e soktu. Altınorda'yı yıkıp Rusları güçlendirdi.</p>
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+            <h4 class="font-bold text-fuchsia-600 dark:text-fuchsia-400 mb-1">Cengiz İmparatorluğu</h4>
+            <p class="text-xs">Büyük Yasa. Altınorda, Çağatay, İlhanlı (Abbasileri yıkan/Kösedağ) ve Kubilay (Budist/Marco Polo) olarak ayrıldı.</p>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 font-black text-sm uppercase tracking-wider">
+            👑 DEVLET YÖNETİMİ & SARAY
+        </span>
+    </div>
+    <div class="space-y-4 text-left max-w-xl mx-auto text-sm">
+        <div class="bg-purple-50 dark:bg-purple-900/20 p-3 rounded-xl">
+            <b class="text-purple-700 dark:text-purple-400">Semboller:</b> Hutbe, Hilat (Giysi), Çetr (Şemsiye), Tiraz, Otağ, Nevbet, Örgün (Taht), Kılıç, Yay.
+            <div class="mt-2 text-xs italic text-slate-600 dark:text-slate-400 border-t pt-2">
+                <b>Kritik:</b> Kut ➡️ 'Allah'ın takdirine', Cihan Hakimiyeti ➡️ 'Cihat ve İlay-ı Kelimetullah'a dönüştü.
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-2 text-xs">
+            <div class="bg-white dark:bg-slate-800 p-2 rounded border border-slate-200 dark:border-slate-700"><b>Haris Emri:</b> Cellat / Candar</div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded border border-slate-200 dark:border-slate-700"><b>Alemdar / Silahdar</b></div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded border border-slate-200 dark:border-slate-700"><b>Camedar / Serhenk:</b> Yol/Tören</div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded border border-slate-200 dark:border-slate-700"><b>Çaşnigir / Hansalar:</b> Aşçı</div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded border border-slate-200 dark:border-slate-700"><b>Taşdar (Abdar):</b> Temizlik/Su</div>
+            <div class="bg-rose-50 dark:bg-rose-900/20 p-2 rounded border border-rose-200 dark:border-rose-800"><b>Hacip:</b> Sultan ile halk aracısı</div>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-sky-100 dark:bg-sky-900/50 text-sky-700 dark:text-sky-300 font-black text-sm uppercase tracking-wider">
+            ⚖️ DİVAN-I SALTANAT (BAKANLAR KURULU)
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-xl mx-auto text-sm">
+        <p class="text-xs bg-slate-100 dark:bg-slate-800 p-2 rounded">Karahanlılar bu meclise <b>Meclis-i Ali</b> derdi.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div class="bg-sky-50 dark:bg-sky-900/20 p-3 rounded-xl border border-sky-100 dark:border-sky-800/30">
+                <ul class="space-y-1 text-xs">
+                    <li><b>Divan-ı İstifa:</b> Maliye <i>(Müstevfi)</i></li>
+                    <li><b>Divan-ı Arz:</b> Askerlik <i>(Emir-i Arz)</i></li>
+                    <li><b>Divan-ı İşraf:</b> Denetim <i>(Müşrif)</i></li>
+                    <li><b>Divan-ı İnşa:</b> Yazışma <i>(Tuğrai)</i></li>
+                    <li><b>Divan-ı Berid:</b> Posta/İstihbarat</li>
+                </ul>
+            </div>
+            <div class="space-y-2">
+                <div class="bg-orange-50 dark:bg-orange-900/20 p-2 rounded-lg text-xs">
+                    <b>Niyabet-i Saltanat:</b> Sultan yokken <i>(Naip)</i>
+                </div>
+                <div class="bg-rose-50 dark:bg-rose-900/20 p-2 rounded-lg text-xs border-l-2 border-rose-500">
+                    <b>Divan-ı Mezalim:</b> Büyük mahkeme. Şikayetler, vakıf, büyük davalar (Başkan: Sultan).
+                </div>
+            </div>
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-2 rounded-lg text-xs flex flex-wrap gap-2">
+            <b>Taşra:</b> <span>Amid (Sivil)</span>, <span>Amil (Vergi)</span>, <span>Şihne (Askeri)</span>, <span>Muhtesip (Belediye)</span>, <span>Atabey (Eğitici)</span>, <span>Yuğruş/Hace (Vezir)</span>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-slate-200 font-black text-sm uppercase tracking-wider">
+            📜 HUKUK SİSTEMİ
+        </span>
+    </div>
+    <div class="flex flex-col sm:flex-row gap-3 text-left w-full max-w-lg mx-auto">
+        <div class="flex-1 bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-600 shadow-sm">
+            <h4 class="font-bold text-slate-700 dark:text-slate-300 mb-2 border-b pb-1">Örfi Hukuk</h4>
+            <p class="text-sm">Gelenek ve töre. İdari, askeri ve mali işlere bakar.<br><br>👉 Başkanı: <b class="text-indigo-600 dark:text-indigo-400">Emir-i Dad</b></p>
+        </div>
+        <div class="flex-1 bg-white dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-600 shadow-sm">
+            <h4 class="font-bold text-slate-700 dark:text-slate-300 mb-2 border-b pb-1">Şer'i Hukuk</h4>
+            <p class="text-sm">Kur'an, Sünnet. Evlenme, boşanma, miras işlerine bakar.<br><br>👉 Başkanı: <b class="text-indigo-600 dark:text-indigo-400">Kadı'l-Kudat</b></p>
+        </div>
+    </div>
+    <div class="mt-3 bg-red-50 dark:bg-red-900/20 text-red-700 dark:text-red-400 p-3 rounded-lg text-sm max-w-lg mx-auto">
+        ⚔️ Askeri davalara ise <b>Kadıleşker (Kazasker)</b> bakar.
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-lime-100 dark:bg-lime-900/50 text-lime-700 dark:text-lime-300 font-black text-sm uppercase tracking-wider">
+            🌱 TOPRAK YÖNETİMİ & İKTA SİSTEMİ
+        </span>
+    </div>
+    <div class="space-y-4 text-left max-w-xl mx-auto text-sm">
+        <div class="grid grid-cols-2 gap-3">
+            <div class="bg-lime-50 dark:bg-lime-900/20 p-3 rounded-xl border border-lime-200 dark:border-lime-800">
+                <b class="text-lime-700 dark:text-lime-400">Miri Toprak (Devlet)</b><br>
+                <span class="text-xs">Has, Vakıf (Satılamaz), İkta.</span>
+            </div>
+            <div class="bg-amber-50 dark:bg-amber-900/20 p-3 rounded-xl border border-amber-200 dark:border-amber-800">
+                <b class="text-amber-700 dark:text-amber-400">Mülk Toprak (Şahıs)</b><br>
+                <span class="text-xs">Öşri (Müslüman), Haraci (Gayrimüslim).</span>
+            </div>
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-4 rounded-xl border-l-4 border-lime-500">
+            <h4 class="font-black text-lg mb-1">İkta Sistemi</h4>
+            <p class="mb-2 text-xs text-slate-600 dark:text-slate-400">Nizamülmülk'ün Siyasetname'sinde övülür. Toprak devlette kalır, vergi memurlara maaş olarak verilir.</p>
+            <b class="text-lime-700 dark:text-lime-400">Faydaları:</b> Üretimde süreklilik, hazineden para çıkmadan ordu, taşrada güvenlik, düzenli vergi.<br>
+            <i>👉 İkta askerine barışta <b>Sipahi</b>, savaşta <b>Cebelü</b> denir.</i>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-orange-100 dark:bg-orange-900/50 text-orange-700 dark:text-orange-300 font-black text-sm uppercase tracking-wider">
+            🏘️ SOSYAL HAYAT TERİMLERİ (ÖSYM)
+        </span>
+    </div>
+    <div class="grid grid-cols-2 gap-2 text-left text-sm max-w-xl mx-auto">
+        <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-orange-100 dark:border-slate-700"><b>İmarethane:</b> Aşevi</div>
+        <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-orange-100 dark:border-slate-700"><b>Kapan:</b> Tek cins mal, toptancı</div>
+        <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-orange-100 dark:border-slate-700"><b>Bedesten:</b> Lüks kapalı çarşı</div>
+        <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-orange-100 dark:border-slate-700"><b>Arasta:</b> Üstü açık/kapalı çarşı</div>
+        <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-orange-100 dark:border-slate-700"><b>Kümbet:</b> Anıt mezar (Çadır tipli)</div>
+        <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-orange-100 dark:border-slate-700"><b>Türbe:</b> Dini şahsiyet mezarı</div>
+        <div class="bg-white dark:bg-slate-800 p-2 rounded-lg shadow-sm border border-orange-100 dark:border-slate-700 col-span-2"><b>Külliye:</b> Cami merkezli yapılar topluluğu</div>
+        <div class="bg-slate-100 dark:bg-slate-700 p-2 rounded-lg col-span-2 text-center text-xs">
+            Bargah: Saray | Darüşşifa: Hastane | Sebil: Çeşme
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            ⚔️ ORDU YAPISI & GULAM SİSTEMİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-xl mx-auto text-sm">
+        <p class="bg-slate-100 dark:bg-slate-800 p-3 rounded-lg"><b>BSD Ordusu:</b> İkta askerleri, Gulamlar, Bağlı devlet askerleri ve Türkmenler.</p>
+        <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border border-red-200 dark:border-red-800/30">
+            <h4 class="font-black text-lg text-red-700 dark:text-red-400 mb-2">Gulam Sistemi</h4>
+            <p class="mb-2">Esir/satın alınan çocukların yetiştirilmesidir. <b class="text-rose-600">İlk kez Karahanlılar uygulamıştır.</b> İslamiyet öncesine göre en büyük yeniliktir.</p>
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Gulaman-ı Saray sultana bağlıdır, maaşına <b>Bistegani</b> denir.</li>
+                <li>Osmanlı'daki karşılığı: <i>Pençik/Devşirme ve Kapıkulu</i>.</li>
+            </ul>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-cyan-100 dark:bg-cyan-900/50 text-cyan-700 dark:text-cyan-300 font-black text-sm uppercase tracking-wider">
+            📚 MEDRESE VE EĞİTİM
+        </span>
+    </div>
+    <div class="space-y-4 text-left max-w-xl mx-auto text-sm">
+        <ul class="space-y-2">
+            <li class="bg-cyan-50 dark:bg-cyan-900/20 p-2 rounded-lg flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-500"></span> <b>Semerkand:</b> <span class="ml-auto text-xs text-rose-500">İlk Türk-İslam (Karahanlı)</span></li>
+            <li class="bg-cyan-50 dark:bg-cyan-900/20 p-2 rounded-lg flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-500"></span> <b>Yağıbasan:</b> <span class="ml-auto text-xs text-rose-500">Anadolu'daki İlk (Danişment)</span></li>
+            <li class="bg-cyan-50 dark:bg-cyan-900/20 p-2 rounded-lg flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-cyan-500"></span> <b>Nişabur:</b> <span class="ml-auto text-xs text-slate-500">BSD İlk (Tuğrul Bey)</span></li>
+            <li class="bg-indigo-50 dark:bg-indigo-900/20 p-2 rounded-lg flex items-center gap-2 border-l-4 border-indigo-500"> <b>Nizamiye:</b> <span class="ml-auto text-xs text-indigo-600 dark:text-indigo-400 font-bold">BSD En Ünlü (Alparslan/Melikşah)</span></li>
+        </ul>
+        <div class="bg-slate-50 dark:bg-slate-700/50 p-3 rounded-xl border border-slate-200 dark:border-slate-600">
+            <p class="text-xs mb-2"><b>Açılma Nedenleri:</b> Batınilik ile savaşmak, memur yetiştirmek, yoksulu okutmak.</p>
+            <div class="flex flex-wrap gap-2 text-xs font-bold text-slate-700 dark:text-slate-300">
+                <span class="bg-white dark:bg-slate-800 px-2 py-1 rounded">Öğrenci: Suhte/Danişmend</span>
+                <span class="bg-white dark:bg-slate-800 px-2 py-1 rounded">Öğretmen: Müderris</span>
+                <span class="bg-white dark:bg-slate-800 px-2 py-1 rounded">Diploma: İcazetname</span>
+                <span class="bg-white dark:bg-slate-800 px-2 py-1 rounded">Hadis: Muhaddis</span>
+                <span class="bg-white dark:bg-slate-800 px-2 py-1 rounded">Tefsir: Müfessir</span>
+                <span class="bg-white dark:bg-slate-800 px-2 py-1 rounded">Fıkıh: Fakih</span>
+            </div>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-pink-100 dark:bg-pink-900/50 text-pink-700 dark:text-pink-300 font-black text-sm uppercase tracking-wider">
+            🎨 MİMARİ VE SANAT
+        </span>
+    </div>
+    <div class="flex flex-col sm:flex-row gap-4 text-left w-full max-w-2xl mx-auto text-sm">
+        <div class="flex-1 space-y-2">
+            <div class="bg-slate-50 dark:bg-slate-700/50 p-2 rounded-lg border-l-4 border-pink-500"><b>Dini:</b> Medrese, kümbet, türbe, cami, tekke, zaviye.</div>
+            <div class="bg-slate-50 dark:bg-slate-700/50 p-2 rounded-lg border-l-4 border-pink-500"><b>Sivil:</b> Ribat (Savunma da olur), han, hamam, sebil.</div>
+            <div class="bg-slate-50 dark:bg-slate-700/50 p-2 rounded-lg border-l-4 border-pink-500"><b>Askeri:</b> Kale, burç, kışla, tersane.</div>
+        </div>
+        <div class="flex-1 bg-pink-50 dark:bg-pink-900/20 p-3 rounded-xl border border-pink-100 dark:border-pink-800/30">
+            <h4 class="font-bold border-b pb-1 mb-2">Sanat Dalları</h4>
+            <ul class="space-y-1 text-xs">
+                <li><b>Hat:</b> Güzel yazı (Hattat). <i>İlk büyük: Amasyalı Yakut</i>.</li>
+                <li><b>Minyatür:</b> Perspektifsiz resim (Nakkaş/Musavvir).</li>
+                <li><b>Tezhip:</b> Kitap süsleme/altınlama (Müzehhip).</li>
+                <li><b>Diğer:</b> Telkari (Gümüş), Malakari (Alçı), Vitray (Cam), Ebru.</li>
+            </ul>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-emerald-100 dark:bg-emerald-900/50 text-emerald-700 dark:text-emerald-300 font-black text-sm uppercase tracking-wider">
+            🔬 TÜRK-İSLAM BİLİM İNSANLARI - I
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto">
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-emerald-100 dark:border-slate-700">
+            <div class="font-bold text-emerald-600 dark:text-emerald-400">Farabi (Muallim-i Sani)</div>
+            <p class="text-xs mt-1">Pozitif bilimleri başlattı. <i>Kitabü'l-Musiki</i>, <i>El-Medinetü'l-Fazıla</i>. Logaritmayı buldu, BM fikrini attı.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-emerald-100 dark:border-slate-700">
+            <div class="font-bold text-emerald-600 dark:text-emerald-400">Gazali (Hüccetü'l-İslam)</div>
+            <p class="text-xs mt-1">Batıniliğe karşı savaştı. Eser: <i>İhyaü'l-Ulumiddin</i>, Kimyayı Saadet.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-emerald-100 dark:border-slate-700">
+            <div class="font-bold text-emerald-600 dark:text-emerald-400">Biruni (El-Üstad)</div>
+            <p class="text-xs mt-1">Gazneli'nin "Sarayımın incisi". Newton'dan önce yerçekimi. Eser: <i>Asarü'l-Bakiye</i>, <i>Tahkiku Mali'l-Hind</i>.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-emerald-100 dark:border-slate-700">
+            <div class="font-bold text-emerald-600 dark:text-emerald-400">İbn-i Sina (Avicenna)</div>
+            <p class="text-xs mt-1">Tıbbın hükümdarı. Mikrobu tarif etti, şekeri buldu. Eser: <b>El-Kanun fi't-Tıp</b>, Şifa. Azimut Halkası.</p>
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700 p-2 rounded-lg col-span-1 sm:col-span-2 text-xs text-center font-bold">
+            Razi: Çiçek ve kızamık hastalıklarının farkını bulan tıpçı.
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-teal-100 dark:bg-teal-900/50 text-teal-700 dark:text-teal-300 font-black text-sm uppercase tracking-wider">
+            🔭 TÜRK-İSLAM BİLİM İNSANLARI - II
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto">
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-teal-100 dark:border-slate-700">
+            <div class="font-bold text-teal-600 dark:text-teal-400">Cabir bin Hayyam (Geber)</div>
+            <p class="text-xs mt-1">Modern kimyanın kurucusu. Hassas terazi, atomun parçalanması. Eser: <i>Kitabü'l-Kimya</i>.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-teal-100 dark:border-slate-700">
+            <div class="font-bold text-teal-600 dark:text-teal-400">Harezmi</div>
+            <p class="text-xs mt-1"><b>Cebirin kurucusu.</b> '0' rakamı ve ondalık sistem. Eser: <i>Hisabü'l-Cebr ve'l-Mukabele</i>.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-teal-100 dark:border-slate-700">
+            <div class="font-bold text-teal-600 dark:text-teal-400">İbn-i Rüşd (Averroes)</div>
+            <p class="text-xs mt-1">Zamanın Voltaire'i. Endülüslü, akılcı, Aristo'yu tanıttı. Güneş lekeleri.</p>
+        </div>
+        <div class="bg-white dark:bg-slate-800 p-3 rounded-xl shadow-sm border border-teal-100 dark:border-slate-700">
+            <div class="font-bold text-teal-600 dark:text-teal-400">İbn-ül Heysem</div>
+            <p class="text-xs mt-1">Optik biliminin kurucusu, <b>fotoğraf makinesi mucidi.</b> Eser: <i>Kitabü'l-Menazir</i>.</p>
+        </div>
+        <div class="bg-slate-50 dark:bg-slate-700 p-2 rounded-lg col-span-1 sm:col-span-2 text-xs flex justify-around">
+            <span><b>Ömer Hayyam:</b> Celali Takvimi (Melikşah), 3. derece denklem, Rubai.</span>
+            <span><b>İdrisi:</b> Coğrafyacı (Batı Avrupa'yı çizen).</span>
+        </div>
+    </div>
+    `,
+
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-black text-sm uppercase tracking-wider">
+            📖 İLK TÜRK-İSLAM YAZILI ESERLERİ
+        </span>
+    </div>
+    <ul class="space-y-3 text-left w-full max-w-2xl mx-auto text-sm">
+        <li class="bg-indigo-50 dark:bg-indigo-900/20 p-3 rounded-xl border-l-4 border-indigo-500">
+            <b>Yusuf Has Hacip - Kutadgu Bilig:</b> <span class="text-rose-500 font-bold">İlk Türk-İslam yazılı eseri.</span> Siyasetname, Alegorik. <b>Tamgaç Buğra Han</b>'a sunuldu.
+        </li>
+        <li class="bg-indigo-50 dark:bg-indigo-900/20 p-3 rounded-xl border-l-4 border-indigo-500">
+            <b>Kaşgarlı Mahmut - Divanü Lügat-it Türk:</b> İlk ansiklopedik sözlük. Zenginliği kanıtlamak için Arapça yazıldı (Harita var). Halife <b>El-Muktedibillah</b>'a sunuldu.
+        </li>
+        <li class="bg-indigo-50 dark:bg-indigo-900/20 p-3 rounded-xl border-l-4 border-indigo-500">
+            <b>Edip Ahmet Yükneki - Atabetü'l-Hakayık:</b> Nasihatname, ahlak, tasavvuf. (K.Bilig'in devamı).
+        </li>
+        <li class="bg-indigo-50 dark:bg-indigo-900/20 p-3 rounded-xl border-l-4 border-indigo-500">
+            <b>Ahmet Yesevi - Divan-ı Hikmet:</b> <span class="text-rose-500 font-bold">İlk Türk tasavvuf eseri.</span> (Piri Türkistan). Mezarını Timur yaptırdı.
+        </li>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mt-2">
+            <div class="bg-white dark:bg-slate-800 p-2 rounded shadow-sm text-xs border border-slate-100 dark:border-slate-700"><b>Firdevsi - Şehname:</b> Gazneli Mahmut'a. Alp Er Tunga/İran savaşı.</div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded shadow-sm text-xs border border-slate-100 dark:border-slate-700"><b>Ali Şir Nevai - Mühakemetü'l-Lügateyn:</b> Türkçe > Farsça kanıtı.</div>
+            <div class="bg-white dark:bg-slate-800 p-2 rounded shadow-sm text-xs border border-slate-100 dark:border-slate-700"><b>Utbi - Tarih-i Yemin:</b> Gazneliler tarihi.</div>
+        </div>
+    </ul>
+    `
 ];

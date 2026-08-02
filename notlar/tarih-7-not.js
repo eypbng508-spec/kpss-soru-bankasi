@@ -1,52 +1,493 @@
 // notlar/tarih-7-not.js
 window.tarih_7_notlari = [
-    "🐢 <b>OSMANLI DEVLETİ DURAKLAMA DÖNEMİ:</b> Karlofça Antlaşması'na (1699) kadar süren, sınırların büyük ölçüde sabit kaldığı, iç isyanların ve merkezi otorite bozulmasının yoğunlaştığı dönemdir.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
+            🐢 OSMANLI DEVLETİ DURAKLAMA DÖNEMİ
+        </span>
+    </div>
+    <div class="bg-amber-50 dark:bg-amber-900/20 p-4 rounded-xl border border-amber-100 dark:border-amber-800/30 text-sm max-w-2xl mx-auto">
+        <p>Karlofça Antlaşması'na (1699) kadar süren, sınırların büyük ölçüde sabit kaldığı, iç isyanların ve merkezi otorite bozulmasının yoğunlaştığı dönemdir.</p>
+    </div>
+    `,
 
-    "📉 <b>DURAKLAMAYA GİRİLMESİNİN NEDENLERİ:</b><br>• Merkezi otoritenin bozulması (kafes usulü)<br>• Küçük yaştaki çocukların tahta çıkması<br>• Saray kadınlarının devlet yönetimine karışması<br>• Saray masraflarının artması<br>• Rüşvet ve adam kayırmanın artması<br>• Ganimet gelirlerinin azalması<br>• Savaşların uzun sürmesi ve mağlubiyetlerin artması",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            📉 DURAKLAMAYA GİRİLMESİNİN NEDENLERİ - 1
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-red-50 dark:bg-red-900/20 p-3 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Merkezi otoritenin bozulması (kafes usulü)</li>
+                <li>Küçük yaştaki çocukların tahta çıkması</li>
+                <li>Saray kadınlarının devlet yönetimine karışması</li>
+                <li>Saray masraflarının artması</li>
+            </ul>
+        </div>
+        <div class="bg-red-50 dark:bg-red-900/20 p-3 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Rüşvet ve adam kayırmanın artması</li>
+                <li>Ganimet gelirlerinin azalması</li>
+                <li>Savaşların uzun sürmesi ve mağlubiyetlerin artması</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "📉 <b>DURAKLAMA NEDENLERİ (DEVAM):</b><br>• Beşik ulemalığı sistemi (âlimin oğlu âlimdir)<br>• Medreselerden pozitif bilimlerin azaltılması<br>• Kapitülasyonların yaygınlaşması<br>• Sık padişah değişikliği → cülus bahşişinin artması<br>• Doğal sınırlara ulaşılması<br>• Askerin 'ocak devlet içindir' anlayışını benimsemesi",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            📉 DURAKLAMA NEDENLERİ - 2
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-red-50 dark:bg-red-900/20 p-3 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Beşik ulemalığı sistemi (âlimin oğlu âlimdir)</li>
+                <li>Medreselerden pozitif bilimlerin azaltılması</li>
+                <li>Kapitülasyonların yaygınlaşması</li>
+                <li>Sık padişah değişikliği → cülus bahşişinin artması</li>
+            </ul>
+        </div>
+        <div class="bg-red-50 dark:bg-red-900/20 p-3 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Doğal sınırlara ulaşılması</li>
+                <li>Askerin 'ocak devlet içindir' anlayışını benimsemesi</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "📉 <b>DURAKLAMA NEDENLERİ (DEVAM):</b><br>• Coğrafi Keşifler sonucu İpek ve Baharat Yolu'nun önemini kaybetmesi<br>• Orduya devşirme kanununa aykırı kişilerin alınması<br>• Avrupa'da feodalitenin sona ermesiyle merkeziyetçi devletlerin kurulması<br>• Avrupa'nın bilimsel-teknolojik gelişimi<br>• Tımar sisteminin bozulması, iltizamın yaygınlaşması<br>• Bunlara bağlı isyanların çıkması ve otoritenin kaybolması",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            📉 DURAKLAMA NEDENLERİ - 3
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-red-50 dark:bg-red-900/20 p-3 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Coğrafi Keşifler sonucu İpek ve Baharat Yolu'nun önemini kaybetmesi</li>
+                <li>Orduya devşirme kanununa aykırı kişilerin alınması</li>
+                <li>Avrupa'da feodalitenin sona ermesiyle merkeziyetçi devletlerin kurulması</li>
+            </ul>
+        </div>
+        <div class="bg-red-50 dark:bg-red-900/20 p-3 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Avrupa'nın bilimsel-teknolojik gelişimi</li>
+                <li>Tımar sisteminin bozulması, iltizamın yaygınlaşması</li>
+                <li>Bunlara bağlı isyanların çıkması ve otoritenin kaybolması</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "🌊 <b>OSMANLI-VENEDİK İLİŞKİLERİ:</b><br>• 1645 → Girit Adası kuşatıldı<br>• 1669 → Girit, 24 yıl süren kuşatmanın ardından fethedildi",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-black text-sm uppercase tracking-wider">
+            🌊 OSMANLI-VENEDİK İLİŞKİLERİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-xl border border-blue-100 dark:border-blue-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li>1645 → Girit Adası kuşatıldı</li>
+                <li><b class="text-rose-600 dark:text-rose-400">1669 → Girit, 24 yıl süren kuşatmanın ardından fethedildi</b></li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "🐻 <b>OSMANLI-RUSYA İLİŞKİLERİ:</b><br>• 1681 → Bahçesaray (Çehrin) Antlaşması imzalandı; bu, ilk Osmanlı-Rus antlaşmasıdır",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
+            🐻 OSMANLI-RUSYA İLİŞKİLERİ
+        </span>
+    </div>
+    <div class="bg-amber-50 dark:bg-amber-900/20 p-4 rounded-xl border border-amber-100 dark:border-amber-800/30 text-sm max-w-2xl mx-auto">
+        <p><b class="text-rose-600 dark:text-rose-400">1681 → Bahçesaray (Çehrin) Antlaşması</b> imzalandı; bu, <b class="text-rose-600 dark:text-rose-400">ilk Osmanlı-Rus antlaşmasıdır</b>.</p>
+    </div>
+    `,
 
-    "🕌 <b>OSMANLI-İRAN İLİŞKİLERİ:</b><br>• 1590 → Ferhat Paşa Antlaşması: Osmanlı Doğu'da en geniş sınırlarına ulaştı<br>• 1612 → Nasuh Paşa Antlaşması<br>• 1618 → Serav Antlaşması<br>• 1635 → IV. Murat 2 kez sefer yaptı<br>• 1639 → <b>Kasr-ı Şirin Antlaşması</b>: Bağdat Osmanlı'da kaldı, Zagros Dağları sınır oldu (Türkiye'nin en eski sınırını belirleyen antlaşma)",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 font-black text-sm uppercase tracking-wider">
+            🕌 OSMANLI-İRAN İLİŞKİLERİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-xl border border-green-100 dark:border-green-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li><b class="text-rose-600 dark:text-rose-400">1590 → Ferhat Paşa Antlaşması:</b> Osmanlı Doğu'da en geniş sınırlarına ulaştı</li>
+                <li>1612 → Nasuh Paşa Antlaşması</li>
+                <li>1618 → Serav Antlaşması</li>
+                <li>1635 → IV. Murat 2 kez sefer yaptı</li>
+                <li><b class="text-rose-600 dark:text-rose-400">1639 → Kasr-ı Şirin Antlaşması:</b> Bağdat Osmanlı'da kaldı, Zagros Dağları sınır oldu (<b class="text-rose-600 dark:text-rose-400">Türkiye'nin en eski sınırını belirleyen antlaşma</b>)</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "🇵🇱 <b>OSMANLI-LEHİSTAN İLİŞKİLERİ:</b><br>• 1621 → Hotin Seferi: Yeniçerilerin isteksizliği yüzünden kaldırıldı; bu olay Yeniçeri Ocağı'nın kaldırılması fikrine zemin hazırladı<br>• 1672 → Bucaş Antlaşması: Osmanlı batıda en geniş sınırlarına ulaştı<br>NOT: Podolya arazisi (Kameniçe Kalesi) batıda en son alınan toprak parçasıdır.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 font-black text-sm uppercase tracking-wider">
+            🇵🇱 OSMANLI-LEHİSTAN İLİŞKİLERİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-xl border border-purple-100 dark:border-purple-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li><b class="text-rose-600 dark:text-rose-400">1621 → Hotin Seferi:</b> Yeniçerilerin isteksizliği yüzünden kaldırıldı; bu olay Yeniçeri Ocağı'nın kaldırılması fikrine zemin hazırladı</li>
+                <li><b class="text-rose-600 dark:text-rose-400">1672 → Bucaş Antlaşması:</b> Osmanlı batıda en geniş sınırlarına ulaştı</li>
+            </ul>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> Podolya arazisi (Kameniçe Kalesi) batıda en son alınan toprak parçasıdır.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "🏰 <b>OSMANLI-AVUSTURYA İLİŞKİLERİ:</b><br>• 1596 → Haçova Meydan Muharebesi kazanıldı; Eğri, Estergon, Kanije alındı (Eğri Fatihi: III. Mehmet)<br>• 1606 → Zitvatorok Antlaşması: padişah ve arşidük eşit sayıldı<br>• 1664 → Vasvar Antlaşması (bu yüzyılın son kazançlı antlaşması)",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-cyan-100 dark:bg-cyan-900/50 text-cyan-700 dark:text-cyan-300 font-black text-sm uppercase tracking-wider">
+            🏰 OSMANLI-AVUSTURYA İLİŞKİLERİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-cyan-50 dark:bg-cyan-900/20 p-4 rounded-xl border border-cyan-100 dark:border-cyan-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li><b class="text-rose-600 dark:text-rose-400">1596 → Haçova Meydan Muharebesi</b> kazanıldı; Eğri, Estergon, Kanije alındı (Eğri Fatihi: III. Mehmet)</li>
+                <li><b class="text-rose-600 dark:text-rose-400">1606 → Zitvatorok Antlaşması:</b> padişah ve arşidük eşit sayıldı</li>
+                <li><b class="text-rose-600 dark:text-rose-400">1664 → Vasvar Antlaşması</b> (bu yüzyılın son kazançlı antlaşması)</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "⚔️ <b>II. VİYANA KUŞATMASI VE KARLOFÇA:</b><br>• 1683 → II. Viyana Kuşatması, Merzifonlu Kara Mustafa Paşa önderliğinde başladı (başarısız oldu)<br>• Bunun üzerine Kutsal İttifak kuruldu: Venedik, Avusturya, Lehistan, Malta, Rusya<br>• 1699 → <b>Karlofça Antlaşması</b>: Temeşvar hariç tüm Macaristan Avusturya'ya; Mora ve Dalmaçya kıyıları Venedik'e; Podolya Lehistan'a verildi",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            ⚔️ II. VİYANA KUŞATMASI VE KARLOFÇA
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li><b class="text-rose-600 dark:text-rose-400">1683 → II. Viyana Kuşatması</b>, Merzifonlu Kara Mustafa Paşa önderliğinde başladı (başarısız oldu)</li>
+                <li>Bunun üzerine <b class="text-rose-600 dark:text-rose-400">Kutsal İttifak</b> kuruldu: Venedik, Avusturya, Lehistan, Malta, Rusya</li>
+                <li><b class="text-rose-600 dark:text-rose-400">1699 → Karlofça Antlaşması:</b> Temeşvar hariç tüm Macaristan Avusturya'ya; Mora ve Dalmaçya kıyıları Venedik'e; Podolya Lehistan'a verildi</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "📜 <b>KARLOFÇA'NIN ÖNEMİ:</b> Karlofça Antlaşması ile duraklama bitmiş, gerileme dönemi başlamıştır. Osmanlı, bu antlaşmayla ilk kez yabancı devlet arabuluculuğunu (İngiltere-Hollanda) kabul etmek zorunda kalmıştır.<br>NOT: 1700'de Karlofça'nın devamı olan İstanbul Antlaşması Rusya ile imzalanmış, Azak Kalesi Rusya'ya verilmiştir.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-black text-sm uppercase tracking-wider">
+            📜 KARLOFÇA'NIN ÖNEMİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-indigo-50 dark:bg-indigo-900/20 p-4 rounded-xl border border-indigo-100 dark:border-indigo-800/30">
+            <p>Karlofça Antlaşması ile duraklama bitmiş, <b class="text-rose-600 dark:text-rose-400">gerileme dönemi başlamıştır</b>.</p>
+            <p class="mt-2">Osmanlı, bu antlaşmayla <b class="text-rose-600 dark:text-rose-400">ilk kez yabancı devlet arabuluculuğunu</b> (İngiltere-Hollanda) kabul etmek zorunda kalmıştır.</p>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> 1700'de Karlofça'nın devamı olan <b class="text-rose-600 dark:text-rose-400">İstanbul Antlaşması</b> Rusya ile imzalanmış, Azak Kalesi Rusya'ya verilmiştir.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "🔥 <b>İSTANBUL İSYANLARI (MERKEZ-YENİÇERİ) - NEDENLERİ:</b><br>• Merkezi otoritenin bozulması<br>• Devşirme kanununa aykırı ocağa asker alınması<br>• 'Devlet, ocak içindir' anlayışının benimsenmesi<br>• Cülus bahşişi için yeniçerinin sürekli padişah değiştirmesi<br>• Ulufelerin düşük ayarda verilmesi<br>• Yeniçeri ağaları ve saray kadınlarının yönetime karışması<br>• Yeniçerilerin evlenmesi, ticaret ve esnaflık yapması",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
+            🔥 İSTANBUL İSYANLARI (MERKEZ-YENİÇERİ) - NEDENLERİ
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-amber-50 dark:bg-amber-900/20 p-3 rounded-xl border border-amber-100 dark:border-amber-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Merkezi otoritenin bozulması</li>
+                <li>Devşirme kanununa aykırı ocağa asker alınması</li>
+                <li>'Devlet, ocak içindir' anlayışının benimsenmesi</li>
+                <li>Cülus bahşişi için yeniçerinin sürekli padişah değiştirmesi</li>
+            </ul>
+        </div>
+        <div class="bg-amber-50 dark:bg-amber-900/20 p-3 rounded-xl border border-amber-100 dark:border-amber-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Ulufelerin düşük ayarda verilmesi</li>
+                <li>Yeniçeri ağaları ve saray kadınlarının yönetime karışması</li>
+                <li>Yeniçerilerin evlenmesi, ticaret ve esnaflık yapması</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "🔥 <b>BAŞLICA İSTANBUL İSYANLARI VE SONUÇLARI:</b><br>• II. Osman'ın şehit edilmesi<br>• 17 devlet adamının şehit edilmesi<br>• Vakay-ı Vakvakiye (IV. Mehmet döneminde 30'a yakın devlet adamının öldürülmesi)<br>Sonuçlar: İstanbul'da can ve mal güvenliği kalmamış, merkezi otorite bozularak devam etmiştir.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            🔥 BAŞLICA İSTANBUL İSYANLARI VE SONUÇLARI
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li><b class="text-rose-600 dark:text-rose-400">II. Osman'ın şehit edilmesi</b></li>
+                <li>17 devlet adamının şehit edilmesi</li>
+                <li><b class="text-rose-600 dark:text-rose-400">Vakay-ı Vakvakiye</b> (IV. Mehmet döneminde 30'a yakın devlet adamının öldürülmesi)</li>
+            </ul>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                <b>Sonuçlar:</b> İstanbul'da can ve mal güvenliği kalmamış, merkezi otorite bozularak devam etmiştir.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "⚔️ <b>CELALİ (ANADOLU) İSYANLARI - NEDENLERİ:</b><br>• Ekonominin bozulması, fiyatların artması<br>• Nüfusun hızla artması<br>• Köylünün ağır vergilerle uğraşması<br>• Merkezi otoritenin kaybolması<br>• Tımar sisteminin bozulması, iltizamın yaygınlaşması<br>• Enflasyon artışı, alım gücünün düşmesi<br>• Uzun süren savaşlar, yöneticilerin halka kötü davranması<br>• Haçova'dan kaçan askerlerin eşkıyalaşması",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-cyan-100 dark:bg-cyan-900/50 text-cyan-700 dark:text-cyan-300 font-black text-sm uppercase tracking-wider">
+            ⚔️ CELALİ (ANADOLU) İSYANLARI - NEDENLERİ
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-cyan-50 dark:bg-cyan-900/20 p-3 rounded-xl border border-cyan-100 dark:border-cyan-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Ekonominin bozulması, fiyatların artması</li>
+                <li>Nüfusun hızla artması</li>
+                <li>Köylünün ağır vergilerle uğraşması</li>
+                <li>Merkezi otoritenin kaybolması</li>
+                <li>Tımar sisteminin bozulması, iltizamın yaygınlaşması</li>
+            </ul>
+        </div>
+        <div class="bg-cyan-50 dark:bg-cyan-900/20 p-3 rounded-xl border border-cyan-100 dark:border-cyan-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Enflasyon artışı, alım gücünün düşmesi</li>
+                <li>Uzun süren savaşlar, yöneticilerin halka kötü davranması</li>
+                <li>Haçova'dan kaçan askerlerin eşkıyalaşması</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "🌾 <b>TIMAR SİSTEMİNİN BOZULMA NEDENLERİ:</b><br>• Sipahiler dışında başkalarına verilmesi<br>• Özel mülk veya vakfa çevrilmesi<br>• Rüşvetle verilmesi, dirliklerin alınıp satılması<br>• Sipahilerin gösterişli yaşama arzusu<br>• Nüfus artışı, enflasyon<br>• Avrupa'nın silah teknolojisine uyum sağlanamaması<br>• Uzun süren savaşlar",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 font-black text-sm uppercase tracking-wider">
+            🌾 TIMAR SİSTEMİNİN BOZULMA NEDENLERİ
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-green-50 dark:bg-green-900/20 p-3 rounded-xl border border-green-100 dark:border-green-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Sipahiler dışında başkalarına verilmesi</li>
+                <li>Özel mülk veya vakfa çevrilmesi</li>
+                <li>Rüşvetle verilmesi, dirliklerin alınıp satılması</li>
+                <li>Sipahilerin gösterişli yaşama arzusu</li>
+            </ul>
+        </div>
+        <div class="bg-green-50 dark:bg-green-900/20 p-3 rounded-xl border border-green-100 dark:border-green-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Nüfus artışı, enflasyon</li>
+                <li>Avrupa'nın silah teknolojisine uyum sağlanamaması</li>
+                <li>Uzun süren savaşlar</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "⚔️ <b>BAŞLICA CELALİ İSYANLARI VE SONUÇLARI:</b><br>İsyancılar: Gürcü Nebi, Kalenderoğlu, Karayazı, Deli Hasan, Kör Mahmut, Katırcıoğlu<br>Sonuçlar: Köyden kente göç arttı, üretim düştü, vergi gelirleri azaldı, boşalan köylere eşkıyalar yerleşti, Anadolu'da can-mal güvenliği kalmadı, şehirlerde işsizlik ve suç arttı.<br>NOT: 1603-1610 arasında Anadolu'dan büyük şehirlere göçe 'Büyük Kaçgun' denir.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            ⚔️ BAŞLICA CELALİ İSYANLARI VE SONUÇLARI
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border border-red-100 dark:border-red-800/30">
+            <h4 class="font-bold text-red-700 dark:text-red-400">İsyancılar:</h4>
+            <div class="flex flex-wrap gap-2 mt-2">
+                <span class="bg-white dark:bg-slate-800 px-3 py-1 rounded-full text-xs border border-slate-200 dark:border-slate-600">Gürcü Nebi</span>
+                <span class="bg-white dark:bg-slate-800 px-3 py-1 rounded-full text-xs border border-slate-200 dark:border-slate-600">Kalenderoğlu</span>
+                <span class="bg-white dark:bg-slate-800 px-3 py-1 rounded-full text-xs border border-slate-200 dark:border-slate-600">Karayazı</span>
+                <span class="bg-white dark:bg-slate-800 px-3 py-1 rounded-full text-xs border border-slate-200 dark:border-slate-600">Deli Hasan</span>
+                <span class="bg-white dark:bg-slate-800 px-3 py-1 rounded-full text-xs border border-slate-200 dark:border-slate-600">Kör Mahmut</span>
+                <span class="bg-white dark:bg-slate-800 px-3 py-1 rounded-full text-xs border border-slate-200 dark:border-slate-600">Katırcıoğlu</span>
+            </div>
+            <h4 class="font-bold text-red-700 dark:text-red-400 mt-4 mb-2">Sonuçlar:</h4>
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Köyden kente göç arttı, üretim düştü, vergi gelirleri azaldı</li>
+                <li>Boşalan köylere eşkıyalar yerleşti</li>
+                <li>Anadolu'da can-mal güvenliği kalmadı</li>
+                <li>Şehirlerde işsizlik ve suç arttı</li>
+            </ul>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> 1603-1610 arasında Anadolu'dan büyük şehirlere göçe <b class="text-rose-600 dark:text-rose-400">'Büyük Kaçgun'</b> denir.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "🏴 <b>EYALET İSYANLARI:</b> Nedenleri merkezi otoritenin bozulması, eyaletlerde devlet otoritesinin kalkması ve yöneticilerin halka kötü davranmasıdır.<br>NOT: Bu isyanların 1789 Fransız İhtilali kaynaklı ulusçuluk akımıyla ilgisi yoktur.<br>NOT: Abaza Mehmet Paşa, Genç Osman'ın tahttan indirilmesi üzerine isyan etmiş, kendisine Erzurum valiliği verilerek isyanı bastırılmıştır.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 font-black text-sm uppercase tracking-wider">
+            🏴 EYALET İSYANLARI
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-xl border border-purple-100 dark:border-purple-800/30">
+            <p><b>Nedenleri:</b> Merkezi otoritenin bozulması, eyaletlerde devlet otoritesinin kalkması ve yöneticilerin halka kötü davranmasıdır.</p>
+            <div class="mt-2 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> Bu isyanların 1789 Fransız İhtilali kaynaklı ulusçuluk akımıyla ilgisi yoktur.
+            </div>
+            <div class="mt-2 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> Abaza Mehmet Paşa, Genç Osman'ın tahttan indirilmesi üzerine isyan etmiş, kendisine Erzurum valiliği verilerek isyanı bastırılmıştır.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "📚 <b>SUHTE (MEDRESE ÖĞRENCİSİ) AYAKLANMALARI - NEDENLERİ:</b><br>• Ulema çocuklarının kayrılması<br>• Rüşvet ve iltimasın yaygınlaşması<br>• Kapasite üstü öğrenci alınması<br>• Nüfus artışı, enflasyon<br>• Medrese gelirlerinin azalması, öğrencilerin halktan yardım istemesi<br>Sonuç: İsyancı öğrencilere karşı güç kullanılmış; bu da can kaybına ve eğitimci kaybına yol açmıştır.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-black text-sm uppercase tracking-wider">
+            📚 SUHTE (MEDRESE ÖĞRENCİSİ) AYAKLANMALARI - NEDENLERİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-blue-50 dark:bg-blue-900/20 p-4 rounded-xl border border-blue-100 dark:border-blue-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li>Ulema çocuklarının kayrılması</li>
+                <li>Rüşvet ve iltimasın yaygınlaşması</li>
+                <li>Kapasite üstü öğrenci alınması</li>
+                <li>Nüfus artışı, enflasyon</li>
+                <li>Medrese gelirlerinin azalması, öğrencilerin halktan yardım istemesi</li>
+            </ul>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                <b>Sonuç:</b> İsyancı öğrencilere karşı güç kullanılmış; bu da can kaybına ve eğitimci kaybına yol açmıştır.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "🛠️ <b>XVII. YÜZYIL ISLAHATLARININ GENEL ÖZELLİKLERİ:</b><br>• Avrupa örnek alınmamıştır, sorunların köküne inilememiştir<br>• Kişilere bağlı kalmış, halkın desteği alınmamıştır<br>• Saray, ulema ve asker kendi çıkarları zedelendiği için ıslahatlara karşı çıkmıştır<br>• Fatih ve Kanuni dönemleri örnek alınmıştır<br>• Baskı ve şiddet yoluyla benimsetilmek istenmiştir",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-black text-sm uppercase tracking-wider">
+            🛠️ XVII. YÜZYIL ISLAHATLARININ GENEL ÖZELLİKLERİ
+        </span>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-indigo-50 dark:bg-indigo-900/20 p-3 rounded-xl border border-indigo-100 dark:border-indigo-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Avrupa örnek alınmamıştır, sorunların köküne inilememiştir</li>
+                <li>Kişilere bağlı kalmış, halkın desteği alınmamıştır</li>
+                <li>Saray, ulema ve asker kendi çıkarları zedelendiği için ıslahatlara karşı çıkmıştır</li>
+            </ul>
+        </div>
+        <div class="bg-indigo-50 dark:bg-indigo-900/20 p-3 rounded-xl border border-indigo-100 dark:border-indigo-800/30">
+            <ul class="list-disc list-inside space-y-1 text-xs">
+                <li>Fatih ve Kanuni dönemleri örnek alınmıştır</li>
+                <li>Baskı ve şiddet yoluyla benimsetilmek istenmiştir</li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "🔨 <b>TOKMAK İSİMLER - 1) TARHUNCU AHMET PAŞA:</b> IV. Mehmet'in sadrazamıdır. 'Tarhuncu Bütçesi' adında bir bütçe hazırlamış, devletin alacaklarını kişi ve kurumlardan tahsil etmiştir. İsrafı önledi, maliyeyi düzenledi; ancak çıkar çevrelerince idam edildi.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
+            🔨 TOKMAK İSİMLER - 1) TARHUNCU AHMET PAŞA
+        </span>
+    </div>
+    <div class="bg-amber-50 dark:bg-amber-900/20 p-4 rounded-xl border border-amber-100 dark:border-amber-800/30 text-sm max-w-2xl mx-auto">
+        <p>IV. Mehmet'in sadrazamıdır. <b class="text-rose-600 dark:text-rose-400">'Tarhuncu Bütçesi'</b> adında bir bütçe hazırlamış, devletin alacaklarını kişi ve kurumlardan tahsil etmiştir.</p>
+        <p class="mt-2">İsrafı önledi, maliyeyi düzenledi; ancak çıkar çevrelerince idam edildi.</p>
+    </div>
+    `,
 
-    "🔨 <b>TOKMAK İSİMLER - 2) GENÇ OSMAN:</b> Osmanlı tarihinde ilk sosyal yönden ıslahat yapan padişahtır. Maliyeyi düzeltti, israfı önledi, yeniçeriye ödenen fazla paraları kesti. Harem dışından ilk evliliği yapmıştır; Şeyhülislam'ın yetkilerini kısıtlamıştır. Yeniçeri Ocağı'nı kaldırmayı ve başkenti taşımayı düşünmüş, kılık-kıyafet düzenlemesi getirmeyi planlamıştır. Yedikule Zindanları'nda şehit edilmiştir.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
+            🔨 TOKMAK İSİMLER - 2) GENÇ OSMAN
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-red-50 dark:bg-red-900/20 p-4 rounded-xl border border-red-100 dark:border-red-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li>Osmanlı tarihinde <b class="text-rose-600 dark:text-rose-400">ilk sosyal yönden ıslahat yapan padişahtır</b>.</li>
+                <li>Maliyeyi düzeltti, israfı önledi, yeniçeriye ödenen fazla paraları kesti.</li>
+                <li>Harem dışından ilk evliliği yapmıştır; Şeyhülislam'ın yetkilerini kısıtlamıştır.</li>
+                <li>Yeniçeri Ocağı'nı kaldırmayı ve başkenti taşımayı düşünmüş, kılık-kıyafet düzenlemesi getirmeyi planlamıştır.</li>
+                <li><b class="text-rose-600 dark:text-rose-400">Yedikule Zindanları'nda şehit edilmiştir.</b></li>
+            </ul>
+        </div>
+    </div>
+    `,
 
-    "🔨 <b>TOKMAK İSİMLER - 3) KUYUCU MURAT PAŞA:</b> I. Ahmet'in sadrazamıdır. Celali isyanlarını şiddet ve baskı yoluyla bastırmıştır.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-cyan-100 dark:bg-cyan-900/50 text-cyan-700 dark:text-cyan-300 font-black text-sm uppercase tracking-wider">
+            🔨 TOKMAK İSİMLER - 3) KUYUCU MURAT PAŞA
+        </span>
+    </div>
+    <div class="bg-cyan-50 dark:bg-cyan-900/20 p-4 rounded-xl border border-cyan-100 dark:border-cyan-800/30 text-sm max-w-2xl mx-auto">
+        <p>I. Ahmet'in sadrazamıdır. <b class="text-rose-600 dark:text-rose-400">Celali isyanlarını şiddet ve baskı yoluyla bastırmıştır.</b></p>
+    </div>
+    `,
 
-    "🔨 <b>TOKMAK İSİMLER - 4) IV. MURAT:</b> Lakabı 'Bağdat Fatihi'dir. Saray kadınlarını yönetimden uzaklaştırdı. Osmanlı tarihinde ilk defa bir şeyhülislam idam edilmiştir. Koçi Bey ve Katip Çelebi kendisine risale (layiha) sunmuştur. Büyük İstanbul yangınlarını önlemek için ilk defa gece sokağa çıkma yasağı, içki ve tütün yasağı getirmiştir.<br>NOT: Bu dönemin önemli isimleri: Evliya Çelebi, Katip Çelebi, Nefi, Veysi, Koçi Bey, Azmizade Haleti.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 font-black text-sm uppercase tracking-wider">
+            🔨 TOKMAK İSİMLER - 4) IV. MURAT
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-xl border border-green-100 dark:border-green-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li>Lakabı <b class="text-rose-600 dark:text-rose-400">'Bağdat Fatihi'</b>dir.</li>
+                <li>Saray kadınlarını yönetimden uzaklaştırdı.</li>
+                <li>Osmanlı tarihinde <b class="text-rose-600 dark:text-rose-400">ilk defa bir şeyhülislam idam edilmiştir</b>.</li>
+                <li><b class="text-rose-600 dark:text-rose-400">Koçi Bey</b> ve <b class="text-rose-600 dark:text-rose-400">Katip Çelebi</b> kendisine risale (layiha) sunmuştur.</li>
+                <li>Büyük İstanbul yangınlarını önlemek için ilk defa gece sokağa çıkma yasağı, içki ve tütün yasağı getirmiştir.</li>
+            </ul>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> Bu dönemin önemli isimleri: Evliya Çelebi, Katip Çelebi, Nefi, Veysi, Koçi Bey, Azmizade Haleti.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "🔨 <b>TOKMAK İSİMLER - 5) I. AHMET:</b> Ekber ve erşed (en büyük ve en akıllı) veraset sistemini getiren son değişikliktir.<br>NOT: Sancağa çıkma sistemini kaldıran padişah III. Mehmet'tir (sancaktan gelen son padişah da III. Mehmet'tir); kafes usulünden sonra tahta çıkan ilk padişah ise I. Ahmet'tir.",
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 font-black text-sm uppercase tracking-wider">
+            🔨 TOKMAK İSİMLER - 5) I. AHMET
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-purple-50 dark:bg-purple-900/20 p-4 rounded-xl border border-purple-100 dark:border-purple-800/30">
+            <p><b class="text-rose-600 dark:text-rose-400">Ekber ve erşed</b> (en büyük ve en akıllı) veraset sistemini getiren son değişikliktir.</p>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> Sancağa çıkma sistemini kaldıran padişah <b class="text-rose-600 dark:text-rose-400">III. Mehmet</b>'tir (sancaktan gelen son padişah da III. Mehmet'tir); kafes usulünden sonra tahta çıkan ilk padişah ise <b class="text-rose-600 dark:text-rose-400">I. Ahmet</b>'tir.
+            </div>
+        </div>
+    </div>
+    `,
 
-    "🔨 <b>TOKMAK İSİMLER - 6) KÖPRÜLÜLER DÖNEMİ:</b> Köprülü Mehmet Paşa, sadrazamlığa şartlar öne sürerek gelmiş; maliyeyi düzeltmiş, yeniçeriyi disipline almış, Venedik'in Çanakkale ablukasını kaldırmıştır. Köprülü Fazıl Ahmet Paşa, Girit kuşatmasını başarıyla sonuçlandırmıştır. Merzifonlu Kara Mustafa Paşa ise II. Viyana Kuşatması'ndaki başarısızlığı nedeniyle idam edilmiştir.<br>NOT: Köprülüler, duraklama döneminin içinde bir 'yükselme' dönemi yaşatmıştır."
+    `
+    <div class="mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
+            🔨 TOKMAK İSİMLER - 6) KÖPRÜLÜLER DÖNEMİ
+        </span>
+    </div>
+    <div class="space-y-3 text-left max-w-2xl mx-auto text-sm">
+        <div class="bg-amber-50 dark:bg-amber-900/20 p-4 rounded-xl border border-amber-100 dark:border-amber-800/30">
+            <ul class="list-disc list-inside space-y-2">
+                <li><b class="text-rose-600 dark:text-rose-400">Köprülü Mehmet Paşa</b>, sadrazamlığa şartlar öne sürerek gelmiş; maliyeyi düzeltmiş, yeniçeriyi disipline almış, Venedik'in Çanakkale ablukasını kaldırmıştır.</li>
+                <li><b class="text-rose-600 dark:text-rose-400">Köprülü Fazıl Ahmet Paşa</b>, Girit kuşatmasını başarıyla sonuçlandırmıştır.</li>
+                <li><b class="text-rose-600 dark:text-rose-400">Merzifonlu Kara Mustafa Paşa</b> ise II. Viyana Kuşatması'ndaki başarısızlığı nedeniyle idam edilmiştir.</li>
+            </ul>
+            <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
+                📌 <b>NOT:</b> Köprülüler, duraklama döneminin içinde bir <b class="text-rose-600 dark:text-rose-400">'yükselme' dönemi</b> yaşatmıştır.
+            </div>
+        </div>
+    </div>
+    `
 ];

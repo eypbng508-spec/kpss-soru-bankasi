@@ -1,75 +1,70 @@
-// notlar/tarih-8-not.js
+// notlar/tarih-9-not.js
 window.tarih_9_notlari = [
-   
-    "📖 <b>XIX. YÜZYIL OSMANLI DEVLETİ DAĞILMA DÖNEMİ - GENEL BAKIŞ:</b><br>18. yüzyılın sonunda başlayan reformlar, 19. yüzyılda Batı baskısı ve iç çöküntü karşısında yetersiz kalmıştır. Bu dönem, Osmanlı'nın toprak kaybı, uluslararası sorunların ortaya çıkışı ve modern Avrupa devlet sistemine dahil olma çabalarının dönemidir. Napolyon ile başlayan dönem, Balkan isyanları, azınlık meselelerinin uluslararası boyut kazanması ile devam eder.",
-    
-    "⚡ <b>1798: NAPOLYON MISIR'I İŞGAL ETTİ:</b><br>• <b>Olay:</b> Napolyon Mısır'ı işgal etti. Osmanlı topraklarında Avrupa askerinin ilk büyük tehdidi.<br>• <b>Osmanlı'nın Tepkisi:</b> <b>Cezzar Ahmet Paşa Akka'da Napolyon'u durdurdu.</b> ⭐<br>• <b>Stratejik Anlam:</b> Osmanlı kendi başına Avrupa tehdidine karşı çıkabilse de, uzun süreli mücadele veremeyeceğini anlamıştır. Bu, Osmanlı'nın Avrupa devletlerine muhtaç olacağının ilk işaretidir.",
-    
-    "📜 <b>1801: EL ARİŞ ANTLAŞMASI:</b><br>• <b>Antlaşma:</b> El Ariş Antlaşması ile Fransızlar Mısır'dan geri çekildi.<br>• <b>Anlam:</b> Napolyon'un Mısır macerası burada sona ermiştir.",
-    
-    "✅ <b>1802: PARİS PAKTI:</b><br>• <b>Karar:</b> Paris Paktı ile Mısır'ın Osmanlı Devleti'ne ait olduğu kabul edilmiştir.<br>• <b>Gerçek:</b> Kâğıt üzerinde egemenlik sağlanmıştır, fakat bu durum ilerleyen yıllarda Mehmet Ali Paşa meselesiyle tekrar sınanacaktır.",
-    
-    "🔥 <b>1804: KARA YORGİ İSYANI:</b><br>• <b>İsyancı:</b> Kara Yorgi önderliğinde Sırplar isyan etti.<br>• <b>Sonuç:</b> İsyan bastırıldı.<br>• <b>Tarihi Önem:</b> ⭐ Bu, Balkan halklarının bağımsızlık hareketinin ilk ciddi denemesidir. 19. yüzyıl boyunca Balkan isyanları arka arkaya devam edecektir.",
-    
-    "⚔️ <b>1806: OSMANLI-RUS SAVAŞI:</b><br>• <b>Başlangıç:</b> Osmanlı-Rus Savaşı Fransızların gazı (kışkırtması) ile başladı.<br>• <b>Siyasi Oyun:</b> Napolyon, Rusya'yı Osmanlı ile çatıştırmak istiyordu. Böylece Rusya'nın gücü Doğu'da meşgul olacak, Napolyon'un işi kolaylaşacaktı.<br>• <b>Ders:</b> Büyük devletlerin Osmanlı üzerinde nasıl oyun kurabileceğinin açık bir örneğidir.",
-    
-    "🤝 <b>1807: TİLSİT ANTLAŞMASI:</b><br>• <b>Antlaşmanın Tarafları:</b> Rusya ile Fransa kendi arasında Tilsit Antlaşması'nı imzaladı.<br>• <b>Osmanlı'ya Etkisi:</b> ⭐ Osmanlı'nın bilgisi ve iradesi dışında, iki büyük güç kendi aralarında anlaşmıştır. Osmanlı bu tabloda tamamen yalnız kalmıştır.<br>• <b>Ders:</b> 19. yüzyıl boyunca Osmanlı'nın kaderini büyük devletlerin kendi aralarındaki pazarlıkların belirleyeceğinin ilk işaretidir.",
-    
-    "🇬🇧 <b>1809: KALE-İ SULTANİYE (ÇANAKKALE) ANTLAŞMASI:</b><br>• <b>Antlaşma:</b> İngiltere Osmanlı ile Kale-i Sultaniye (Çanakkale) Antlaşması'nı imzaladı.<br>• <b>Anlam:</b> Osmanlı-İngiliz ilişkilerinin resmî bir zemine oturması. 19. yüzyıl boyunca İngiltere'nin Osmanlı politikasındaki rolünün başlangıcı sayılabilir.",
-    
-    "🇷🇺 <b>1812: BÜKREŞ ANTLAŞMASI:</b><br>• <b>Antlaşmayı İmzalayanlar:</b> Osmanlı Devleti ile Rusya.<br>• <b>Kritik Madde:</b> <b>Sırplar bu antlaşma ile Osmanlı Devleti'nden ilk imtiyaz elde eden millet olmuştur.</b> ⭐<br>• <b>Tarihsel Kırılma:</b> Bu antlaşma, Balkan halklarının artık uluslararası antlaşmalar yoluyla haklar elde edebileceğini gösteren ilk örnektir. Balkan sorunu böyle büyüyerek devam edecektir.",
-    
-    "🎭 <b>1815: VİYANA KONGRESİ - 'ŞARK SORUNU'NUN DOĞUŞU:</b><br>• <b>Kimin Başkanlığında:</b> Avusturya <b>Dışişleri Bakanı</b> Metternich başkanlığında Viyana Kongresi toplandı.<br>• <b>Kongrenin Kararları:</b><br>   ○ <b>İlk defa Rus Çarı Aleksandr 'Şark Sorunu'nu dile getirdi.</b> ⭐ (Şark Sorunu = Osmanlı Devleti'nin geleceği ne olacak, nasıl paylaşılacak sorusu)<br>   ○ Dünyanın neresinde olursa olsun ulusçuluk (milliyetçilik) isyanlarının bastırılacağı kararlaştırıldı.<br>   ○ Fransa'nın ortadan kaldırdığı krallıkların yeniden kurulacağı kararlaştırıldı.<br>   ○ Avrupa siyasi haritası yeniden ele alınacaktı.<br>• <b>Restorasyon Dönemi:</b> 1815'ten 1827'ye (Navarin Olayı'na) kadar geçen süreye <b>Restorasyon Dönemi</b> denmiştir. Bu, Avrupa'nın eski düzene dönmeye çalıştığı bir ara nefes alma dönemidir.",
-    
-    "🔗 <b>1820: FİLİKİ ETERYA CEMİYETİ:</b><br>• <b>Kurucu:</b> Rus generali Aleksandr İpsilanti, Filiki Eterya Cemiyeti'ni kurdu.<br>• <b>İlk Hareketi:</b> Eflak'ta Rumlar ayaklandı, ancak isyan bastırıldı.<br>• <b>Tarihi Anlam:</b> ⭐ Bu cemiyet, Osmanlı topraklarındaki Rumları bağımsızlık mücadelesine hazırlamak için kurulmuş gizli bir örgüttür. Bir sonraki yıl patlak verecek büyük Yunan İsyanı'nın altyapısını oluşturmuştur.",
-    
-    "🔴 <b>1821: MORA'DA YUNAN İSYANI:</b><br>• <b>Olay:</b> Mora'da Yunan İsyanı başladı. (Tripolice Katliamı)<br>• <b>Yunan İsyanı'nın Çıkış Sebepleri:</b><br>   ○ <b>Milliyetçilik akımı</b><br>   ○ <b>Avrupalıların kışkırtması</b><br>   ○ <b>Rum aydınlarının ve din adamlarının çalışması</b><br>   ○ <b>Filiki Eterya Cemiyeti'nin bağımsızlık için çalışması</b><br>   ○ <b>Eski Bizans İmparatorluğu'nu canlandırma hayali</b><br>   ○ <b>Yanya Valisi Tepedelenli Ali Paşa'nın isyanı</b><br>• <b>II. Mahmut'un Durumu:</b> ⭐ <b>II. Mahmut başta Yunan İsyanı ile yeteri derecede ilgilenememiştir ve bunun sebebi Tepedelenli Ali Paşa'nın isyanı olmuştur.</b> Padişah, iç isyanla uğraşırken Yunan meselesine gereken önemi veremedi.<br>• <b>İsyanı Kim Bastırdı:</b> İsyan Mora'ya donanma gönderen <b>Mehmet Ali Paşa</b> tarafından bastırılmıştır. Ancak Mehmet Ali Paşa isyanı bastırdıktan sonra donanmasını tekrar Mısır'a geri götürmüştür.",
-    
-    "🛢️ <b>1827: NAVARİN OLAYI:</b><br>• <b>Olay:</b> İngiltere, Fransa ve Rusya Yunanlılara bağımsızlık verilmesini talep etti. Osmanlı bu talebi reddedince, bu üç güç Navarin Olayı'nı gerçekleştirdi (Osmanlı-Mısır donanması yakıldı).<br>• <b>Kritik Anlam:</b> ⭐ <b>Restorasyon Dönemi bu olayla sona ermiştir.</b> Artık Avrupa devletleri Osmanlı'ya karşı açıkça askeri müdahalede bulunacaktır.",
-    
-    "⚔️ <b>1827-1828: OSMANLI-RUS SAVAŞI:</b><br>• <b>Sonuç:</b> Savaş çıktı, Ruslar kazandı.<br>• <b>Anlam:</b> Navarin'de donanması yakılan Osmanlı, kara savaşında da Rusya karşısında tutunamamıştır.",
-    
-    "📋 <b>1829: EDİRNE ANTLAŞMASI:</b><br>• <b>Antlaşmayı İmzalayanlar:</b> Rusya ile Edirne Antlaşması imzalandı.<br>• <b>Maddeleri:</b><br>   ○ <b>Sırplar özerk hale geldi.</b><br>   ○ <b>Yunanlılar bağımsız oldu.</b> ⭐<br>• <b>Tarihsel Kırılma:</b> Balkanlar artık Osmanlı'nın tek hâkimi olmadığı, çok statülü bir bölge haline gelmiştir.",
-    
-    "🇫🇷 <b>1830: FRANSA CEZAYİR'İ İŞGAL ETTİ:</b><br>• <b>Olay:</b> Fransa Cezayir'i işgal etti.<br>• <b>Tarihi Önem:</b> ⭐ <b>Osmanlı Devleti'nin Kuzey Afrika'da ilk kaybettiği topraktır.</b> Bundan sonraki dönemde Tunus ve Mısır da aynı akıbete uğrayacaktır.",
-    
-    "🐪 <b>1833: KÜTAHYA ANTLAŞMASI - MEHMET ALİ PAŞA MESELESİ:</b><br>• <b>Nedeni:</b> Mora valiliğini alamayan Mehmet Ali Paşa, Mora valiliği yerine Suriye valiliğini istemiştir.<br>• <b>Mehmet Ali Paşa'nın Hareketi:</b> Mehmet Ali Paşa <b>Kütahya'ya kadar ilerlemiştir.</b><br>• <b>Kütahya Antlaşması'nın Maddeleri:</b> Kavalalı Mehmet Ali Paşa'ya:<br>   ○ Mısır valiliğine ek olarak <b>Girit ve Şam valiliği</b><br>   ○ Oğlu İbrahim Paşa'ya <b>Cidde ve Adana muhassılığı</b> verilmiştir.<br>• <b>Sonuç:</b> ⭐ Mehmet Ali Paşa fiilen Mısır ve Suriye'nin hâkimi haline gelmiştir.",
-    
-    "🤲 <b>1833: 'DENİZE DÜŞEN YILAN SARILIR' - HÜNKÂR İSKELESİ ANTLAŞMASI:</b><br>• <b>Durum:</b> Bu olaylar sırasında İngiltere ve Fransa Osmanlı Devleti'ne destek vermeyince, <b>'denize düşen yılan sarılır'</b> diyerek Rusya'dan yardım istenmiştir.<br>• <b>Antlaşma:</b> Bunun üzerine Rusya ile <b>8 yıllığına Hünkâr İskelesi Antlaşması</b> imzalanmıştır.<br>• <b>Boğazlar Sorunu'nun Doğuşu:</b> ⭐ <b>Boğazlar sorunu ilk defa Hünkâr İskelesi Antlaşması ile ortaya çıkmıştır.</b> Boğazlar bu antlaşma ile ilk defa sorun haline gelmiştir. Bundan sonra 19. yüzyıl boyunca boğazların kontrolü Avrupa devletlerinin sürekli tartışma konusu olacaktır.",
-    
-    "🤝 <b>1838: BALTALİMANI ANTLAŞMASI:</b><br>• <b>Taraflar:</b> İngiltere Devleti ile Osmanlı Devleti arasında Baltalimanı Antlaşması düzenlenmiştir.<br>• <b>Amacı:</b> Osmanlı Devleti bu antlaşma ile Mısır sorununun çözümü için İngiltere Devleti'nin desteğini almak istemiştir.<br>• <b>Antlaşmanın Maddeleri:</b><br>   ○ <b>İç gümrük vergisi kaldırılmıştır.</b><br>   ○ <b>İthalattan alınan vergi %12'den %5'e düşmüştür.</b><br>• <b>Sonuç:</b> ⭐ <b>Böylece Osmanlı Devleti Avrupa'nın açık pazarı haline gelmiştir.</b> Yerli üretici korumasız kalmış, Avrupa malları ucuza girmeye başlamıştır.",
-    
-    "⚔️ <b>1839: NİZİP SAVAŞI:</b><br>• <b>Sonuç:</b> Osmanlı Devleti Mehmet Ali Paşa ile yaptığı Nizip Savaşı'nı kaybetti.<br>• <b>Anlam:</b> Osmanlı ordusunun kendi valisine karşı yenilmesi, devletin ne kadar zayıfladığını göstermektedir.",
-    
-    "📜 <b>3 KASIM 1839: TANZİMAT FERMANI (GÜLHANE HATT-I HÜMAYUNU):</b><br>• <b>Ne Zaman:</b> 3 Kasım 1839'da Mustafa Reşid Paşa tarafından Gülhane Parkı'nda okunarak ilan edilmiştir.<br>• <b>Amaç:</b> Osmanlı Devleti'nin modernleşme sürecinin resmi başlangıcı sayılır; can, mal, namus güvenliği, vergi adaleti, askerlik düzeni gibi konularda söz verilmiştir.<br>• <b>Bağlam:</b> Bu fermanın ilanı, hemen ardından gelişen Mısır sorununda Osmanlı'nın Avrupalı devletlerin desteğini kazanma çabasıyla da örtüşmüştür.",
-    
-    "📢 <b>1840: LONDRA KONFERANSI:</b><br>• <b>Amaç:</b> Mısır sorunu için Londra Konferansı toplandı.<br>• <b>Kritik Unsur:</b> Bu konferansa İngiltere'ye karşı Mehmet Ali Paşa'yı destekleyen <b>Fransa katılmadı.</b><br>• <b>Tarihsel Dönüm Noktası:</b> ⭐ <b>Böylece Mısır sorunu bir iç sorun iken uluslararası bir sorun haline gelmiştir.</b><br>• <b>Osmanlı'nın Hamlesi:</b> Osmanlı Devleti bu konferansta Avrupalı devletlerin desteğini alabilmek için (bir yıl önce ilan ettiği) <b>Tanzimat Fermanı'nı</b> bir kez daha kendi modernliğinin kanıtı olarak öne sürmüştür.",
-    
-    "🚢 <b>1841: LONDRA BOĞAZLAR SÖZLEŞMESİ:</b><br>• <b>Amaç:</b> Boğazlar sorunu çözümü için Londra Boğazlar Sözleşmesi imzalanmıştır.<br>• <b>Anlam:</b> ⭐ Boğazlar meselesi artık uluslararası bir sorun haline gelmişti; çözümü de uluslararası bir sözleşmeyle sağlanmıştır.",
-    
-    "⚔️ <b>1853-1856: KIRIM SAVAŞI:</b><br>• <b>Savaşan Taraflar:</b> İngiltere ve Fransa'yı arkasına alan Osmanlı Devleti, Rusya ile Kırım Savaşı'na girmiştir.<br>• <b>Savaşın Çıkış Nedenleri:</b><br>   ○ <b>Osmanlı donanmasının Sinop'ta yakılması</b><br>   ○ <b>Rus elçisi Mençikov'un istekleri</b><br>   ○ <b>Macar ve Leh mülteci sorununun ortaya çıkması</b><br>   ○ <b>Kutsal yerler sorununun ortaya çıkması</b><br>   ○ <b>Rusların Hünkâr İskelesi ile kazandığı hakları geri istemesi</b><br>• <b>Florence Nightingale:</b> ⭐ Kırım Savaşı sırasında hemşireliğin kurucusu Florence Nightingale, savaşta yer alan İngiliz ve Osmanlı askerlerini <b>Üsküdar'daki Selimiye Kışlası'nda</b> tedavi etmiştir.<br>• <b>İlk Dış Borç:</b> Kırım Savaşı sırasında Osmanlı Devleti tarihinde <b>ilk defa dış borç aldı</b> (İngiltere - Sultan Abdülmecid döneminde).<br>• <b>İlk Telgraf Hattı:</b> İlk defa <b>Kırım-Varna-Edirne (İstanbul-Şumnu-Edirne)</b> arasında telgraf hattı çekilmiştir.",
-    
-    "✌️ <b>1856: PARİS BARIŞ KONFERANSI VE ANTLAŞMASI:</b><br>• <b>Antlaşmanın Maddeleri:</b><br>   ○ <b>Osmanlı Devleti'nin toprak bütünlüğünü Avrupa devletleri koruyacak.</b><br>   ○ <b>Osmanlı Devleti tek başına koruyamayacağı anlaşıldı.</b> ⭐<br>   ○ <b>Osmanlı Devleti Avrupa hukukundan faydalanacak.</b><br>   ○ <b>Osmanlı Devleti bir Avrupa devleti sayıldı.</b><br>   ○ <b>Hem Osmanlı hem Rusya Karadeniz'de tersane ve donanma bulunduramayacak.</b><br>   ○ <b>Osmanlı Devleti yenik bir devlet muamelesi görmüştür.</b><br>• <b>Islahat Fermanı:</b> Paris Barış Konferansı kararlarında etkili olmak isteyen Osmanlı Devleti <b>Islahat Fermanı'nı</b> ilan etmiştir.",
-    
-    "⚔️ <b>93 HARBİ - GENEL BİLGİ:</b><br>Batı tarafında <b>Plevne Kahramanı Gazi Osman Paşa</b>, doğu tarafında <b>Gazi Ahmet Muhtar Paşa</b> mücadele etmiştir. <b>Elviye-i Selase:</b> Kars, Ardahan, Batum.",
-    
-    "🔥 <b>1875: BALKAN BUNALIMI:</b><br>• <b>Olay:</b> Balkan Bunalımı ortaya çıktı, isyanlar Balkanlar'a yayıldı.<br>• <b>Anlam:</b> Osmanlı'nın Balkanlardaki kontrolünün ciddi biçimde sarsıldığı dönemin başlangıcıdır.",
-    
-    "🏛️ <b>1876: TERSANE KONFERANSI VE I. MEŞRUTİYET:</b><br>• <b>Amaç:</b> Balkan sorununu çözmek için İstanbul'da Tersane Konferansı toplandı.<br>• <b>Konferans Sırasında:</b> <b>I. Meşrutiyet ilan edildi.</b> ⭐<br>• <b>İngiltere'nin Pozisyon Değişimi:</b> ⭐ <b>Osmanlı toprak bütünlüğünü koruyan İngiltere bu politikadan vazgeçti.</b>",
-    
-    "⚔️ <b>1877-1878: 93 HARBİ (OSMANLI-RUS SAVAŞI):</b><br>• <b>Savaş:</b> 93 Harbi (Osmanlı-Rus Savaşı) başladı.<br>• <b>Kahramanlar:</b> Bu savaşta <b>Gazi Osman Paşa (Plevne Kahramanı), Gazi Ahmet Muhtar Paşa ve Nene Hatun</b> kahramanlıkları ile öne çıktı. Nene Hatun, Erzurum cephesinde gösterdiği kahramanlıkla tarihe geçmiştir.<br>• <b>Sonuç:</b> Osmanlı kaybetti, Rusya kazandı.",
-    
-    "📋 <b>1878: AYASTEFANOS ANTLAŞMASI:</b><br>• <b>Durum:</b> Osmanlı Devleti ile Rusya arasında Ayastefanos Antlaşması imzalandı, <b>ancak yürürlüğe girmedi.</b><br>• <b>Neden Yürürlüğe Girmedi:</b> Diğer büyük devletler (özellikle İngiltere ve Avusturya), Rusya'nın bu antlaşmayla elde ettiği aşırı kazanımları kabul etmek istemedi ve Berlin'de yeni bir antlaşma masaya yatırıldı.",
-    
-    "🎯 <b>1878: BERLİN ANTLAŞMASI:</b><br>• <b>Antlaşmanın Maddeleri:</b><br>   ○ <b>Bulgaristan 3'e bölünecek:</b> 1. Bulgar Prensliği, 2. Doğu Rumeli Devleti, 3. Makedonya<br>   ○ <b>Rusya'nın Akdeniz'e inmesi engellenmiştir.</b><br>   ○ <b>Sırbistan, Karadağ ve Romanya bağımsız olacak.</b><br>   ○ <b>Girit ve Doğu Anadolu bölgesinde Ermeniler lehine ıslahat yapılacak.</b> ⭐ (Ermeni Meselesi uluslararası bir sorun haline gelmiştir.)<br>   ○ <b>Bosna Osmanlı'ya bağlı kalacak, ancak yönetimi Avusturya'ya bırakılacak.</b><br>   ○ <b>Kars, Ardahan, Batum Rusya'ya (Elviye-i Selase) verildi.</b> <b>Doğu Beyazıt ise Osmanlı Devleti'ne bırakıldı.</b><br>⭐ <b>NOT: Berlin Antlaşması öncesi Kıbrıs'ın idaresi İngiltere'ye bırakıldı.</b>",
-    
-    "🎟️ <b>1878: HALEP FERMANI:</b><br>• <b>Ferman:</b> Giritli Rumları için Halep Fermanı yayımlandı.",
-    
-    "🌍 <b>1881-1882: TUNUS VE MISIR'IN KAYBEDİLİŞİ:</b><br>• <b>1881-1882:</b> Fransa Tunus'u, İngiltere Mısır'ı işgal etti.<br>• <b>Tarihsel Sonuç:</b> ⭐ Osmanlı Devleti artık Kuzey Afrika'da neredeyse hiç varlık göstermemektedir.",
-    
-    "🇬🇷 <b>1897: DOMOKOS MEYDAN SAVAŞI:</b><br>• <b>Savaş:</b> Yunanlar ile Domokos Meydan Savaşı yapıldı.<br>• <b>Sonuç:</b> <b>Osmanlı kazandı.</b> ⭐<br>• <b>Mustafa Kemal'in Duygusu:</b> M. Kemal bu savaş için <b>'Gençliğimin en heyecan verici günleriydi.'</b> demiştir. Bu savaşa katılmaya çok istemişti — o dönem henüz askeri öğrenci olduğu için savaşa bizzat katılamamıştır, fakat cepheden gelen haberler onun gençlik heyecanını derinden etkilemiştir.",
-    
-    "🎓 <b>XIX. YÜZYIL OSMANLI'NIN GENEL KARAKTERİZASYONU (ÖZET):</b><br>• <b>Siyasal Davranış:</b> Osmanlı Devleti 19. yüzyılda de facto kontrolü giderek azalan bir devlettir.<br>• <b>Ekonomik Durum:</b> Baltalimanı ve sonrası ticari antlaşmalar ile Osmanlı açık pazarı haline gelmiştir.<br>• <b>Siyasi Yapı:</b> Merkezi iktidarsızlığa gidişat söz konusudur. Bölgesel valiler (Mehmet Ali Paşa) serbest davranmıştır.<br>• <b>Uluslararası Pozisyon:</b> Osmanlı artık kararların dışında kalan, üzerinde karar alınan bir devlet konumuna gelmiştir. Rusya Osmanlı'yı ele geçirmek istiyordu (Şark Sorunu), İngiltere Osmanlı'nın parçalanmasını kontrol etmek istiyordu, Avusturya Balkan'dan pay istiyordu, Fransa Kuzey Afrika'yı istiyordu.",
-    
-    "🎪 <b>'AVRUPA'NIN HASTA ADAMI' - OSMANLI'NIN İFADESİ:</b><br>• <b>Terim:</b> 19. yüzyılda Avrupa devletleri Osmanlı Devleti'ni <b>'Avrupa'nın Hasta Adamı'</b> olarak adlandırmaya başladılar.<br>• <b>Anlamı:</b> Osmanlı, parçalanması an meselesi olan, zayıflamış bir devlet olarak görülüyordu.<br>• <b>Sonuç:</b> 19. yüzyılın sonunda Osmanlı Devleti'nin toparlanma şansı giderek azalmıştır."
+    "📖 <b>XIX. YÜZYIL OSMANLI DEVLETİ DAĞILMA DÖNEMİ - GENEL BAKIŞ:</b><br>18. yüzyılın sonunda başlayan reformlar, 19. yüzyılda Batı baskısı ve iç çöküntü karşısında yetersiz kalmıştır. Bu dönem; Osmanlı'nın toprak kayıpları, uluslararası sorunların ortaya çıkışı ve modern Avrupa devlet sistemine dahil olma çabasıdır. Napolyon'un Mısır'ı işgali ile başlayan süreç, Balkan isyanları ve azınlık meselelerinin uluslararası boyut kazanmasıyla devam etmiştir.",
+
+    "⚡ <b>1798: NAPOLYON MISIR'I İŞGAL ETTİ:</b><br>• <b>Olay:</b> Fransız İmparatoru Napolyon Mısır'ı işgal etti. Osmanlı topraklarında Avrupa askerinin ilk büyük tehdididir.<br>• <b>Savunma:</b> Cezzar Ahmet Paşa komutasındaki Akka Kalesi'nde Fransızlar durduruldu. ⭐ <b>Nizam-ı Cedid Ordusu'nun ilk ve tek askeri başarısıdır.</b><br>• <b>Stratejik Anlam:</b> Osmanlı tek başına uzun süreli mücadele veremeyeceğini anlamış, İngiltere ve Rusya'nın desteğini alarak ilk defa uluslararası alanda <b>Denge Politikası</b> uygulamıştır.",
+
+    "📜 <b>1801: EL ARİŞ ANTLAŞMASI:</b><br>• Fransızlar Mısır'ı boşaltmayı kabul etmiş ve Napolyon'un Mısır macerası burada sona ermiştir.",
+
+    "✅ <b>1802: PARİS PAKTI:</b><br>• Mısır'ın Osmanlı Devleti'ne ait olduğu kâğıt üzerinde resmen kabul edilmiştir (İlerleyen yıllarda Mehmet Ali Paşa meselesiyle tekrar sınanacaktır).",
+
+    "🔥 <b>1804: KARA YÖRGİ İSYANI (SIRP İSYANI):</b><br>• Kara Yorgi önderliğinde Sırplar isyan etti. İsyan bastırıldı.<br>• ⭐ <b>Tarihi Önemi:</b> Osmanlı Devleti'nde milliyetçilik/ulusçuluk akımının etkisiyle isyan eden ilk azınlık Sırplar olmuştur. Balkan halklarının bağımsızlık hareketinin ilk ciddi denemesidir.",
+
+    "⚔️ <b>1806-1812: OSMANLI-RUS SAVAŞI:</b><br>• Fransa'nın kışkırtmasıyla başladı. Napolyon, Rusya'nın gücünü Doğu'da meşgul etmek ve kendi işini kolaylaştırmak istemiştir.",
+
+    "🤝 <b>1807: TİLSİT ANTLAŞMASI:</b><br>• Rusya ile Fransa kendi arasında anlaştı. Fransa, Osmanlı'yı yalnız bırakarak Rusya ile gizlice Osmanlı topraklarını paylaşma planı yaptı.<br>• ⭐ <b>Ders:</b> Osmanlı'nın kaderinin büyük devletlerin kendi aralarındaki pazarlıklarla belirleneceğinin ilk işaretidir.",
+
+    "🇬🇧 <b>1809: KALE-İ SULTANİYE (ÇANAKKALE) ANTLAŞMASI:</b><br>• Osmanlı Devleti, Tilsit'e karşı İngiltere ile imzaladı. Osmanlı-İngiliz ilişkileri resmi zemine oturdu.<br>• <b>Kritik Madde:</b> Barış zamanında hiçbir yabancı savaş gemisinin Boğazlardan geçemeyeceği ilkesi İngiltere tarafından kabul edildi.",
+
+    "🇷🇺 <b>1812: BÜKREŞ ANTLAŞMASI - İLK İMTİYAZ:</b><br>• ⭐ <b>Sırplar bu antlaşma ile Osmanlı Devleti'nden ilk imtiyaz (ayrıcalık) elde eden millet olmuştur.</b> Balkan halklarının uluslararası antlaşmalarla hak kazanabileceğini gösteren ilk örnektir.",
+
+    "🎭 <b>1815: VİYANA KONGRESİ VE 'ŞARK SORUNU':</b><br>• Avusturya Dışişleri Bakanı Metternich başkanlığında toplandı.<br>• ⭐ <b>Rus Çarı I. Aleksandr ilk kez 'ŞARK SORUNU' (Osmanlı'nın geleceği ve paylaşılması) ifadesini burada kullandı.</b><br>• <b>Kararlar:</b> Nerede olursa olsun milliyetçilik isyanları bastırılacak (Metternich Sistemi), Fransa'nın yıktığı krallıklar kurulacak.<br>• <b>RESTORASYON DÖNEMİ:</b> 1815 Viyana Kongresi'nden 1827 Navarin Olayı'na kadar geçen döneme denir.",
+
+    "🔗 <b>1820: FİLİKİ ETERYA CEMİYETİ VE EFLAK İSYANI:</b><br>• Rus generali Aleksandr İpsilanti tarafından Rumları bağımsızlığa hazırlamak ve Büyük Yunanistan'ı (Megali Idea) kurmak için gizlice kuruldu.<br>• Eflak'ta ilk Rum isyanı çıkarıldı ancak bastırıldı.",
+
+    "🔴 <b>1821: MORA YUNAN İSYANI:</b><br>• Mora'da büyük Yunan İsyanı başladı (Tripolice Katliamı yapıldı).<br>• <b>Nedenleri:</b> Milliyetçilik akımı, Avrupalıların kışkırtması, Rum aydın ve din adamlarının çalışmaları, Filiki Eterya'nın faaliyetleri, Bizans'ı canlandırma hayali ve Yanya Valisi Tepedelenli Ali Paşa'nın isyanı.<br>• 💡 <b>NOT:</b> II. Mahmut içte Tepedelenli Ali Paşa isyanı ile uğraştığı için Yunan İsyanı ile yeterince ilgilenemedi.<br>• <b>Sonuç:</b> II. Mahmut Mısır Valisi Kavalalı Mehmet Ali Paşa'dan yardım istedi. Mehmet Ali Paşa donanma göndererek isyanı bastırdı.",
+
+    "💣 <b>1827: NAVARİN OLAYI - RESTORASYON DÖNEMİNİN SONU:</b><br>• İngiltere, Fransa ve Rusya Yunanistan'a bağımsızlık verilmesini istedi. Osmanlı reddedince Navarin'de Osmanlı-Mısır donanmasını yaktılar.<br>• ⭐ <b>Bu olayla 1815 Viyana Kongresi'nde başlayan Restorasyon Dönemi sona ermiştir.</b>",
+
+    "⚔️ <b>1827-1828: OSMANLI-RUS SAVAŞI:</b><br>• Donanması yakılan Osmanlı Devleti hem karada hem denizde Rusya karşısında tutunamayarak ağır bir mağlubiyet aldı.",
+
+    "📋 <b>1829: EDİRNE ANTLAŞMASI - İLK BAĞIMSIZLIK:</b><br>• <b>Sırplar:</b> Özerk (özerklik) hale geldi.<br>• ⭐ <b>Yunanlar:</b> Bağımsız oldu! (Osmanlı'dan ayrılarak bağımsızlığını kazanan İLK millet Yunanlardır).",
+
+    "🇫🇷 <b>1830: CEZAYİR'İN İŞGALİ:</b><br>• Fransa Cezayir'i işgal etti.<br>• ⭐ <b>Osmanlı Devleti'nin Kuzey Afrika'da kaybettiği İLK topraktır.</b>",
+
+    "🐪 <b>1833: KÜTAHYA ANTLAŞMASI (MEHMET ALİ PAŞA SORUNU):</b><br>• Vaat edilen Mora valiliğini alamayan Mehmet Ali Paşa Suriye valiliğini istedi ve Kütahya'ya kadar ilerledi.<br>• Antlaşma ile Mehmet Ali Paşa'ya Mısır'a ek olarak Girit ve Şam valilikleri; oğlu İbrahim Paşa'ya ise Cidde ve Adana muhassıllığı (vergi toplayıcılığı) verildi.",
+
+    "🤲 <b>1833: HÜNKÂR İSKELESİ ANTLAŞMASI - BOĞAZLAR SORUNU:</b><br>• İngiltere ve Fransa yardım etmeyince Osmanlı <i>'Denize düşen yılana sarılır'</i> diyerek Rusya'dan yardım istedi.<br>• Rusya ile 8 yıllığına imzalandı.<br>• ⭐ <b>Boğazlar Sorunu ilk defa bu antlaşma ile ortaya çıkmıştır.</b> Osmanlı Boğazlar üzerindeki egemenlik hakkını son kez tek başına kullanmıştır.",
+
+    "🤝 <b>1838: BALTALİMANI TİCARET ANTLAŞMASI:</b><br>• Mısır sorununda İngiltere'nin desteğini almak amacıyla imzalandı.<br>• <b>Şartları:</b> İç gümrük vergisi kaldırıldı, ithalat vergisi %12'den %5'e düşürüldü.<br>• ⭐ <b>Sonuç:</b> Osmanlı Devleti Avrupa'nın açık pazarı haline gelmiş, yerli üretici korumasız kalıp çökmüştür.",
+
+    "⚔️ <b>1839: NİZİP SAVAŞI:</b><br>• Mısır Valisi Mehmet Ali Paşa ile yapılan Nizip Savaşı'nı Osmanlı kaybetti. Devletin kendi valisine yenilmesi ne kadar zayıfladığını gösterdi.",
+
+    "📜 <b>3 KASIM 1839: TANZİMAT FERMANI (GÜLHANE HATT-I HÜMAYUNU):</b><br>• Mustafa Reşid Paşa tarafından okundu. Can, mal, namus güvenliği ve vergi adaleti getirildi.<br>• <b>Bağlam:</b> Modernleşmenin başlangıcıdır; Mısır sorununda Avrupalı devletlerin desteğini kazanma amacı da taşır.",
+
+    "📢 <b>1840: LONDRA KONFERANSI:</b><br>• Mısır sorununu çözmek için toplandı (Fransa katılmadı).<br>• ⭐ <b>Mısır sorunu bir iç sorun iken uluslararası bir sorun haline gelmiştir.</b> Osmanlı, konferansta Avrupalıların desteğini almak için Tanzimat Fermanı'nı koz olarak sunmuştur.",
+
+    "🚢 <b>1841: LONDRA BOĞAZLAR SÖZLEŞMESİ:</b><br>• Boğazlar uluslararası bir statü kazandı ve uluslararası bir sorun haline geldi. Barış zamanında yabancı savaş gemilerine kapatıldı.",
+
+    "⚔️ <b>1853-1856: KIRIM SAVAŞI:</b><br>• İngiltere ve Fransa'yı arkasına alan Osmanlı Devleti, Rusya ile savaştı.<br>• <b>Nedenleri:</b> Sinop Baskını (donanmanın yakılması), Rus elçisi Mençikov'un istekleri, Macar/Leh mültecileri sorunu, Kutsal Yerler sorunu ve Rusların Hünkâr İskelesi haklarını geri istemesi.",
+
+    "💡 <b>KIRIM SAVAŞI'NDAKİ İLKLER VE ÖNEMLİ OLAYLAR:</b><br>• ⭐ <b>İlk Dış Borç:</b> 1854'te İngiltere'den alındı (Sultan Abdülmecid dönemi).<br>• ⭐ <b>İlk Telgraf Hattı:</b> Kırım-Varna-Edirne (İstanbul-Şumnu-Edirne) hattı kuruldu.<br>• ⭐ <b>Florence Nightingale:</b> Modern hemşireliğin kurucusu, Selimiye ve Levent Kışlaları'nda yaralı askerleri tedavi etti.",
+
+    "✌️ <b>1856: PARİS BARIŞ ANTLAŞMASI:</b><br>• Osmanlı toprak bütünlüğü Avrupa garantisine girdi (Tek başına koruyamayacağı anlaşıldı).<br>• Osmanlı Avrupa devleti sayıldı ve Avrupa hukukundan faydalanma hakkı kazandı.<br>• Karadeniz tarafsızlaştırıldı (Tersane ve donanma bulundurulmayacak). Osmanlı galip gelmesine rağmen yenik devlet muamelesi gördü.<br>• 💡 <b>NOT:</b> Konferansta etkili olabilmek için Osmanlı <b>Islahat Fermanı'nı</b> ilan etmiştir.",
+
+    "🔥 <b>1875: BALKAN BUNALIMI:</b><br>• İsyanlar tüm Balkanlar'a yayıldı. Osmanlı'nın Balkanlar'daki kontrolünün ciddi biçimde sarsıldığı dönemin başlangıcıdır.",
+
+    "🏛️ <b>1876: TERSANE KONFERANSI VE I. MEŞRUTİYET:</b><br>• Balkan sorununu çözmek için İstanbul'da toplandı. Osmanlı konferans kararlarını etkilemek için **I. Meşrutiyet'i** ilan etti.<br>• ⭐ <b>Stratejik Kırılma:</b> İngiltere, Osmanlı'nın toprak bütünlüğünü koruma politikasından vazgeçti.",
+
+    "⚔️ <b>1877-1878: 93 HARBİ (OSMANLI-RUS SAVAŞI):</b><br>• Osmanlı kaybetti.<br>• ⭐ <b>Kahramanlar:</b> Batı'da Gazi Osman Paşa (Plevne Kahramanı), Doğu'da Gazi Ahmet Muhtar Paşa ve Erzurum Aziziye Tabyaları'nda destan yazan <b>Nene Hatun</b> öne çıkmıştır.",
+
+    "📜 <b>1878: AYASTEFANOS ANTLAŞMASI (ÖLÜ DOĞAN ANTLAŞMA):</b><br>• Rusya ile imzalandı ancak İngiltere ve Avusturya'nın Rusya'nın aşırı güçlenmesinden rahatsız olması nedeniyle **yürürlüğe girmedi**.",
+
+    "🎯 <b>1878: BERLİN ANTLAŞMASI:</b><br>• Sırbistan, Karadağ ve Romanya bağımsız oldu.<br>• Bulgaristan 3'e bölündü, Rusya'nın Akdeniz'e inmesi engellendi.<br>• ⭐ <b>Ermeni Meselesi:</b> Girit ve Doğu Anadolu'da Ermeniler lehine ıslahat şartı getirildi ve sorun uluslararası boyut kazandı.<br>• <b>Elviye-i Selase (Kars, Ardahan, Batum):</b> Rusya'ya verildi (Doğubayazıt Osmanlı'da kaldı).<br>• 💡 <b>NOT:</b> Berlin Antlaşması öncesi Kıbrıs'ın idaresi geçici olarak İngiltere'ye bırakıldı. Girit Rumları için Halep Fermanı yayımlandı.",
+
+    "🌍 <b>1881-1882: TUNUS VE MISIR'IN KAYBEDİLİŞİ:</b><br>• Fransa Tunus'u (1881), İngiltere Mısır'ı (1882) işgal etti.<br>• Osmanlı'nın Kuzey Afrika'daki varlığı neredeyse tamamen sona erdi.",
+
+    "🇬🇷 <b>1897: DOMOKOS MEYDAN SAVAŞI:</b><br>• Yunanistan ile yapıldı, Osmanlı kazandı.<br>• 💡 <b>Mustafa Kemal'in Anısı:</b> Manastır Askeri İdadisi'nde öğrenciyken savaşa katılmak için okuldan kaçmak istemiş ve sonradan bu savaş için <i>'Gençliğimin en heyecan verici günleriydi'</i> demiştir.",
+
+    "🎓 <b>XIX. YÜZYIL OSMANLI'NIN GENEL KARAKTERİZASYONU & 'HASTA ADAM':</b><br>• <b>Hasta Adam:</b> Avrupalı devletler parçalanması an meselesi olan Osmanlı için bu terimi kullanmıştır.<br>• <b>Ekonomik Çöküş:</b> Baltalimanı Antlaşması ile ülke Avrupa'nın açık pazarı haline gelmiştir.<br>• <b>Siyasi Durum:</b> Merkezi otorite zayıflamış, bölgesel valiler (Mehmet Ali Paşa) bağımsız hareket etmiştir. Osmanlı karar alan değil, üzerinde karar alınan bir devlet konumuna düşmüştür."
 ];

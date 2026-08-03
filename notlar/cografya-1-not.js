@@ -1,6 +1,6 @@
 // notlar/cografya-1-not.js
 window.cografya_1_notlari = [
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-black text-sm uppercase tracking-wider">
             🗺️ BÖLGELERİN GENEL KARAKTERİ
@@ -25,7 +25,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-black text-sm uppercase tracking-wider">
             📐 TÜRKİYE'NİN MUTLAK KONUMU
@@ -37,7 +37,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 font-black text-sm uppercase tracking-wider">
             🌍 ORTA ILIMAN KUŞAK ÖZELLİKLERİ (A-B-C-D)
@@ -59,7 +59,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
             ☀️ YENGEÇ DÖNENCESİ'NİN KUZEYİNDE OLMANIN SONUÇLARI
@@ -79,7 +79,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-red-100 dark:bg-red-900/50 text-red-700 dark:text-red-300 font-black text-sm uppercase tracking-wider">
             ❗ BAKI TERSLİĞİ İSTİSNASI
@@ -91,7 +91,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-cyan-100 dark:bg-cyan-900/50 text-cyan-700 dark:text-cyan-300 font-black text-sm uppercase tracking-wider">
             🥶 KUZEY YARIM KÜRE'DE OLMANIN SONUÇLARI
@@ -109,7 +109,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-purple-100 dark:bg-purple-900/50 text-purple-700 dark:text-purple-300 font-black text-sm uppercase tracking-wider">
             📍 AYNI ENLEM ÜZERİNDEKİ MERKEZLER
@@ -126,7 +126,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-black text-sm uppercase tracking-wider">
             ⏳ AYNI BOYLAM ÜZERİNDEKİ MERKEZLER
@@ -147,7 +147,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 font-black text-sm uppercase tracking-wider">
             💡 ALTIN NOT (SÜRE KAVRAMI)
@@ -159,7 +159,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 font-black text-sm uppercase tracking-wider">
             ⏰ YEREL SAAT HESAPLAMA MANTIĞI
@@ -174,7 +174,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 font-black text-sm uppercase tracking-wider">
             ⛰️ ÖZEL (GÖRECELİ) KONUM ELEMANLARI
@@ -192,7 +192,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-rose-100 dark:bg-rose-900/50 text-rose-700 dark:text-rose-300 font-black text-sm uppercase tracking-wider">
             🚨 ENLEM İLE AÇIKLANAMAYAN (ÇELİŞEN) ÖZEL KONUM ÖRNEKLERİ
@@ -214,7 +214,7 @@ window.cografya_1_notlari = [
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 font-black text-sm uppercase tracking-wider">
             📅 DÖRT KRİTİK TARİH VE TÜRKİYE
@@ -227,11 +227,20 @@ window.cografya_1_notlari = [
                 <li><b class="text-rose-600 dark:text-rose-400">21 Haziran (Yaz Solstisi):</b> Yaz başlar. En uzun gündüz, en kısa gölge yaşanır. Bu tarihten sonra gündüzler kısalmaya başlar.</li>
                 <li><b class="text-rose-600 dark:text-rose-400">21 Aralık (Kış Solstisi):</b> Kış başlar. En uzun gece, en uzun gölge yaşanır. Kuzeye gidildikçe gece süresi uzar (<i>Örn: En uzun gece Sinop'ta</i>). Bu tarihten sonra gündüzler uzamaya başlar ama 21 Mart'a kadar hala gecelerden kısadır.</li>
             </ul>
+
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/21 aralık.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/21 haziran.png" alt="21 Haziran Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
         </div>
     </div>
     `,
 
-    `
+  `
     <div class="mb-4">
         <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-green-100 dark:bg-green-900/50 text-green-700 dark:text-green-300 font-black text-sm uppercase tracking-wider">
             ☀️ MEVSİMSEL GÜNDÜZ DEĞİŞİMLERİ
@@ -245,5 +254,5 @@ window.cografya_1_notlari = [
             </ul>
         </div>
     </div>
-    `
+    `,
 ];

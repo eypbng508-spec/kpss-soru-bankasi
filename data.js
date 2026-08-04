@@ -35,9 +35,13 @@ window.getKpssData = function () {
                 notlar:window.tarih_8_notlari || [],
                 sorular:window.tarih_8_sorulari || []
             },
-            "19.YY OSMANLI DAĞILMA DÖNEMİ":{
+            "19.YY Osmanlı Devleti Dağılma Dönemi":{
                 notlar:window.tarih_9_notlari || [],
                 sorular:window.tarih_9_sorulari || []
+            },
+            "19.YY Osmanlı Devleti Islahatları":{
+                notlar:window.tarih_10_notlari || [],
+                sorular:window.tarih_10_sorulari
             }
         },
         "Coğrafya": {

@@ -41,6 +41,7 @@
     <script src="notlar/cografya-11-not.js"></script>
     <script src="notlar/cografya-12-not.js"></script>
     <script src="notlar/cografya-13-not.js"></script>
+    <script src="notlar/guncel-1-not.js"></script>
     <script src="sorular/tarih-1.js"></script>
     <script src="sorular/tarih-2.js"></script>
     <script src="sorular/tarih-3.js"></script>
@@ -64,6 +65,8 @@
     <script src="sorular/cografya-11.js"></script>
     <script src="sorular/cografya-12.js"></script>
     <script src="sorular/cografya-13.js"></script>
+    <script src="sorular/guncel-1.js"></script>
+
 
     <script src="data.js"></script>
 
@@ -201,10 +204,13 @@
         const { useState, useEffect } = React;
 
         const DERS_THEME = {
-            "Tarih": { grad: "from-violet-500 to-fuchsia-600", text: "text-violet-700", soft: "bg-violet-50", icon: "🏛️", darkText: "text-violet-400", darkSoft: "bg-violet-950" },
-            "Coğrafya": { grad: "from-emerald-400 to-cyan-500", text: "text-emerald-700", soft: "bg-emerald-50", icon: "🗺️", darkText: "text-emerald-400", darkSoft: "bg-emerald-950" },
-            "Vatandaşlık": { grad: "from-sky-400 to-blue-600", text: "text-sky-700", soft: "bg-sky-50", icon: "⚖️", darkText: "text-sky-400", darkSoft: "bg-sky-950" },
-        };
+    "Tarih": { grad: "from-violet-500 to-fuchsia-900", text: "text-violet-700", soft: "bg-violet-50", icon: "🏛️", darkText: "text-violet-400", darkSoft: "bg-violet-950" },
+    "Coğrafya": { grad: "from-emerald-400 to-cyan-900", text: "text-emerald-700", soft: "bg-emerald-50", icon: "🗺️", darkText: "text-emerald-400", darkSoft: "bg-emerald-950" },
+    "Türkçe": { grad: "from-rose-400 to-pink-900", text: "text-rose-700", soft: "bg-rose-50", icon: "✍️", darkText: "text-rose-400", darkSoft: "bg-rose-950" },
+    "Vatandaşlık": { grad: "from-sky-400 to-blue-900", text: "text-sky-700", soft: "bg-sky-50", icon: "⚖️", darkText: "text-sky-400", darkSoft: "bg-sky-950" },
+    "Güncel Bilgiler": { grad: "from-amber-400 to-orange-900", text: "text-amber-700", soft: "bg-amber-50", icon: "📰", darkText: "text-amber-400", darkSoft: "bg-amber-950" },
+
+};
         
         function themeFor(ders, isDark) {
             const t = DERS_THEME[ders] || { grad: "from-slate-500 to-slate-700", text: "text-slate-700", soft: "bg-slate-50", icon: "📚", darkText: "text-slate-400", darkSoft: "bg-slate-950" };
@@ -332,15 +338,37 @@
                                 )}
                             </button>
                         </div>
-                        <header className="text-center mb-12 fade-in">
-                            <div className="inline-flex items-center justify-center h-20 w-20 rounded-3xl bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-4xl shadow-2xl shadow-indigo-300 dark:shadow-indigo-900/50 mb-6 pulse-glow">
-                                🎯
-                            </div>
-                            <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white mb-3">
-                                KPSS <span className="gradient-text">Soru Bankası</span>
-                            </h1>
-                            <p className="text-slate-500 dark:text-slate-400 text-lg max-w-md mx-auto">Çalışmak istediğiniz dersi seçerek başlayın. Her konuda notlar ve testler sizi bekliyor.</p>
-                        </header>
+                     <header className="flex flex-col items-center text-center mb-16 animate-fade-in-up">
+    {/* Üst Rozet (Badge) - Modern bir detay */}
+    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 text-sm font-semibold mb-6 ring-1 ring-inset ring-indigo-500/20 backdrop-blur-sm transition-all hover:ring-indigo-500/40">
+        <span className="relative flex h-2 w-2">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
+        </span>
+        2026 Müfredatına Uygun
+    </div>
+
+    {/* Alternatif İkon - Daha soft ve premium görünüm */}
+    <div className="relative group mb-6">
+        <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-30 group-hover:opacity-50 blur transition duration-500"></div>
+        <div className="relative inline-flex items-center justify-center h-20 w-20 rounded-3xl bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 text-4xl shadow-xl transition duration-500 group-hover:scale-105">
+            🏆
+        </div>
+    </div>
+
+    {/* Ana Başlık - Yerleşik Tailwind metin gradyanı ve text-balance */}
+    <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-4 max-w-3xl text-balance">
+        KPSS{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+            Konu ve Soru Bankası
+        </span>
+    </h1>
+
+    {/* Alt Metin - Daha iyi satır yüksekliği ve kontrast */}
+    <p className="text-slate-600 dark:text-slate-400 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed text-balance">
+        Çalışmak istediğiniz dersi seçerek başlayın. Kapsamlı notlar ve yeni nesil testler ile hedefinize emin adımlarla ilerleyin.
+    </p>
+</header>
                         <div className="grid sm:grid-cols-2 gap-5 fade-in">
                             {Object.keys(kpssData).map(function (ders, idx) {
                                 const t = themeFor(ders, isDark);

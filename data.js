@@ -41,7 +41,7 @@ window.getKpssData = function () {
             },
             "19.YY Osmanlı Devleti Islahatları":{
                 notlar:window.tarih_10_notlari || [],
-                sorular:window.tarih_10_sorulari
+                sorular:window.tarih_10_sorulari || [] 
             }
         },
         "Coğrafya": {
@@ -65,7 +65,6 @@ window.getKpssData = function () {
                 notlar: window.cografya_5_notlari || [],
                 sorular: window.cografya_5_sorulari || []
             },
-            // Yeni Eklenen Dış Kuvvetler Alt Başlıkları ve Soru Setleri:
             "Akarsu Vadileri ve Şelaleler": {
                 notlar: window.cografya_6_notlari || [],
                 sorular: window.cografya_6_sorulari || []
@@ -96,9 +95,86 @@ window.getKpssData = function () {
             },
             "Türkiyenin su, toprak ve bitki Varlığı":{
                 notlar:window.cografya_13_notlari || [],
-                sorular:window.cografya_13_sorulari
+                sorular:window.cografya_13_sorulari || [] 
+            }
+        },
+        // YENİ EKLENEN TÜRKÇE BÖLÜMÜ
+        "Türkçe": {
+            "Sözcükte Anlam": {
+                notlar: window.turkce_1_notlari || [],
+                sorular: window.turkce_1_sorulari || []
+            },
+            "Cümlede Anlam": {
+                notlar: window.turkce_2_notlari || [],
+                sorular: window.turkce_2_sorulari || []
+            },
+            "Paragrafta Anlam": {
+                notlar: window.turkce_3_notlari || [],
+                sorular: window.turkce_3_sorulari || []
+            },
+            "Ses Bilgisi": {
+                notlar: window.turkce_4_notlari || [],
+                sorular: window.turkce_4_sorulari || []
+            },
+            "Yazım Kuralları ve Noktalama İşaretleri": {
+                notlar: window.turkce_5_notlari || [],
+                sorular: window.turkce_5_sorulari || []
+            },
+            "Dil Bilgisi (Sözcük Türleri ve Cümle Ögeleri)": {
+                notlar: window.turkce_6_notlari || [],
+                sorular: window.turkce_6_sorulari || []
+            },
+            "Sözel Mantık": {
+                notlar: window.turkce_7_notlari || [],
+                sorular: window.turkce_7_sorulari || []
+            }
+        },
+        // YENİ EKLENEN VATANDAŞLIK BÖLÜMÜ
+        "Vatandaşlık": {
+            "Hukukun Temel Kavramları": {
+                notlar: window.vatandaslik_1_notlari || [],
+                sorular: window.vatandaslik_1_sorulari || []
+            },
+            "Devlet Biçimleri ve Anayasa Tarihi": {
+                notlar: window.vatandaslik_2_notlari || [],
+                sorular: window.vatandaslik_2_sorulari || []
+            },
+            "Temel Hak ve Hürriyetler": {
+                notlar: window.vatandaslik_3_notlari || [],
+                sorular: window.vatandaslik_3_sorulari || []
+            },
+            "Yasama": {
+                notlar: window.vatandaslik_4_notlari || [],
+                sorular: window.vatandaslik_4_sorulari || []
+            },
+            "Yürütme": {
+                notlar: window.vatandaslik_5_notlari || [],
+                sorular: window.vatandaslik_5_sorulari || []
+            },
+            "Yargı": {
+                notlar: window.vatandaslik_6_notlari || [],
+                sorular: window.vatandaslik_6_sorulari || []
+            },
+            "İdare Hukuku": {
+                notlar: window.vatandaslik_7_notlari || [],
+                sorular: window.vatandaslik_7_sorulari || []
+            }
+        },
+         "Güncel Bilgiler": {
+            "2024 Güncel Olaylar": {
+                notlar: window.guncel_1_notlari || [],
+                sorular: window.guncel_1_sorulari || []
+            },
+            "Uluslararası Kuruluşlar": {
+                notlar: window.guncel_2_notlari || [],
+                sorular: window.guncel_2_sorulari || []
+            },
+            "Önemli Kişiler ve Eserler": {
+                notlar: window.guncel_3_notlari || [],
+                sorular: window.guncel_3_sorulari || []
             }
         }
+        
     };
 };
 

@@ -42,6 +42,10 @@ window.cografya_2_notlari = [
                 <li>Kırılma sonucunda yüksekte kalan yerlere <b class="text-rose-600 dark:text-rose-400">horst</b>, çöküntü alanlara <b class="text-rose-600 dark:text-rose-400">graben (depresyon)</b> adı verilir.</li>
                 <li>Kırık dağlar ülkemizde en yaygın olarak <b class="text-rose-600 dark:text-rose-400">Batı Anadolu'da (Ege Bölgesi)</b> görülür.</li>
             </ul>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/kırık_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
         </div>
     </div>
     `,
@@ -58,6 +62,10 @@ window.cografya_2_notlari = [
                 <li>Kıvrılma sonucunda oluşan kubbe yapılara <b class="text-rose-600 dark:text-rose-400">antiklinal</b>, çöküntü alanlarına ise <b class="text-rose-600 dark:text-rose-400">senklinal</b> denir.</li>
                 <li>Kıvrım dağlar Türkiye'de <b class="text-rose-600 dark:text-rose-400">Toroslar</b> ve <b class="text-rose-600 dark:text-rose-400">Kuzey Anadolu Dağları</b>'nda yaygındır.</li>
             </ul>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/kıvrım_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
             <div class="mt-3 bg-amber-50 dark:bg-amber-900/20 p-3 rounded-lg text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/30 text-xs">
                 📌 <b>Not:</b> Türkiye'nin kıvrım dağları <b class="text-rose-600 dark:text-rose-400">Alp-Himalaya</b> sistemine bağlıdır.
             </div>
@@ -104,6 +112,14 @@ window.cografya_2_notlari = [
     <div class="bg-orange-50 dark:bg-orange-900/20 p-4 rounded-xl border border-orange-100 dark:border-orange-800/30 text-sm max-w-2xl mx-auto">
         <p>Magmanın yer kabuğunun zayıf noktalarından yeryüzüne doğru hareket etmesidir. Yüzey ve derinlik volkanizması olarak ikiye ayrılır.</p>
     </div>
+                <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_araziler.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     `,
 
     `
@@ -116,6 +132,14 @@ window.cografya_2_notlari = [
         <p>Magmanın yüzeye çıkamadan yer altında soğumasıdır.</p>
         <p class="mt-2">Bursa Uludağ <b class="text-rose-600 dark:text-rose-400">batolit</b> (iç püskürük granit kaya) yapısına en güzel örnektir.</p>
     </div>
+                <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_araziler.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     `,
 
     `
@@ -136,6 +160,14 @@ window.cografya_2_notlari = [
             </div>
         </div>
     </div>
+                <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_araziler.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     `,
 
     `
@@ -152,6 +184,14 @@ window.cografya_2_notlari = [
                 <li><b>Uludağ Çevresi (Bursa):</b> İçte kalan volkan (Batolit): Uludağ dışarı püskürememiş, içeride katılaşmış bir derinlik volkanizmasıdır. ULU dağ, volkanik ateşini dışarı fırlatmak yerine ULUCA kendi içinde saklamış!</li>
                 <li><b>Afyon Çevresi:</b> Bölgedeki geçiş kuşağı volkanik arazilerindendir.</li>
             </ul>
+                        <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_araziler.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
         </div>
     </div>
     `,
@@ -171,6 +211,14 @@ window.cografya_2_notlari = [
                 <li><b>Hasan Dağı Çevresi (Aksaray/Niğde):</b> Kapadokya tüflerini de oluşturan volkanik hat.</li>
                 <li><b>Erciyes Dağı (Kayseri):</b> Bölgenin en yüksek ve meşhur stratovolkan konisidir.</li>
             </ul>
+                        <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_araziler.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
         </div>
     </div>
     `,
@@ -189,6 +237,14 @@ window.cografya_2_notlari = [
                 <li><b>Van Gölü Batısı (Nemrut, Süphan, Tendürek, Ağrı):</b> NE-S-T-A Hattı: Van Gölü'nün batısından Ermenistan sınırına doğru bir çizgi gibi dizilirler: Nemrut, Süphan, Tendürek, Ağrı dağları.</li>
                 <li><b>Erzurum – Kars Çevresi:</b> Kara Toprak (Çernezyom): Bölgedeki dünyanın en verimli kara toprakları, buradaki devasa volkanik lav platolarının zamanla çözünmesiyle oluşmuştur.</li>
             </ul>
+                        <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
+            <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_araziler.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
         </div>
     </div>
     `,

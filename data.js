@@ -93,9 +93,13 @@ window.getKpssData = function () {
                 notlar: window.cografya_12_notlari || [],
                 sorular: window.cografya_12_sorulari || []
             },
-            "Türkiyenin su, toprak ve bitki Varlığı":{
+            "Türkiyenin Su Toprak ve Bitki Varlığı":{
                 notlar:window.cografya_13_notlari || [],
                 sorular:window.cografya_13_sorulari || [] 
+            },
+            "Türkiyede Çevre ve Doğal Afetler":{
+                notlar:window.cografya_14_notlari || [],
+                sorular:window.cografya_14_sorulari || []
             }
         },
         // YENİ EKLENEN TÜRKÇE BÖLÜMÜ

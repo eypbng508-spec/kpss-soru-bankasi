@@ -42,6 +42,10 @@ window.cografya_3_notlari = [
             <p class="mt-2">Jeolojik olarak oturmuş yapılara sahip olduklarından, kural olarak iç kısımlarında <b class="text-rose-600 dark:text-rose-400">deprem riski azdır</b> ve Türkiye'nin temel iskeletini oluştururlar.</p>
         </div>
     </div>
+    <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/masif_arazi.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     `,
 
     `
@@ -65,6 +69,11 @@ window.cografya_3_notlari = [
                 <li><b>Mardin Masifi:</b> Güneydoğu sınırı</li>
             </ul>
         </div>
+        </div>
+    <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/masif_arazi.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     </div>
     `,
 
@@ -202,6 +211,11 @@ window.cografya_3_notlari = [
                 </div>
             </div>
         </div>
+        </div>
+    <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/kıvrım_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     </div>
     `,
 
@@ -235,6 +249,11 @@ window.cografya_3_notlari = [
                 ⚠️ <b class="text-rose-600 dark:text-rose-400">AKDENİZ İSTİSNASI:</b> Hatay'da bulunan <b class="text-rose-600 dark:text-rose-400">Amanos (Nur) Dağları</b> Akdeniz Bölgesi'nde olmasına rağmen bir kırık dağdır (Horst). Önündeki <b>Amik Ovası</b> ise grabendir.
             </div>
         </div>
+        </div>
+    <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/kırık_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     </div>
     `,
 
@@ -280,6 +299,11 @@ window.cografya_3_notlari = [
                 <p class="text-xs text-slate-600 dark:text-slate-400 mt-2">Nemrut (Bitlis) - Süphan (Bitlis-Van) - Tendürek (Ağrı-Van) - Ağrı Dağı (Ağrı-Iğdır)</p>
             </div>
         </div>
+        </div>
+    <!-- 🗺️ HARİTA / RESİM ALANI -->
+            <div class="mt-4 overflow-hidden rounded-xl border border-blue-200 dark:border-blue-700/50 bg-white dark:bg-slate-800 p-2">
+                <img src="./src/img/volkanik_dağlar.png" alt="21 Aralık Haritası" class="w-full h-auto rounded-lg object-contain" loading="lazy">
+            </div>
     </div>
     `,
 

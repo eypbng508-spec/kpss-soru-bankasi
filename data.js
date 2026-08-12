@@ -100,6 +100,13 @@ window.getKpssData = function () {
             "Türkiyede Çevre ve Doğal Afetler":{
                 notlar:window.cografya_14_notlari || [],
                 sorular:window.cografya_14_sorulari || []
+            },
+            "Türkiyenin Beşeri Coğrafyası":{
+                notlar:window.cografya_15_notlari || [],
+                sorular:window.cografya_15_sorulari || []
+            },"Türkiyede Yerleşim":{
+                notlar:window.cografya_16_notlari || [],
+                sorular:window.cografya_16_sorulari || []
             }
         },
         // YENİ EKLENEN TÜRKÇE BÖLÜMÜ

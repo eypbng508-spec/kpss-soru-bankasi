@@ -37,7 +37,7 @@ window.cografya_18_sorulari = [
             "E) Sulama ihtiyacının tamamen ortadan kalkması"
         ],
         correctAnswerIndex: 4,
-        explanation: "Nöbetleşe tarım; nadası ve erozyonu azaltır (A, C doğru), ekilen araziyi artırır (B doğru), tarımsal üretim ve verimi artırır (D doğru). E seçeneği ise gerçeği yansıtmayan bir genellemedir; nöbetleşe tarım sulama ihtiyacını tamamen ortadan kaldırmaz."
+        explanation: "Nöbetleşe tarım; nadası ve erozyonu azaltır (A, C doğru), ekilen araziyi artırır (B doğru), tarımsal üretim ve verimi artırır (D doğru). E seçeneği gerçeği yansıtmayan bir genellemedir; nöbetleşe tarım sulama ihtiyacını tamamen ortadan kaldırmaz."
     },
     {
         question: "Soru 4: İntansif tarım kapsamında örnek olarak verilen ürünler arasında aşağıdakilerden hangisi yer almaz?",
@@ -49,7 +49,7 @@ window.cografya_18_sorulari = [
             "E) Hiçbiri — hepsi yer alır"
         ],
         correctAnswerIndex: 3,
-        explanation: "İntansif tarım ürünlerine örnek olarak pamuk, ayçiçeği ve mısır verilir. Fındık ise bu listede yer almaz; ekstansif tarımın yaygın olduğu Karadeniz Bölgesi'nde yetiştirilen devirli bir üründür."
+        explanation: "İntansif tarım ürünlerine örnek olarak pamuk, ayçiçeği ve mısır verilir. Fındık bu listede yer almaz; ekstansif tarımın yaygın olduğu Karadeniz Bölgesi'nin devirli bir ürünüdür."
     },
     {
         question: "Soru 5: Ekstansif tarım ile ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
@@ -89,7 +89,7 @@ window.cografya_18_sorulari = [
             "E) Çiftçi gelirinin artması"
         ],
         correctAnswerIndex: 3,
-        explanation: "Sulamanın etkileri arasında verim artışı (A), gelir artışı (E), ürün çeşidinin artması (B) ve nadasın azalması (C) yer alır. D seçeneği ise makineleşmenin bir sonucudur, sulamanın değil."
+        explanation: "Sulamanın etkileri arasında verim artışı (A), gelir artışı (E), ürün çeşidinin artması (B) ve nadasın azalması (C) yer alır. D seçeneği makineleşmenin bir sonucudur, sulamanın değil."
     },
     {
         question: "Soru 8: Tarımda makineleşme ile ilgili aşağıdaki bilgilerden hangisi yanlıştır?",
@@ -125,7 +125,7 @@ window.cografya_18_sorulari = [
             "E) Fiskobirlik"
         ],
         correctAnswerIndex: 4,
-        explanation: "Tarımı destekleyen kuruluşlar arasında Ziraat Bankası, Toprak Mahsulleri Ofisi, Pankobirlik ve Çukobirlik yer alır. Fiskobirlik ise bu kuruluşlar arasında sayılmaz."
+        explanation: "Tarımı destekleyen kuruluşlar arasında Ziraat Bankası, Toprak Mahsulleri Ofisi, Pankobirlik ve Çukobirlik yer alır. Fiskobirlik bu kuruluşlar arasında sayılmaz."
     },
     {
         question: "Soru 11: Sulama ve makineleşmenin ortak sonuçlarından biri aşağıdakilerden hangisidir?",

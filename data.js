@@ -107,9 +107,13 @@ window.getKpssData = function () {
             },"Türkiyede Yerleşim":{
                 notlar:window.cografya_16_notlari || [],
                 sorular:window.cografya_16_sorulari || []
-            },"Türkiyenini Ekonomik Coğrafyası":{
+            },"Türkiyenini Ekonomik Coğrafyası (Ekonomi Politikaları)":{
                 notlar:window.cografya_17_notlari || [],
                 sorular:window.cografya_17_sorulari || []
+            },
+            "Türkiyenini Ekonomik Coğrafyası (TARIM-1)":{
+                notlar:window.cografya_18_notlari || [],
+                sorular:window.cografya_18_sorulari || []
             }
         },
         // YENİ EKLENEN TÜRKÇE BÖLÜMÜ

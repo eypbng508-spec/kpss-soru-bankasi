@@ -149,37 +149,13 @@ window.getKpssData = function () {
         },
         // YENİ EKLENEN VATANDAŞLIK BÖLÜMÜ
         "Vatandaşlık": {
-            "Hukukun Temel Kavramları": {
-                notlar: window.vatandaslik_1_notlari || [],
-                sorular: window.vatandaslik_1_sorulari || []
-            },
-            "Devlet Biçimleri ve Anayasa Tarihi": {
-                notlar: window.vatandaslik_2_notlari || [],
-                sorular: window.vatandaslik_2_sorulari || []
-            },
-            "Temel Hak ve Hürriyetler": {
-                notlar: window.vatandaslik_3_notlari || [],
-                sorular: window.vatandaslik_3_sorulari || []
-            },
-            "Yasama": {
-                notlar: window.vatandaslik_4_notlari || [],
-                sorular: window.vatandaslik_4_sorulari || []
-            },
-            "Yürütme": {
-                notlar: window.vatandaslik_5_notlari || [],
-                sorular: window.vatandaslik_5_sorulari || []
-            },
-            "Yargı": {
-                notlar: window.vatandaslik_6_notlari || [],
-                sorular: window.vatandaslik_6_sorulari || []
-            },
-            "İdare Hukuku": {
-                notlar: window.vatandaslik_7_notlari || [],
-                sorular: window.vatandaslik_7_sorulari || []
+            "Hukukun Temel Kavramları - 1": {
+                notlar: window.vatandas_1_notlari || [],
+                sorular: window.vatandas_1_sorulari || []
             }
         },
          "Güncel Bilgiler": {
-            "2024 Güncel Olaylar": {
+            "Güncel Olaylar": {
                 notlar: window.guncel_1_notlari || [],
                 sorular: window.guncel_1_sorulari || []
             },
